@@ -1,0 +1,9 @@
+#history-container {
+    position: relative;
+        /* width: 100%; */
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding: 1.0rem;
+}

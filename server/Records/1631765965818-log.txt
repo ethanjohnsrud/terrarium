@@ -1,0 +1,111 @@
+[9-15-2021 23:12:02] Resetting File Structure
+SAVED DATA AND DELETED FILES :: ./terrarium.db | ./log.txt | ./settings.json
+     > Object.resetClearSavedData = 31:11 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/data-manage.mjs
+     >> null = 6:1 => async file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/server.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+[9-15-2021 23:12:02] Terrarium Server Restarted
+Initialization Complete
+     > null = 192:1 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/server.mjs
+
+[9-15-2021 23:12:02] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:12:02] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:12:02] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+[9-15-2021 23:12:02] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:12:02] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+Issue Email Sent: 
+[9-15-2021 23:12:02] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE hour = ? ORDER BY time ASC LIMIT ?;' :: 23,10 => Error: SQLITE_ERROR: no such table: readings
+     > null = 37:31 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/database.mjs
+     >> async Object.databaseGetAverageValues = 51:22 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/database.mjs
+     >>> null = 97:37 => async file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+[9-15-2021 23:12:02] # QUERY ALL ERROR: 'SELECT * FROM schedules WHERE time < ? ORDER BY time ASC;' :: 1631765522576 => Error: SQLITE_ERROR: no such table: schedules
+     > null = 37:31 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/database.mjs
+     >> async Object.databaseFetchCurrentSchedules = 73:22 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/database.mjs
+     >>> async evaluateConditions = 64:21 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/server.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[9-15-2021 23:13:02] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:13:02] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:13:02] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:13:02] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:13:02] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:17:02] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:17:02] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:17:02] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:17:02] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 23:17:02] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+Issue Email Sent: 

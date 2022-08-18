@@ -1,0 +1,2852 @@
+[7-31-2022 22:07:03] >> DELETED ./log.txt File => Success     > null = 86:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[7-31-2022 22:07:03] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+[7-31-2022 22:07:03] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:07:03] Terrarium Server Restarted
+Initialization Complete
+     > null = 437:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[7-31-2022 22:07:03] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r64-20020a4a4e43000000b00432ac97ad09sm2522368ooa.26 - gsmtp  	->Attempting to resend without Attachment and Stats
+[7-31-2022 22:07:03] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c1-20020a056870478100b0010d2da48d2csm2798314oaq.31 - gsmtp  
+[7-31-2022 22:07:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:07:41] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[7-31-2022 22:07:41] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:07:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:07:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:07:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:07:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:14:26] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:14:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:14:41] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[7-31-2022 22:14:41] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:14:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:14:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:14:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:14:41] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:19:49] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[7-31-2022 22:19:49] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[7-31-2022 22:19:49] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+[7-31-2022 22:19:49] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:19:49] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[7-31-2022 22:19:49] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y14-20020a056870b48e00b0010830c24aaasm2843239oap.56 - gsmtp  	->Attempting to resend without Attachment and Stats
+[7-31-2022 22:19:50] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k95-20020a9d19e8000000b0061c9159bb8asm2574782otk.61 - gsmtp  
+[7-31-2022 22:21:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:21:19] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.50-F = 27.50-C  > 26.00-C = 78.80-F
+
+[7-31-2022 22:21:19] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:21:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:21:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:21:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:21:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:28:04] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:28:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:28:19] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.68-F = 27.60-C  > 26.00-C = 78.80-F
+
+[7-31-2022 22:28:19] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:28:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:28:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:28:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:28:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:35:04] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:35:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:35:19] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.50-F = 27.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+[7-31-2022 22:35:19] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:35:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:35:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:35:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:35:19] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:35:19] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e13-20020a0568301e4d00b0061c7f73611asm2528405otj.60 - gsmtp  	->Attempting to resend without Attachment and Stats
+[7-31-2022 22:35:20] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bi18-20020a056808189200b003358e034f72sm2242061oib.7 - gsmtp  
+[7-31-2022 22:38:08] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[7-31-2022 22:38:08] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[7-31-2022 22:38:08] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+[7-31-2022 22:38:08] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:38:08] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[7-31-2022 22:38:08] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n15-20020a4abd0f000000b00425ce891cd8sm2493257oop.34 - gsmtp  	->Attempting to resend without Attachment and Stats
+[7-31-2022 22:38:09] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials p4-20020a9d76c4000000b0061c4d5a5616sm2547828otl.63 - gsmtp  
+[7-31-2022 22:39:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[7-31-2022 22:39:24] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:39:31] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:39:37] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[7-31-2022 22:39:37] Error Lights
+Mode: bounce
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:39:37] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:39:37] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:39:37] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:39:37] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:39:37] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:46:03] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:46:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:46:18] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.30-F = 27.39-C  > 26.00-C = 78.80-F
+
+[7-31-2022 22:46:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:46:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:46:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:46:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:46:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:53:03] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:53:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:53:18] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.30-F = 27.39-C  > 26.00-C = 78.80-F
+
+[7-31-2022 22:53:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:53:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 22:53:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:53:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 22:53:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:00:03] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:00:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:00:18] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.96-F = 27.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+[7-31-2022 23:00:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:00:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:00:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:00:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:00:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:00:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s6-20020a4ab546000000b004279be23ed4sm2537778ooo.41 - gsmtp  	->Attempting to resend without Attachment and Stats
+[7-31-2022 23:00:19] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c1-20020a9d6141000000b0061c1a0b4677sm2585661otk.12 - gsmtp  
+[7-31-2022 23:07:03] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:07:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:07:18] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[7-31-2022 23:07:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:07:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:07:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:07:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:07:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:14:03] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:14:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:14:18] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[7-31-2022 23:14:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:14:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:14:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:14:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:14:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:21:03] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:21:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:21:18] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+[7-31-2022 23:21:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:21:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:21:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:21:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:21:18] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:21:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials m29-20020a056870059d00b00101bc3380a5sm2945702oap.12 - gsmtp  	->Attempting to resend without Attachment and Stats
+[7-31-2022 23:21:19] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c3-20020a9d6843000000b0061c94e755d8sm2574833oto.58 - gsmtp  
+[7-31-2022 23:22:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:22:28] API :: Successful: Postponing Next Evaluation for: 180000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[7-31-2022 23:25:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:25:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:25:43] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[7-31-2022 23:25:43] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:25:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:25:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:25:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:25:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:32:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:32:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:32:43] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[7-31-2022 23:32:43] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:32:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:32:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:32:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:32:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:39:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:39:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:39:43] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+[7-31-2022 23:39:43] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:39:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:39:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:39:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:39:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:39:44] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a9-20020a056830100900b0061c309b1dc2sm2600740otp.39 - gsmtp  	->Attempting to resend without Attachment and Stats
+[7-31-2022 23:39:44] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ca19-20020a056830611300b00618ecbca69asm2575405otb.74 - gsmtp  
+[7-31-2022 23:46:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:46:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:46:43] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[7-31-2022 23:46:43] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:46:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:46:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:46:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:46:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:53:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:53:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[7-31-2022 23:53:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:53:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:53:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:53:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[7-31-2022 23:53:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:00:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:00:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 0:00:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:00:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:00:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:00:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:00:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:07:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:07:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 0:07:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:07:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:07:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:07:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:07:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:14:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:14:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 0:14:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:14:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:14:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:14:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:14:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:21:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:21:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 0:21:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:21:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:21:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:21:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:21:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:28:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:28:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 0:28:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:28:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:28:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:28:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:28:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:35:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:35:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 0:35:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:35:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:35:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:35:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:35:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:42:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:42:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 0:42:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:42:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:42:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:42:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:42:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:49:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:49:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 0:49:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:49:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:49:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:49:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:49:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:56:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:56:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 0:56:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:56:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:56:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:56:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 0:56:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:03:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:03:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 1:03:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:03:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:03:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:03:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:03:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:10:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:10:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 1:10:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:10:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:10:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:10:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:10:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:17:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:17:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 1:17:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:17:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:17:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:17:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:17:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:24:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:24:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 1:24:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:24:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:24:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:24:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:24:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:31:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:31:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 1:31:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:31:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:31:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:31:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:31:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:38:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:38:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 1:38:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:38:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:38:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:38:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:38:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:43:55] Error Lights
+Mode: ["on"]
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:43:55] API :: Successful: Executing Error Lights Mode: ["on"]     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-1-2022 1:44:16] Error Lights
+Mode: ["on","off"]
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:44:16] API :: Successful: Executing Error Lights Mode: ["on","off"]     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-1-2022 1:45:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:45:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 1:45:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:45:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:45:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:45:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:45:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:52:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:52:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 1:52:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:52:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:52:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:52:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:52:44] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:59:09] Error Lights
+Mode: ]
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:59:09] API :: Successful: Executing Error Lights Mode: ]     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-1-2022 1:59:28] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:59:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 1:59:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:59:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:59:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:59:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 1:59:43] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:01:54] Is this Presented?
+     > null = 200:169 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-1-2022 2:02:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:02:41] API :: Successful: Postponing Next Evaluation for: 180000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-1-2022 2:02:52] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:02:52] API :: Successful: Postponing Next Evaluation for: 120000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-1-2022 2:04:52] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:07] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:07] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:07] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:07] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:07] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:07] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:05:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:12:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:12:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:12:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:12:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:12:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:12:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:12:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:19:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:19:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:19:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:19:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:19:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:19:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:19:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:26:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:26:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:26:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:26:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:26:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:26:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:26:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:33:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:33:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:33:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:33:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:33:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:33:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:33:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:40:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:40:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:40:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:40:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:40:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:40:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:40:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:47:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:47:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:47:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:47:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:47:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:47:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:47:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:54:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:54:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 2:54:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:54:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:54:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:54:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 2:54:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:01:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:01:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 3:01:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:01:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:01:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:01:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:01:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:08:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:08:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 3:08:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:08:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:08:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:08:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:08:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:15:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:15:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 3:15:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:15:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:15:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:15:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:15:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:22:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:22:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 3:22:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:22:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:22:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:22:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:22:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:29:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:29:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 3:29:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:29:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:29:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:29:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:29:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:36:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:36:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 3:36:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:36:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:36:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:36:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:36:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:43:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:43:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 3:43:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:43:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:43:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:43:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:43:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:50:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:50:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 3:50:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:50:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:50:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:50:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:50:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:57:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:57:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 3:57:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:57:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:57:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:57:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 3:57:57] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:04:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:04:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 4:04:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:04:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:04:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:04:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:04:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:11:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:11:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 4:11:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:11:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:11:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:11:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:11:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:18:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:18:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 4:18:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:18:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:18:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:18:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:18:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:25:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:25:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 4:25:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:25:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:25:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:25:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:25:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:32:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:32:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 4:32:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:32:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:32:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:32:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:32:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:39:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:39:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 4:39:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:39:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:39:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:39:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:39:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:46:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:46:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 4:46:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:46:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:46:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:46:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:46:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:53:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:53:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 4:53:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:53:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:53:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:53:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 4:53:56] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 5:00:41] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: null,Setting: 0
+
+[8-1-2022 5:00:55] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[8-1-2022 5:00:55] Error Lights
+Mode: reset
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: null,Setting: 0
+
+[8-1-2022 5:00:55] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+

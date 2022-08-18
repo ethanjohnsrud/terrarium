@@ -1,0 +1,1518 @@
+[6-12-2022 1:31:10] >> DELETED ./log.txt File => Success     > null = 86:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[6-12-2022 1:31:10] Terrarium Server Restarted
+Initialization Complete
+     > null = 429:1 => file:///home/pi/terrarium/terrarium.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials gu5-20020a056870ab0500b000f37c1d5072sm2098459oab.38 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v21-20020a4ae055000000b0035eb4e5a6c7sm1988029oos.29 - gsmtp  
+[6-12-2022 1:32:37] API :: Successful: Status Email Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials fu16-20020a0568705d9000b000f30837129esm2075644oab.55 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n9-20020a056870558900b000f318ad4957sm2142290oao.11 - gsmtp  
+[6-12-2022 1:45:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-12-2022 1:52:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-12-2022 2:20:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-12-2022 2:27:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a16-20020a056808121000b00325cda1ff99sm1954626oil.24 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f21-20020a9d5e95000000b0060603221264sm2016352otl.52 - gsmtp  
+[6-12-2022 8:17:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-12-2022 8:24:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-12-2022 8:31:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c19-20020a9d4813000000b0060c44580a09sm2258938otf.43 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g1-20020a4ab801000000b0041b57e44d93sm2355418oop.28 - gsmtp  
+[6-12-2022 9:13:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-12-2022 9:20:49] Temperature Reestablished from Maximum
+77.90-F = 25.50-C 
+
+[6-12-2022 16:00:39] API :: Successful: Replace Schedule: DISABLED : 1655013600000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-12-2022 16:06:03] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-12-2022 16:51:56] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-12-2022 17:44:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[6-12-2022 17:51:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.68-F = 27.60-C  > 26.00-C = 78.80-F
+
+[6-12-2022 17:58:49] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+[6-12-2022 18:17:28] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[6-12-2022 18:17:28] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[6-12-2022 18:17:28] Terrarium Server Restarted
+Initialization Complete
+     > null = 429:1 => file:///home/pi/terrarium/terrarium.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u11-20020a056871008b00b000fe340ee821sm3156800oaa.43 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f8-20020a4ada48000000b0035eb4e5a6d6sm2949237oou.44 - gsmtp  
+[6-12-2022 21:04:52] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-12-2022 21:11:52] Temperature Reestablished from Maximum
+78.26-F = 25.70-C 
+
+[6-12-2022 23:34:02] API :: Successful: Replace Schedule: Night : 1655089200000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-13-2022 8:06:29] API :: Settings evaluationFrequency Successfully Updated     > null = 369:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-14-2022 0:36:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-14-2022 1:21:44] Temperature Reestablished from Maximum
+73.40-F = 23.00-C 
+
+[6-15-2022 17:51:46] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-15-2022 18:36:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-16-2022 8:19:48] API :: Successful: Replace Schedule: DISABLED : 1655013600000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-16-2022 8:22:23] API :: Successful: New Schedule Created: Toggle [Extra Heat] : 1655385742492     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-16-2022 8:22:51] API :: Successful: Replace Schedule: Toggle [Extra Heat] : 1655385742492     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-16-2022 9:36:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.30-F = 27.39-C  > 26.00-C = 78.80-F
+
+[6-16-2022 10:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+83.66-F = 28.70-C  > 26.00-C = 78.80-F
+
+[6-16-2022 14:51:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-16-2022 15:36:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-16-2022 17:06:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-16-2022 17:51:45] Temperature Reestablished from Maximum
+76.80-F = 24.89-C 
+
+[6-17-2022 0:42:52] API :: Successful: New Schedule Created: Toggle [Cool] : 1655444571418     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-17-2022 0:44:32] API :: Successful: New Schedule Created: Fanning  : 1655463600000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-17-2022 0:46:58] API :: Successful: New Schedule Created: Plant Plan 1 : 1655467200000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-17-2022 0:48:30] API :: Successful: New Schedule Created: Limit Extra  : 1655445600000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-17-2022 0:49:25] API :: Successful: New Schedule Created: Toggle [Night] : 1655444964856     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-17-2022 0:49:52] API :: Successful: Replace Schedule: Toggle [Night] : 1655444964856     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-17-2022 7:37:55] API :: Successful: New Schedule Created: Toggle [Cool] : 1655469474723     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-17-2022 7:38:24] API :: Successful: New Schedule Created: Toggle [Extra Heat] : 1655469503157     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-17-2022 8:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+83.82-F = 28.79-C  > 26.00-C = 78.80-F
+
+[6-17-2022 9:36:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-17-2022 12:36:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-17-2022 13:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-17-2022 16:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+83.10-F = 28.39-C  > 26.00-C = 78.80-F
+
+[6-17-2022 17:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-17-2022 21:36:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-17-2022 22:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-18-2022 8:06:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-18-2022 8:51:46] Temperature Reestablished from Maximum
+75.56-F = 24.20-C 
+
+[6-18-2022 8:53:39] API :: Successful: New Schedule Created: Toggle [Extra Heat] : 1655560419705     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-18-2022 10:21:46] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+84.90-F = 29.39-C  > 26.00-C = 78.80-F
+
+[6-18-2022 10:21:46] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+56.29%  < 60.00%
+
+[6-18-2022 11:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+86.36-F = 30.20-C  > 26.00-C = 78.80-F
+
+[6-18-2022 11:06:44] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+54.59%  < 60.00%
+
+[6-18-2022 11:51:45] Humidity Reestablished
+99.90% 
+
+[6-18-2022 13:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[6-18-2022 14:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-18-2022 16:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+84.00-F = 28.89-C  > 26.00-C = 78.80-F
+
+[6-18-2022 16:21:45] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+59.70%  < 60.00%
+
+[6-18-2022 17:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-18-2022 17:06:44] Humidity Reestablished
+88.30% 
+
+[6-18-2022 20:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-18-2022 20:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.92-F = 28.29-C  > 26.00-C = 78.80-F
+
+[6-18-2022 21:36:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a17-20020a056870e0d100b000f318ad4957sm5198366oab.11 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bk14-20020a056820190e00b0041b8dcd467dsm5359578oob.39 - gsmtp  
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v1-20020a056870e28100b00101bd4914f9sm3062885oad.43 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials p15-20020a9d76cf000000b0060c0c358b8esm5774955otl.3 - gsmtp  
+[6-19-2022 8:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.86-F = 27.70-C  > 26.00-C = 78.80-F
+
+[6-19-2022 9:36:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.68-F = 27.60-C  > 26.00-C = 78.80-F
+
+[6-19-2022 11:06:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-19-2022 11:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-19-2022 14:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-19-2022 14:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-19-2022 17:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-19-2022 17:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[6-19-2022 20:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.30-F = 27.39-C  > 26.00-C = 78.80-F
+
+[6-19-2022 20:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.30-F = 27.39-C  > 26.00-C = 78.80-F
+
+[6-19-2022 23:06:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-19-2022 23:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-20-2022 8:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-20-2022 9:36:45] Temperature Reestablished from Maximum
+75.00-F = 23.89-C 
+
+[6-20-2022 11:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.02-F = 27.79-C  > 26.00-C = 78.80-F
+
+[6-20-2022 11:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+84.38-F = 29.10-C  > 26.00-C = 78.80-F
+
+[6-20-2022 11:51:45] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+58.70%  < 60.00%
+
+[6-20-2022 12:25:27] API :: Successful: New Schedule Created: Toggle [Cool] : 1655745930783     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-20-2022 12:36:45] Humidity Reestablished
+66.09% 
+
+[6-20-2022 13:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-20-2022 14:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.02-F = 27.79-C  > 26.00-C = 78.80-F
+
+[6-20-2022 16:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-20-2022 17:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[6-20-2022 19:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-20-2022 20:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.86-F = 27.70-C  > 26.00-C = 78.80-F
+
+[6-20-2022 23:06:44] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-20-2022 23:51:45] Temperature Reestablished from Maximum
+75.20-F = 24.00-C 
+
+[6-21-2022 8:51:45] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.08-F = 20.60-C  < 21.50-C = 70.70-F
+
+[6-21-2022 9:36:45] Temperature Reestablished from Minimum
+76.28-F = 24.60-C 
+
+[6-21-2022 10:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+83.30-F = 28.50-C  > 26.00-C = 78.80-F
+
+[6-21-2022 11:06:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.30-F = 27.39-C  > 26.00-C = 78.80-F
+
+[6-21-2022 13:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-21-2022 14:06:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-21-2022 16:21:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+84.38-F = 29.10-C  > 26.00-C = 78.80-F
+
+[6-21-2022 17:06:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[6-21-2022 18:36:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-21-2022 19:17:32] Temperature Reestablished from Maximum
+75.00-F = 23.89-C 
+
+[6-21-2022 19:17:32] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-21-2022 20:51:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-21-2022 21:36:45] Temperature Reestablished from Maximum
+74.82-F = 23.79-C 
+
+[6-21-2022 23:06:45] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[6-21-2022 23:36:38] API :: Settings evaluationFrequency Successfully Updated     > null = 369:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-21-2022 23:36:47] Temperature Reestablished from Maximum
+74.82-F = 23.79-C 
+
+[6-21-2022 23:36:47] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-21-2022 23:36:59] [#2] SENSOR ERROR [Sensor is OFF] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[6-21-2022 23:37:20] API :: Successful: New Schedule Created: Toggle [Night] : 1655872639380     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-22-2022 7:18:53] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.42-F = 20.79-C  < 21.50-C = 70.70-F
+
+[6-22-2022 7:25:53] Temperature Reestablished from Minimum
+73.02-F = 22.79-C 
+
+[6-22-2022 8:00:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-22-2022 8:07:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-22-2022 8:49:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-22-2022 8:56:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-22-2022 9:31:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-22-2022 9:38:54] Temperature Reestablished from Maximum
+77.90-F = 25.50-C 
+
+[6-22-2022 10:06:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-22-2022 10:13:53] Temperature Reestablished from Maximum
+78.26-F = 25.70-C 
+
+[6-22-2022 10:34:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-22-2022 10:41:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-22-2022 11:44:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[6-22-2022 11:51:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-22-2022 11:58:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t82-20020aca5f55000000b0032eb3dadd9csm11291604oib.54 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i7-20020a056870890700b000f32fb9d2bfsm11680868oao.5 - gsmtp  
+[6-22-2022 12:19:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-22-2022 12:26:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-22-2022 13:01:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-22-2022 13:08:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[6-22-2022 13:43:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-22-2022 13:50:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-22-2022 13:57:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h68-20020a9d2f4a000000b006060322124esm11563314otb.30 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f10-20020a056830204a00b0060bfb4e4033sm11345939otp.9 - gsmtp  
+[6-22-2022 14:46:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-22-2022 14:53:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-22-2022 15:00:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w2-20020a056870948200b000e686d13883sm11102405oal.29 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ay20-20020a056808301400b0032ba1b363d2sm11863000oib.55 - gsmtp  
+[6-22-2022 15:56:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-22-2022 16:03:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-22-2022 16:10:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u19-20020a056870951300b000f309d52933sm11341201oal.47 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l11-20020a9d4c0b000000b0060bd52bf77csm11962018otf.21 - gsmtp  
+[6-22-2022 17:06:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-22-2022 17:13:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-22-2022 17:34:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-22-2022 17:41:53] Temperature Reestablished from Maximum
+78.80-F = 26.00-C 
+
+[6-22-2022 18:09:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-22-2022 18:16:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[6-22-2022 18:23:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o5-20020a05687072c500b000fb46b45b8csm11415825oak.23 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a188-20020acab1c5000000b0032f0fd7e1f8sm11760337oif.39 - gsmtp  
+[6-22-2022 19:05:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-22-2022 19:12:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-22-2022 19:40:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-22-2022 19:47:54] Temperature Reestablished from Maximum
+78.42-F = 25.79-C 
+
+[6-22-2022 20:01:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-22-2022 20:08:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-22-2022 20:36:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-22-2022 20:43:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-22-2022 21:04:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-22-2022 21:11:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-22-2022 21:32:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-22-2022 21:39:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-22-2022 22:07:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-22-2022 22:14:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[6-22-2022 22:21:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o5-20020a05687072c500b000fb46b45b8csm11676376oak.23 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t14-20020a4aadce000000b00420c4e021e8sm10734050oon.38 - gsmtp  
+[6-22-2022 22:28:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-22-2022 23:17:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-22-2022 23:24:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-23-2022 7:34:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-23-2022 7:41:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 7:48:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t3-20020a056870f20300b001083627c1f1sm323724oao.20 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h9-20020a9d3e49000000b0060b9e65c00fsm12949367otg.25 - gsmtp  
+[6-23-2022 8:02:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 8:09:54] Temperature Reestablished from Maximum
+78.60-F = 25.89-C 
+
+[6-23-2022 8:16:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-23-2022 8:23:53] Temperature Reestablished from Maximum
+78.60-F = 25.89-C 
+
+[6-23-2022 8:51:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-23-2022 8:58:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[6-23-2022 9:05:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 102-20020a9d036f000000b006169f5547e0sm334142otv.30 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r2-20020a056830080200b0060c574ebae6sm12615394ots.76 - gsmtp  
+[6-23-2022 9:40:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-23-2022 9:47:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-23-2022 10:22:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-23-2022 10:29:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[6-23-2022 10:36:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w12-20020a9d450c000000b00614c1c39a84sm6985581ote.11 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d26-20020a4aba9a000000b0041bcce4bd85sm13336719oop.2 - gsmtp  
+[6-23-2022 10:43:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-23-2022 11:11:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-23-2022 11:18:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-23-2022 11:46:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-23-2022 11:53:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.86-F = 27.70-C  > 26.00-C = 78.80-F
+
+[6-23-2022 12:00:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials kv9-20020a056870fb8900b000f39f0816bbsm16716oab.40 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 67-20020a4a0646000000b004256b3e0a70sm2079915ooj.32 - gsmtp  
+[6-23-2022 12:14:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 12:21:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 12:28:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x8-20020a9d7048000000b006169827dcd6sm92174otj.45 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f21-20020a05680814d500b0032f2ccdafc9sm13657724oiw.3 - gsmtp  
+[6-23-2022 12:56:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-23-2022 13:03:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-23-2022 13:10:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d18-20020a05683018f200b0060bffcb1ecesm107316otf.78 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r22-20020a05687032d600b000f346e6d786sm116563oac.54 - gsmtp  
+[6-23-2022 13:31:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-23-2022 13:38:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-23-2022 13:45:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d18-20020a05683018f200b0060bffcb1ecesm161050otf.78 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials m2-20020a4add02000000b00425724e385esm31601oou.3 - gsmtp  
+[6-23-2022 13:52:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-23-2022 14:20:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-23-2022 14:27:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-23-2022 14:34:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials z16-20020a4ade50000000b004257b0aa35fsm100768oot.8 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o4-20020a9d4104000000b0060bfb4e4033sm359715ote.9 - gsmtp  
+[6-23-2022 15:09:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 15:16:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-23-2022 15:23:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a18-20020a9d3e12000000b006168dbb001fsm412306otd.7 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l15-20020a4a854f000000b0035eb4e5a6bdsm176211ooh.19 - gsmtp  
+[6-23-2022 15:58:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 16:05:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-23-2022 16:12:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e7-20020a4aaac7000000b0041b49c19a00sm241953oon.18 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r22-20020a05687032d600b000f346e6d786sm444471oac.54 - gsmtp  
+[6-23-2022 16:40:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 16:47:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-23-2022 16:54:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n2-20020a4aa7c2000000b00420c4e021e8sm255474oom.38 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bh31-20020a056808181f00b0032eb3dadd9csm118581oib.54 - gsmtp  
+[6-23-2022 17:22:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-23-2022 17:29:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-23-2022 17:36:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u21-20020a056870421500b001019fb71e4bsm799736oac.17 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v15-20020a056870b50f00b000f309d52933sm654855oap.47 - gsmtp  
+[6-23-2022 18:04:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-23-2022 18:11:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-23-2022 18:18:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q4-20020a05683031a400b006168af9b625sm570514ots.65 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c13-20020aca1c0d000000b003351dbf5e36sm241614oic.43 - gsmtp  
+[6-23-2022 18:39:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-23-2022 18:46:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 19:21:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-23-2022 19:28:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-23-2022 20:03:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-23-2022 20:10:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-23-2022 20:52:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 20:59:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 21:34:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 21:41:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-23-2022 23:12:53] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.26-F = 20.70-C  < 21.50-C = 70.70-F
+
+[6-23-2022 23:19:53] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+68.18-F = 20.10-C  < 21.50-C = 70.70-F
+
+[6-23-2022 23:47:53] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.98-F = 21.10-C  < 21.50-C = 70.70-F
+
+[6-23-2022 23:54:53] Temperature Reestablished from Minimum
+72.30-F = 22.39-C 
+
+[6-24-2022 7:28:49] API :: Successful: New Schedule Created: Toggle [Cool] : 1656073728812     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-24-2022 7:28:55] API :: Successful: New Schedule Created: Toggle [Cool] : 1656073734454     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-24-2022 7:43:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-24-2022 7:50:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-24-2022 8:32:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-24-2022 8:39:54] Temperature Reestablished from Maximum
+78.60-F = 25.89-C 
+
+[6-24-2022 10:31:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-24-2022 10:38:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-24-2022 11:34:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-24-2022 11:41:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-24-2022 13:05:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-24-2022 13:12:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-24-2022 14:08:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-24-2022 14:15:54] Temperature Reestablished from Maximum
+78.80-F = 26.00-C 
+
+[6-24-2022 14:43:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-24-2022 14:50:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-24-2022 16:00:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-24-2022 16:07:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-24-2022 19:16:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-24-2022 19:23:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-24-2022 20:05:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-24-2022 20:12:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-24-2022 20:47:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-24-2022 20:54:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-24-2022 21:15:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[6-24-2022 21:22:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[6-24-2022 21:29:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i16-20020a05683033f000b00616b835f5e7sm738363otu.43 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b23-20020a0568301df700b0060bf9d6c060sm2508543otj.1 - gsmtp  
+[6-24-2022 21:36:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-24-2022 21:43:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-24-2022 21:50:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y5-20020a056808060500b00325cda1ff95sm2066178oih.20 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q14-20020a4ad54e000000b0035eb4e5a6c8sm2360037oos.30 - gsmtp  
+[6-24-2022 21:57:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-24-2022 22:25:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-24-2022 22:32:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[6-24-2022 22:39:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d18-20020a05683018f200b0060bffcb1ecesm2440928otf.78 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f18-20020a056870c11200b00101cdb417f1sm2968356oad.22 - gsmtp  
+[6-25-2022 7:24:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-25-2022 7:31:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-25-2022 7:38:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v2-20020a056808004200b0032e7bd6557fsm2519573oic.50 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d14-20020a05683025ce00b0060bd52bf77csm3117924otu.21 - gsmtp  
+[6-25-2022 7:59:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-25-2022 8:06:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.50-F = 27.50-C  > 26.00-C = 78.80-F
+
+[6-25-2022 8:13:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w18-20020a056870339200b00101bc3380a5sm3595650oae.12 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t22-20020a056830225600b006169adfcf9bsm3047610otd.81 - gsmtp  
+[6-25-2022 8:41:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 8:48:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.20-F = 27.89-C  > 26.00-C = 78.80-F
+
+[6-25-2022 8:48:53] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+59.00%  < 60.00%
+
+[6-25-2022 8:55:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.50-F = 27.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+[6-25-2022 8:55:53] Humidity Reestablished
+60.70% 
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 25-20020aca0f19000000b0032e5d0b5d5fsm2590589oip.58 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n27-20020a056870559b00b000f32fb9d2bfsm3655244oao.5 - gsmtp  
+[6-25-2022 9:02:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[6-25-2022 9:09:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-25-2022 9:16:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ep36-20020a056870a9a400b000f886139c51sm3922440oab.53 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x8-20020a9d7048000000b006169827dcd6sm3322134otj.45 - gsmtp  
+[6-25-2022 9:23:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 9:44:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 9:51:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.50-F = 27.50-C  > 26.00-C = 78.80-F
+
+[6-25-2022 9:58:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.50-F = 27.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v23-20020a05683024b700b00616929b93d6sm3346379ots.14 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 65-20020a4a1844000000b0042300765d39sm3104151ooo.46 - gsmtp  
+[6-25-2022 10:05:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.96-F = 27.20-C  > 26.00-C = 78.80-F
+
+[6-25-2022 10:12:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.96-F = 27.20-C  > 26.00-C = 78.80-F
+
+[6-25-2022 10:19:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.96-F = 27.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e2-20020a4ad242000000b0042577846a46sm3142318oos.10 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c7-20020a0568301ae700b0060c0c358b8esm3289564otd.3 - gsmtp  
+[6-25-2022 10:26:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-25-2022 10:33:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-25-2022 11:01:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 11:08:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-25-2022 11:36:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-25-2022 11:43:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.96-F = 27.20-C  > 26.00-C = 78.80-F
+
+[6-25-2022 11:50:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v2-20020a056808004200b0032e7bd6557fsm2771311oic.50 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e2-20020a4ad242000000b0042577846a46sm3241994oos.10 - gsmtp  
+[6-25-2022 12:18:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-25-2022 12:25:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[6-25-2022 12:53:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-25-2022 13:00:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-25-2022 13:28:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-25-2022 13:35:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[6-25-2022 13:42:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y27-20020a544d9b000000b0032b99637366sm205235oix.25 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t9-20020a056808158900b0032b61c33352sm2979216oiw.7 - gsmtp  
+[6-25-2022 14:10:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-25-2022 14:17:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-25-2022 14:24:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x27-20020a9d459b000000b0060c237c6355sm3495891ote.71 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 14-20020a9d080e000000b0061691239049sm3463608oty.60 - gsmtp  
+[6-25-2022 14:52:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-25-2022 14:59:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-25-2022 15:06:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n5-20020a9d7105000000b0060bfebb96e5sm3583165otj.35 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ek34-20020a056870f62200b000f28a948dd2sm4020423oab.21 - gsmtp  
+[6-25-2022 15:13:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 15:41:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-25-2022 15:48:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-25-2022 15:55:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f108-20020a9d03f5000000b0060c00c3fde5sm3644206otf.72 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x35-20020a056870a7a300b00101c9597c6fsm4175006oao.28 - gsmtp  
+[6-25-2022 16:02:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-25-2022 16:30:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-25-2022 16:37:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-25-2022 16:44:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r44-20020a4a966f000000b0040e5ff4a737sm3501183ooi.26 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bf9-20020a056808190900b0032f0e611cc0sm3256035oib.19 - gsmtp  
+[6-25-2022 17:12:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-25-2022 17:19:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-25-2022 17:47:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 17:54:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[6-25-2022 18:01:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g13-20020a05683030ad00b0060afaae0e34sm3855927ots.0 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k22-20020a056808069600b0032e956162f5sm1340368oig.53 - gsmtp  
+[6-25-2022 18:29:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-25-2022 18:36:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-25-2022 18:57:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 19:04:53] Temperature Reestablished from Maximum
+78.80-F = 26.00-C 
+
+[6-25-2022 19:18:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-25-2022 19:25:54] Temperature Reestablished from Maximum
+78.42-F = 25.79-C 
+
+[6-25-2022 19:39:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 19:46:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-25-2022 20:14:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-25-2022 20:21:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.30-F = 27.39-C  > 26.00-C = 78.80-F
+
+[6-25-2022 20:21:53] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+59.09%  < 60.00%
+
+[6-25-2022 20:26:14] API :: Successful: New Schedule Created: Immediate Day : 1656206774939     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-25-2022 20:28:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+[6-25-2022 20:28:53] Humidity Reestablished
+60.29% 
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 7-20020aca2107000000b003264a325ecdsm3382580oiz.5 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 44-20020a9d032f000000b006169f5547e0sm3979210otv.30 - gsmtp  
+[6-25-2022 20:35:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 20:42:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[6-25-2022 20:49:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x15-20020a056870e38f00b000f33804cea9sm4515268oad.36 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s7-20020a056870630700b0010830c24aaasm4458989oao.56 - gsmtp  
+[6-25-2022 20:56:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 21:03:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[6-25-2022 21:10:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j19-20020a056808057300b0032f2ccdafc9sm3469381oig.3 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h9-20020a056830400900b00616a19aac0bsm3979994ots.51 - gsmtp  
+[6-25-2022 21:17:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-25-2022 21:38:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.86-F = 27.70-C  > 26.00-C = 78.80-F
+
+[6-25-2022 21:45:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.86-F = 27.70-C  > 26.00-C = 78.80-F
+
+[6-25-2022 21:52:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l10-20020a056830268a00b0060ae954bf27sm3954593otu.62 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y21-20020a056870419500b000f3321caa73sm4652496oac.16 - gsmtp  
+[6-25-2022 22:20:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-25-2022 22:27:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[6-25-2022 22:34:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s7-20020a056870630700b0010830c24aaasm4588704oao.56 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s4-20020a056870ea8400b000f1bc45ba21sm5073583oap.14 - gsmtp  
+[6-25-2022 23:16:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-25-2022 23:23:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e2-20020a4a5502000000b0042573968646sm4429318oob.11 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials m13-20020a056870a40d00b001067f7f5004sm5202242oal.39 - gsmtp  
+[6-26-2022 7:40:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-26-2022 7:47:54] Temperature Reestablished from Maximum
+78.60-F = 25.89-C 
+
+[6-26-2022 8:01:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-26-2022 8:08:54] Temperature Reestablished from Maximum
+77.00-F = 25.00-C 
+
+[6-26-2022 8:43:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-26-2022 8:50:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-26-2022 9:11:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-26-2022 9:18:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-26-2022 9:25:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+[6-26-2022 9:25:54] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE time BETWEEN ? AND ? ORDER BY time DESC;' :: 1656163553895,1656253553895 => Error: SQLITE_BUSY: database is locked
+     > null = 37:31 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseGetReadingRange = 65:18 => file:///home/pi/terrarium/backend/database.mjs
+     >>> async generateEmailHTML = 64:21 => file:///home/pi/terrarium/backend/communicate.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v23-20020a05683024b700b00616929b93d6sm4792269ots.14 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n27-20020a056870559b00b000f32fb9d2bfsm5406225oao.5 - gsmtp  
+[6-26-2022 9:25:55] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE time BETWEEN ? AND ? ORDER BY time DESC;' :: 1656163554944,1656253554944 => Error: SQLITE_BUSY: database is locked
+     > null = 37:31 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseGetReadingRange = 65:18 => file:///home/pi/terrarium/backend/database.mjs
+     >>> async generateEmailHTML = 64:21 => file:///home/pi/terrarium/backend/communicate.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials z18-20020a056808065200b0032ba1b363d2sm4004899oih.55 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w70-20020acaad49000000b003351fa55a58sm4012723oie.16 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 65-20020a4a1a44000000b0035eb4e5a6bbsm4636369oof.17 - gsmtp  
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r7-20020a05683002e700b00616a5024ce2sm4548132ote.54 - gsmtp  
+[6-26-2022 9:53:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-26-2022 10:00:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-26-2022 10:07:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials cm8-20020a056870b60800b00101d05c2245sm5457978oab.37 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a3-20020a544e03000000b0032efe5871b0sm4044375oiy.45 - gsmtp  
+[6-26-2022 10:14:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-26-2022 10:42:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-26-2022 10:49:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-26-2022 10:56:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r187-20020a4a4ec4000000b0041ba304546csm4722637ooa.1 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 123-20020aca0781000000b00334c2e81dfbsm4204398oih.0 - gsmtp  
+[6-26-2022 11:24:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-26-2022 11:31:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-26-2022 11:38:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w18-20020a056870339200b00101bc3380a5sm5561114oae.12 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f21-20020a4ace95000000b00425812383basm4304090oos.19 - gsmtp  
+[6-26-2022 11:45:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-26-2022 12:13:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-26-2022 12:20:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[6-26-2022 12:27:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o21-20020a4ad495000000b004256afbe49esm4707878oos.35 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r1-20020a4aa8c1000000b00425a2c7f19asm814080oom.5 - gsmtp  
+[6-26-2022 12:55:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-26-2022 13:02:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[6-26-2022 13:09:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r30-20020a056871089e00b00103466bfa4dsm5661736oaq.19 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o21-20020a4ad495000000b004256afbe49esm4747805oos.35 - gsmtp  
+[6-26-2022 13:44:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-26-2022 13:51:53] Temperature Reestablished from Maximum
+78.80-F = 26.00-C 
+
+[6-26-2022 14:15:25] API :: Successful: Replace Schedule: Plant Plan 1 : 1656244800000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-26-2022 14:19:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-26-2022 14:26:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-26-2022 14:27:37] API :: Successful: New Schedule Created: Immediate [Heat] : 1656271658315     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-26-2022 14:27:54] API :: Successful: New Schedule Created: Toggle (D.G.L) : 1656271674608     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[6-27-2022 13:39:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-27-2022 13:46:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-27-2022 13:53:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f20-20020a0568301c3400b00616dc493267sm755350ote.58 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a5-20020a056808120500b00335713cd3f8sm2022447oil.17 - gsmtp  
+[6-27-2022 14:21:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-27-2022 14:28:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-27-2022 15:17:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-27-2022 15:24:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-27-2022 16:27:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-27-2022 16:34:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-27-2022 16:41:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Connection timeout  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Connection timeout  
+[6-27-2022 17:02:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-27-2022 17:09:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[6-27-2022 17:16:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+# ERROR Sending Email Error: Connection timeout  	->Attempting to resend without Attachment and Stats
+[6-27-2022 17:23:53] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+# ERROR Sending Email Error: Connection timeout  
+[6-28-2022 1:47:54] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+70.50-F = 21.39-C  < 21.50-C = 70.70-F
+
+[6-28-2022 1:54:54] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+70.50-F = 21.39-C  < 21.50-C = 70.70-F
+
+[6-28-2022 19:10:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-28-2022 19:17:54] Temperature Reestablished from Maximum
+77.00-F = 25.00-C 
+
+[6-29-2022 15:21:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-29-2022 15:28:54] Temperature Reestablished from Maximum
+78.80-F = 26.00-C 
+
+[6-29-2022 15:42:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-29-2022 15:49:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-29-2022 16:31:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-29-2022 16:38:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[6-29-2022 17:13:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-29-2022 17:20:54] Temperature Reestablished from Maximum
+78.80-F = 26.00-C 
+
+[6-29-2022 18:09:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[6-29-2022 18:16:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-29-2022 18:58:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-29-2022 19:05:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[6-29-2022 19:47:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[6-29-2022 19:54:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-29-2022 20:36:54] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[6-29-2022 20:43:54] Temperature Reestablished from Maximum
+78.80-F = 26.00-C 
+
+[7-1-2022 5:00:00] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[7-1-2022 5:00:01] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+

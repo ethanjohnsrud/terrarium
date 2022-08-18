@@ -1,0 +1,191 @@
+#schedule-list {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    grid-column-gap: 0.25rem;
+    grid-row-gap: 0.75rem;
+    justify-content: space-around;
+    align-content: stretch;
+    /* align-items:center; */
+    margin: 1rem;
+    /* height: 100%; */
+    /* width: calc(100%-2rem) ; */
+    /* min-width: 1px; */
+    overflow-x: visible !important;
+
+}
+
+.schedule-row {
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-column-gap: 0.25rem;
+    grid-row-gap: 0.75rem;
+    justify-content: space-around;
+    align-content: stretch;
+    /* align-items:center; */
+
+    width: 100%;
+    overflow: auto;
+}
+
+.schedule-button-row {
+    display: inline-grid;
+    grid-auto-flow: column;
+    /* grid-template-columns: 1fr 2fr; */
+    grid-template-rows: 1;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 0.75rem;
+    align-items:center;
+
+    width: 100%;
+}
+
+.schedule-header {
+    overflow: auto;
+    width: 100%;
+    /* min-width: 1px; */
+    grid-row: 1;
+
+    font-family: 'New Tegomin', serif;
+    text-align: center;
+    font-weight: 900;
+    color: var(--main-color);
+}
+
+.schedule-value-box {
+    display: block;
+    margin: 0;
+    /* width:15.0rem; */
+    padding: 0.25rem;
+    text-align: center;
+    overflow: hidden;
+
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 0.3rem;
+}
+
+
+
+.schedule-drop-menu-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /* display: block; */
+    /* z-index: 25; */
+    /* overflow-x: visible; */
+    /* white-space: nowrap; */
+    /* height: 350px;
+    width: 150px; */
+}
+.schedule-drop-date-menu {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-row-gap: 0.75rem;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items:center;
+}
+.schedule-drop-menu-list {
+    position: fixed;
+    display: grid;
+    /* top: 5vh; */
+    /* left: 0; */
+    /* right: 0; */
+    /* bottom: 0; */
+    
+    z-index: 15;
+    /* width: 50vw; */
+    /* overflow-x: visible; */
+    /* white-space: nowrap; */
+    max-height: calc(95vh - 6.0rem);
+    overflow-y: scroll;
+
+    background: rgba(0,0,0,1);
+    box-shadow: 0 0.5rem 1.0rem 0 rgba(255,255,255,0.4);
+    border-radius: 0.25rem;
+    
+
+
+}
+.schedule-drop-menu-item {
+    grid-column: 1;
+    padding: 0.25rem;
+
+    /* border: 0.5px solid rgba(255,255,255,0.6); */
+    border: none;
+    border-radius: 0.25rem;
+    
+    color:white;
+    background-color: black;
+    text-align: center;
+    
+    cursor: pointer;
+    overflow: visible;
+
+}
+.schedule-drop-menu-button {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    overflow: auto;
+
+    cursor: pointer;
+}
+.schedule-new-box {
+
+    background-color: rgba(255,255,255,0.4);
+}.schedule-new {
+
+    color: black;
+    font-weight: 600;
+}
+#schedule-save-button{
+    /* position: absolute; */
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+
+
+    background-color: var(--main-color);
+    color: black;
+
+    
+}
+
+/* Local input overrides :: Seems react applies classes top to bottom of css ??*/
+.schedule-input {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    padding: 0.25rem;
+    border-radius: 3px;
+    /* width: 100%; */
+    min-width: 1.0rem;
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+
+    color: white;
+}
+.schedule-save-button {
+    padding: 0.4rem 0;
+    margin: 0.7rem 0;
+    color: var(--main-color);
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+}

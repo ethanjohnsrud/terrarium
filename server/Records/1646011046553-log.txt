@@ -1,0 +1,736 @@
+[2-11-2022 23:17:25] >> DELETED ./log.txt File => Success     > null = 86:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[2-11-2022 23:17:25] Terrarium Server Restarted
+Initialization Complete
+     > null = 429:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[2-11-2022 23:33:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-11-2022 23:34:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 8:36:34] API :: Attempt to New Schedule Created: Immediate On : 1644676594864 Failed: Failed to Parse List: []     > validate = 194:23 => file:///home/pi/terrarium/terrarium.mjs
+     >> null = 206:8 => file:///home/pi/terrarium/terrarium.mjs
+     >>> Layer.handle [as handle_request] = 95:5 => /home/pi/terrarium/node_modules/express/lib/router/layer.js
+
+[2-12-2022 8:36:35] API :: Successful: New Schedule Created: ALL ON : 1644676596506     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-12-2022 9:00:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 9:01:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 9:27:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 9:28:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 9:28:05] Sensor Disconnected
+DHT22 Sensor Failed Reading in Proactive Mode | [Sensor is currently ON]
+Failed with Error: Error: failed to read sensor
+Operating with Historic 10 Average Values
+     > null = 112:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+-> Email Sent Successfully
+[2-12-2022 9:54:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 9:55:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 10:21:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 10:22:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 10:48:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 10:49:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 11:15:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 11:16:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 11:42:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 11:43:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 12:09:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 12:10:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 12:36:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 12:37:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 13:03:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 13:04:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 13:30:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 13:31:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 13:57:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 13:58:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 14:24:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 14:25:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 14:51:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 14:52:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 15:18:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 15:19:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 15:45:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 15:46:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 16:12:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 16:13:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 16:39:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 16:40:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 17:06:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 17:07:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 17:33:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 17:34:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 18:00:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 18:01:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 18:27:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 18:28:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 18:54:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 18:55:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 19:21:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 19:22:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 19:48:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 19:49:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 20:15:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 20:16:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 20:42:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 20:43:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 21:09:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 21:10:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 21:36:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 21:37:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 22:03:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 22:04:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 22:30:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 22:31:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 22:57:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 22:58:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 23:24:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 23:25:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 23:51:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-12-2022 23:52:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 0:18:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 0:19:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 0:45:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 0:46:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 1:12:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 1:13:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 1:39:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 1:40:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 2:06:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 2:07:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 2:33:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 2:34:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 3:00:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 3:01:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 3:27:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 3:28:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 3:54:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 3:55:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 4:21:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 4:22:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 4:48:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 4:49:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 5:00:03] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[2-13-2022 5:00:03] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[2-13-2022 5:00:03] Terrarium Server Restarted
+Initialization Complete
+     > null = 429:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[2-13-2022 5:00:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 5:00:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 5:27:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 5:27:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 5:27:36] Sensor Disconnected
+DHT22 Sensor Failed Reading in Proactive Mode | [Sensor is currently ON]
+Failed with Error: Error: failed to read sensor
+Operating with Historic 10 Average Values
+     > null = 112:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+-> Email Sent Successfully
+[2-13-2022 5:54:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 5:54:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 6:21:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 6:21:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 6:48:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 6:48:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 7:15:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 7:15:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 7:42:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 7:42:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 8:09:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 8:09:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 8:36:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 8:36:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 9:03:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 9:03:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 9:30:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 9:30:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 9:57:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 9:57:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 10:24:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 10:24:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 10:51:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 10:51:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 11:18:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 11:18:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 11:45:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 11:45:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 12:12:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 12:12:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 12:39:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 12:39:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 13:06:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 13:06:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 13:33:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 13:33:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 14:00:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 14:00:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 14:27:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 14:27:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 14:54:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-13-2022 14:54:36] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-18-2022 13:36:16] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[2-18-2022 13:36:16] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[2-18-2022 13:36:18] Terrarium Server Restarted
+Initialization Complete
+     > null = 429:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[2-18-2022 13:36:39] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-18-2022 13:36:52] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-18-2022 13:36:54] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1644800400000,6 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 13:36:54] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1644807600000,12 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 13:36:54] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1644899400000,5 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 13:36:54] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1644865200000,129 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 13:36:54] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1644865200000,130 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 13:36:54] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1644930000000,2 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 13:36:55] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE time BETWEEN ? AND ? ORDER BY time DESC;' :: 1645123014574,1645213014574 => Error: SQLITE_BUSY: database is locked
+     > null = 37:31 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseGetReadingRange = 65:18 => file:///home/pi/terrarium/backend/database.mjs
+     >>> async generateEmailHTML = 64:21 => file:///home/pi/terrarium/backend/communicate.mjs
+
+[2-18-2022 13:36:55] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE time BETWEEN ? AND ? ORDER BY time DESC;' :: 1645123014574,1645213014574 => Error: SQLITE_BUSY: database is locked
+     > null = 37:31 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseGetReadingRange = 65:18 => file:///home/pi/terrarium/backend/database.mjs
+     >>> async generateEmailHTML = 64:21 => file:///home/pi/terrarium/backend/communicate.mjs
+
+[2-18-2022 13:36:55] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE time BETWEEN ? AND ? ORDER BY time DESC;' :: 1645123014573,1645213014573 => Error: SQLITE_BUSY: database is locked
+     > null = 37:31 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseGetReadingRange = 65:18 => file:///home/pi/terrarium/backend/database.mjs
+     >>> async generateEmailHTML = 64:21 => file:///home/pi/terrarium/backend/communicate.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+[2-18-2022 14:00:14] API :: Successful: New Schedule Created: Immediate (W-D.H.L-E.H.L) : 1645214414456     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-18-2022 14:00:33] API :: Successful: New Schedule Created: Immediate (W.F.A.P-V.F) : 1645214433620     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-18-2022 14:57:35] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[2-18-2022 14:57:37] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1645102800000,2 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 14:57:37] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1645038000000,129 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 14:57:37] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1644850800000,12 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 14:57:37] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1645164000000,44 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 14:57:37] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1644822000000,6 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+[2-18-2022 14:57:37] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1645072200000,5 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+-> Email Sent Successfully
+[2-18-2022 15:24:33] Temperature Reestablished from Maximum
+72.12-F = 22.29-C 
+
+[2-18-2022 15:51:33] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+54.59%  < 60.00%
+
+[2-18-2022 16:18:33] Humidity Reestablished
+92.80% 
+
+[2-18-2022 17:12:33] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+59.70%  < 60.00%
+
+[2-18-2022 17:39:33] Humidity Reestablished
+63.79% 
+
+[2-18-2022 21:42:34] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+53.00%  < 60.00%
+
+[2-18-2022 22:09:33] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+53.00%  < 60.00%
+
+[2-18-2022 22:36:33] Humidity Reestablished
+94.50% 
+
+[2-18-2022 23:41:36] API :: Successful: New Schedule Created: Immediate Heat : 1645249293876     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-18-2022 23:42:06] API :: Successful: New Schedule Created: Toggle [Extra Heat] : 1645249326535     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-19-2022 0:24:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[2-19-2022 0:51:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[2-19-2022 1:45:33] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+58.79%  < 60.00%
+
+[2-19-2022 2:12:33] Humidity Reestablished
+95.30% 
+
+[2-19-2022 14:21:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[2-19-2022 14:48:33] Temperature Reestablished from Maximum
+76.80-F = 24.89-C 
+
+[2-19-2022 16:36:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-19-2022 17:03:33] Temperature Reestablished from Maximum
+75.72-F = 24.29-C 
+
+[2-19-2022 18:24:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-19-2022 18:51:33] Temperature Reestablished from Maximum
+75.00-F = 23.89-C 
+
+[2-19-2022 19:45:34] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[2-19-2022 19:57:41] API :: Successful: New Schedule Created: Toggle (D.G.L) : 1645322261846     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-19-2022 19:57:41] API :: Successful: New Schedule Created: Toggle (D.H.L) : 1645322262323     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-19-2022 19:57:52] API :: Successful: New Schedule Created: Toggle (W) : 1645322273032     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-19-2022 20:12:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+-> Email Sent Successfully
+[2-20-2022 7:31:48] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1645363908544     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-20-2022 7:31:58] API :: Successful: New Schedule Created: Immediate Water : 1645363918582     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-20-2022 7:32:03] API :: Successful: New Schedule Created: Immediate Water : 1645363923906     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-20-2022 8:30:48] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1645367449271     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-20-2022 8:30:55] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1645367455571     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-20-2022 10:44:55] API :: Successful: New Schedule Created: Immediate (W.F.A.P) : 1645375495893     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-20-2022 12:51:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[2-20-2022 13:18:33] Temperature Reestablished from Maximum
+77.18-F = 25.10-C 
+
+[2-20-2022 14:39:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[2-20-2022 15:06:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[2-20-2022 16:27:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-20-2022 16:54:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.86-F = 27.70-C  > 26.00-C = 78.80-F
+
+[2-20-2022 18:42:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.50-F = 27.50-C  > 26.00-C = 78.80-F
+
+[2-20-2022 19:09:33] Temperature Reestablished from Maximum
+77.90-F = 25.50-C 
+
+[2-20-2022 20:30:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-20-2022 20:57:34] Temperature Reestablished from Maximum
+74.30-F = 23.50-C 
+
+[2-20-2022 21:51:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[2-20-2022 22:18:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[2-21-2022 14:03:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.50-F = 27.50-C  > 26.00-C = 78.80-F
+
+[2-21-2022 14:30:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[2-21-2022 16:18:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.58-F = 28.10-C  > 26.00-C = 78.80-F
+
+[2-21-2022 16:45:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[2-21-2022 18:33:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[2-21-2022 19:00:34] Temperature Reestablished from Maximum
+77.70-F = 25.39-C 
+
+[2-21-2022 19:27:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[2-21-2022 19:54:33] Temperature Reestablished from Maximum
+77.90-F = 25.50-C 
+
+[2-22-2022 0:51:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[2-22-2022 1:18:33] Temperature Reestablished from Maximum
+78.60-F = 25.89-C 
+
+[2-22-2022 13:00:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+
+[2-22-2022 13:27:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.70-F = 26.50-C  > 26.00-C = 78.80-F
+
+[2-22-2022 13:54:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[2-22-2022 14:21:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[2-22-2022 14:48:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[2-22-2022 15:15:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[2-22-2022 15:42:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+
+[2-22-2022 16:09:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[2-22-2022 16:36:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[2-22-2022 17:03:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[2-22-2022 17:30:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.60-F = 27.00-C  > 26.00-C = 78.80-F
+
+[2-22-2022 17:57:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.40-F = 26.89-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[2-22-2022 18:24:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[2-22-2022 18:51:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-22-2022 19:18:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:76 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[2-22-2022 19:45:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[2-23-2022 6:33:34] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+70.16-F = 21.20-C  < 21.50-C = 70.70-F
+
+[2-23-2022 7:00:33] Temperature Reestablished from Minimum
+78.08-F = 25.60-C 
+
+[2-24-2022 15:24:33] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+54.00%  < 60.00%
+
+[2-24-2022 15:51:33] Humidity Reestablished
+72.00% 
+
+[2-24-2022 23:42:57] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1645767776874     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-25-2022 13:54:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[2-25-2022 14:21:33] Temperature Reestablished from Maximum
+76.28-F = 24.60-C 
+
+[2-25-2022 15:42:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[2-25-2022 16:09:33] Temperature Reestablished from Maximum
+77.36-F = 25.20-C 
+
+[2-25-2022 17:57:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-25-2022 17:57:33] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+57.29%  < 60.00%
+
+[2-25-2022 18:24:33] Temperature Reestablished from Maximum
+75.38-F = 24.10-C 
+
+[2-25-2022 18:24:33] Humidity Reestablished
+72.09% 
+
+[2-25-2022 19:45:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-25-2022 20:12:34] Temperature Reestablished from Maximum
+72.50-F = 22.50-C 
+
+[2-26-2022 14:39:34] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[2-26-2022 15:06:33] Temperature Reestablished from Maximum
+78.60-F = 25.89-C 
+
+[2-26-2022 16:27:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.12-F = 27.29-C  > 26.00-C = 78.80-F
+
+[2-26-2022 16:54:34] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+81.86-F = 27.70-C  > 26.00-C = 78.80-F
+
+[2-26-2022 16:54:34] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+56.79%  < 60.00%
+
+[2-26-2022 17:21:33] Humidity Reestablished
+93.40% 
+
+[2-26-2022 18:15:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[2-26-2022 18:42:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.22-F = 26.79-C  > 26.00-C = 78.80-F
+
+[2-26-2022 20:03:33] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+59.90%  < 60.00%
+
+[2-26-2022 20:30:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-26-2022 20:30:33] Humidity Reestablished
+75.40% 
+
+[2-26-2022 20:57:34] Temperature Reestablished from Maximum
+73.58-F = 23.10-C 
+
+-> Email Sent Successfully
+[2-27-2022 14:03:33] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+78.98-F = 26.10-C  > 26.00-C = 78.80-F
+
+[2-27-2022 14:25:51] API :: Successful: New Schedule Created: Immediate Light : 1645993551889     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-27-2022 14:25:55] API :: Successful: New Schedule Created: Toggle [Night] : 1645993556063     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-27-2022 14:26:01] API :: Successful: New Schedule Created: Toggle [Night] : 1645993561465     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-27-2022 14:26:13] API :: Successful: New Schedule Created: Toggle (W) : 1645993573447     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-27-2022 14:26:22] API :: Successful: Postponing Next Evaluation for: 3600000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[2-27-2022 15:26:37] Temperature Reestablished from Maximum
+78.08-F = 25.60-C 
+
+[2-27-2022 15:53:38] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-27-2022 16:20:37] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.88-F = 26.60-C  > 26.00-C = 78.80-F
+
+[2-27-2022 18:08:37] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.78-F = 27.10-C  > 26.00-C = 78.80-F
+
+[2-27-2022 18:35:38] Temperature Reestablished from Maximum
+74.48-F = 23.60-C 
+
+[2-27-2022 19:29:38] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.96-F = 27.20-C  > 26.00-C = 78.80-F
+
+[2-27-2022 19:29:38] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+58.70%  < 60.00%
+
+[2-27-2022 19:17:26] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[2-27-2022 19:17:26] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+

@@ -1,0 +1,52 @@
+#menu-container {
+    
+    position: fixed;
+    bottom:0;
+    left: 0;
+    /* z-index: 11; */
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: auto;
+    width: 100vw;
+    /* height: 15vh; */
+    overflow-x: scroll;
+
+    background-color: black;
+}
+#menu-container-spacer {
+    display: block;
+    bottom: 0;
+    height: 15vh;
+    width: 100vw;
+    /* background-color: black; */
+}
+.menu-icon-box {
+    grid-row: 1;
+
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 1;
+
+    /* margin: 0.5rem;   */
+    padding: 0.5rem;  
+    border-radius: 0.6rem;
+}
+.menu-icon-text {
+    font-family: 'New Tegomin', serif;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.15rem;
+    color: white;
+
+}
+.menu-icon {
+    height: 1.5rem;
+    width: 1.50rem;
+    margin: 0 auto;
+}
+
+.menu-icon-box:hover {
+    cursor:grab;
+    background-color: var(--main-color);
+    color: white;
+}

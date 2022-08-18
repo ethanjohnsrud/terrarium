@@ -1,0 +1,78 @@
+#root {
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  --main-color: #006600;
+  --accent-color: #444C38;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  overflow-y: hidden; 
+  overflow-x: hidden; 
+  font-family: 'Raleway', sans-serif; 
+  font-size: 15px;  
+  letter-spacing: 0.1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  html  {
+    font-size: 10px;  
+    letter-spacing: 0.07rem;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  overflow-y: hidden; 
+  overflow-x: hidden;  
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+body, button, input, textarea, p {
+  font-family: 'KoHo', sans-serif;
+  font-weight: 400;
+}
+
+
+
+.none {
+  margin: 0;
+  padding: 0;
+}
+.no-size {
+  display: none;
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  margin: 0;
+  padding: 0; 
+}
+.border-box { /** padding cause overflow width: https://stackoverflow.com/questions/21621584/padding-causes-horizontal-scroll-it-increases-the-width **/
+  box-sizing:border-box;  
+  -moz-box-sizing:border-box; 
+  -webkit-box-sizing:border-box; 
+  -ms-box-sizing:border-box; 
+}
+
+p {
+  margin: 0.5rem;
+  padding: 0;
+}
+

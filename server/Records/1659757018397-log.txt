@@ -1,0 +1,346 @@
+[8-5-2022 22:17:34] Sequential Query Fail: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: schedules.priority     > null = 47:22 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:17:34] # SEQUENTIAL QUERY RUN ERROR: 'UPDATE schedules SET priority = 1 WHERE priority = 2;,UPDATE schedules SET priority = 2 WHERE priority = 3;,UPDATE schedules SET priority = 3 WHERE priority = 4;,UPDATE schedules SET priority = 4 WHERE priority = 5;,UPDATE schedules SET priority = 5 WHERE priority = 6;,UPDATE schedules SET priority = 6 WHERE priority = 7;,UPDATE schedules SET priority = 7 WHERE priority = 12;,UPDATE schedules SET priority = 8 WHERE priority = 44;' => Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: schedules.priority
+     > null = 54:49 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> async databaseSimplifyPriority = 122:16 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >>> null = 177:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:17:34] Failed to Swap Priority: ReferenceError: database is not defined     > databaseSimplifyPriority = 123:20 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> null = 177:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:17:34] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+[8-5-2022 22:17:34] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///C:/Users/ethan/Projects/terrariumControl/current/terrarium.mjs
+
+[8-5-2022 22:17:34] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials eq37-20020a056870a92500b000fb2aa6eef2sm1072842oab.32 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k5-20020a4aa5c5000000b004442219ec6asm244337oom.21 - gsmtp  
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h1-20020a056870c18100b0010e73e252b8sm1043016oad.6 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y18-20020a056808131200b0034290c4ed01sm918802oiv.41 - gsmtp  
+[8-5-2022 22:17:39] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l13-20020a4ac60d000000b00435f5744be3sm1005893ooq.9 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c23-20020a9d7857000000b0061c9c7813d4sm1042203otm.24 - gsmtp  
+[8-5-2022 22:22:05] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+[8-5-2022 22:22:05] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///C:/Users/ethan/Projects/terrariumControl/current/terrarium.mjs
+
+[8-5-2022 22:22:05] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c42-20020a05683034aa00b00636cd1d13b9sm4362otu.61 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y35-20020a9d22a6000000b0061c7adb4006sm1026670ota.13 - gsmtp  
+[8-5-2022 22:22:10] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u4-20020a4a2104000000b0044103bb6e23sm1025149oou.25 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 21-20020aca0f15000000b00342d1721292sm112721oip.8 - gsmtp  
+[8-5-2022 22:23:23] Sequential Query Fail: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: schedules.priority     > null = 47:22 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:23:23] # SEQUENTIAL QUERY RUN ERROR: 'UPDATE schedules SET priority = 1 WHERE priority = 10;,UPDATE schedules SET priority = 2 WHERE priority = 20;,UPDATE schedules SET priority = 3 WHERE priority = 30;,UPDATE schedules SET priority = 4 WHERE priority = 40;,UPDATE schedules SET priority = 5 WHERE priority = 50;,UPDATE schedules SET priority = 6 WHERE priority = 60;,UPDATE schedules SET priority = 7 WHERE priority = 70;,UPDATE schedules SET priority = 8 WHERE priority = 80;' => Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: schedules.priority
+     > null = 54:49 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> async databaseSimplifyPriority = 122:16 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >>> null = 177:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:23:23] Failed to Swap Priority: ReferenceError: database is not defined     > databaseSimplifyPriority = 123:20 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> null = 177:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:23:23] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+[8-5-2022 22:23:23] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///C:/Users/ethan/Projects/terrariumControl/current/terrarium.mjs
+
+[8-5-2022 22:23:23] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r9-20020a056830080900b00636aa590eaasm724815ots.4 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k39-20020a4a94aa000000b00425806a20f5sm1014345ooi.3 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e15-20020a056870d10f00b0010dc230fdd5sm1049951oac.22 - gsmtp  
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l5-20020a05687014c500b0010c2d339ea6sm1040280oab.23 - gsmtp  
+[8-5-2022 22:23:28] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k19-20020a056808069300b0033b31480f38sm933187oig.34 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 184-20020aca06c1000000b003429fcf0413sm932806oig.1 - gsmtp  
+[8-5-2022 22:24:17] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+[8-5-2022 22:24:17] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///C:/Users/ethan/Projects/terrariumControl/current/terrarium.mjs
+
+[8-5-2022 22:24:17] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r206-20020aca5dd7000000b00342d2d79a98sm45987oib.42 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d8-20020a05680805c800b0033ad6ea8d11sm926920oij.47 - gsmtp  
+[8-5-2022 22:24:22] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s2-20020a056870248200b0010edfa2b0e8sm1050228oaq.50 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s9-20020aca5e09000000b0033a40052fabsm926434oib.38 - gsmtp  
+[8-5-2022 22:29:52] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+[8-5-2022 22:29:52] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///C:/Users/ethan/Projects/terrariumControl/current/terrarium.mjs
+
+[8-5-2022 22:29:52] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y14-20020a9d634e000000b0061b8653b0c9sm1043841otk.22 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j11-20020a4ad6cb000000b00440b3e215cesm1012323oot.46 - gsmtp  
+[8-5-2022 22:29:57] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bk1-20020a0568081a0100b00339c7af0e8esm920638oib.51 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials cj12-20020a0568081b8c00b0034276786a89sm927741oib.31 - gsmtp  
+[8-5-2022 22:32:35] Sequential Query Fail: Error: SQLITE_MISMATCH: datatype mismatch     > null = 47:22 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:32:35] # SEQUENTIAL QUERY RUN ERROR: 'UPDATE schedules SET priority = 16597565921821659756755839 WHERE priority = 1659756592182;,UPDATE schedules SET priority = 116597565921821659756755839 WHERE priority = 11659756592182;,UPDATE schedules SET priority = 216597565921821659756755839 WHERE priority = 21659756592182;,UPDATE schedules SET priority = 316597565921821659756755839 WHERE priority = 31659756592182;,UPDATE schedules SET priority = 416597565921821659756755839 WHERE priority = 41659756592182;,UPDATE schedules SET priority = 516597565921821659756755839 WHERE priority = 51659756592182;,UPDATE schedules SET priority = 616597565921821659756755839 WHERE priority = 61659756592182;,UPDATE schedules SET priority = 716597565921821659756755839 WHERE priority = 71659756592182;,UPDATE schedules SET priority = 816597565921821659756755839 WHERE priority = 81659756592182;' => Error: SQLITE_MISMATCH: datatype mismatch
+     > null = 54:49 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> async databaseSimplifyPriority = 120:33 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >>> null = 184:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:32:35] Failed to Swap Priority: ReferenceError: database is not defined     > databaseSimplifyPriority = 130:20 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> null = 184:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:32:35] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+[8-5-2022 22:32:35] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+[8-5-2022 22:32:35] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///C:/Users/ethan/Projects/terrariumControl/current/terrarium.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w6-20020a4aa446000000b00443d5c1ac23sm353528ool.23 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y5-20020a056830070500b0061d41301666sm1035652ots.30 - gsmtp  
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials z23-20020a9d65d7000000b0061c1a0b4677sm1027524oth.12 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bb20-20020a056820161400b00435954f91ddsm1002045oob.28 - gsmtp  
+[8-5-2022 22:32:40] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials eq37-20020a056870a92500b000fb2aa6eef2sm1077882oab.32 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o33-20020a05687107a100b000f5e89a9c60sm1086637oap.3 - gsmtp  
+[8-5-2022 22:33:25] Sequential Query Fail: Error: SQLITE_MISMATCH: datatype mismatch     > null = 47:22 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:33:25] # SEQUENTIAL QUERY RUN ERROR: 'UPDATE schedules SET priority = 16597565921821659756805826 WHERE priority = 1659756592182;,UPDATE schedules SET priority = 116597565921821659756805826 WHERE priority = 11659756592182;,UPDATE schedules SET priority = 216597565921821659756805826 WHERE priority = 21659756592182;,UPDATE schedules SET priority = 316597565921821659756805826 WHERE priority = 31659756592182;,UPDATE schedules SET priority = 416597565921821659756805826 WHERE priority = 41659756592182;,UPDATE schedules SET priority = 516597565921821659756805826 WHERE priority = 51659756592182;,UPDATE schedules SET priority = 616597565921821659756805826 WHERE priority = 61659756592182;,UPDATE schedules SET priority = 716597565921821659756805826 WHERE priority = 71659756592182;,UPDATE schedules SET priority = 816597565921821659756805826 WHERE priority = 81659756592182;' => Error: SQLITE_MISMATCH: datatype mismatch
+     > null = 54:49 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> async databaseSimplifyPriority = 120:33 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >>> null = 184:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:33:25] Failed to Swap Priority: ReferenceError: database is not defined     > databaseSimplifyPriority = 130:20 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> null = 184:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:33:25] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+[8-5-2022 22:33:25] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///C:/Users/ethan/Projects/terrariumControl/current/terrarium.mjs
+
+[8-5-2022 22:33:25] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h17-20020a056870171100b00101bc3380a5sm1052004oae.12 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d8-20020a9d2908000000b0061d1f5582dfsm1038899otb.0 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v26-20020a9d7d1a000000b00636b72e209esm583252otn.42 - gsmtp  
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v68-20020acaac47000000b00339c4d2c29csm926205oie.48 - gsmtp  
+[8-5-2022 22:33:30] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t4-20020a9d5904000000b0061c80e20c7dsm1028222oth.81 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a24-20020a4a8dd8000000b004354a4412edsm1019692ool.29 - gsmtp  
+[8-5-2022 22:36:04] Sequential Query Fail: Error: SQLITE_MISMATCH: datatype mismatch     > null = 47:22 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:36:04] # SEQUENTIAL QUERY RUN ERROR: 'UPDATE schedules SET priority = 816597565921821659756964232 WHERE priority = 81659756592182;,UPDATE schedules SET priority = 716597565921821659756964232 WHERE priority = 71659756592182;,UPDATE schedules SET priority = 616597565921821659756964232 WHERE priority = 61659756592182;,UPDATE schedules SET priority = 516597565921821659756964232 WHERE priority = 51659756592182;,UPDATE schedules SET priority = 416597565921821659756964232 WHERE priority = 41659756592182;,UPDATE schedules SET priority = 316597565921821659756964232 WHERE priority = 31659756592182;,UPDATE schedules SET priority = 216597565921821659756964232 WHERE priority = 21659756592182;,UPDATE schedules SET priority = 116597565921821659756964232 WHERE priority = 11659756592182;,UPDATE schedules SET priority = 16597565921821659756964232 WHERE priority = 1659756592182;' => Error: SQLITE_MISMATCH: datatype mismatch
+     > null = 54:49 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> async databaseSimplifyPriority = 120:13 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >>> null = 184:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:36:04] Failed to Swap Priority: ReferenceError: database is not defined     > databaseSimplifyPriority = 130:20 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+     >> null = 184:18 => async file:///C:/Users/ethan/Projects/terrariumControl/current/backend/database.mjs
+
+[8-5-2022 22:36:04] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+[8-5-2022 22:36:04] Terrarium Server Restarted
+Initialization Complete
+     > null = 438:1 => file:///C:/Users/ethan/Projects/terrariumControl/current/terrarium.mjs
+
+[8-5-2022 22:36:04] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o39-20020a05687096a700b0010df94cac37sm1057943oaq.34 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x26-20020a056830409a00b0061cf85b2a0csm1031987ott.5 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ch9-20020a056830638900b0061cbd18bd18sm1067188otb.45 - gsmtp  
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o39-20020a05687096a700b0010df94cac37sm1057945oaq.34 - gsmtp  
+[8-5-2022 22:36:09] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/current/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y5-20020a544d85000000b0033e8629b323sm930311oix.35 - gsmtp  	->Attempting to resend without Attachment and Stats
+# ERROR Sending Email Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s2-20020a056870248200b0010edfa2b0e8sm1054029oaq.50 - gsmtp  

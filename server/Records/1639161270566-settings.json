@@ -1,0 +1,203 @@
+{
+    "emailIssueRecipients": [
+        "ethanjohnsrud@gmail.com"
+    ],
+    "emailStatusRecipients": [
+        "ethanjohnsrud@gmail.com"
+    ],
+    "updateRegularity": "Week",
+    "requestRemoteServerFrequency": 900000,
+    "accessDatabase": true,
+    "evaluationFrequency": 900000,
+    "maximumTemperature": 28,
+    "minimumTemperature": 21,
+    "maximumHumidity": 100,
+    "minimumHumidity": 70,
+    "dayHourStart": 7,
+    "nightHourStart": 20,
+    "sensorType": "DHT22",
+    "sensorMode": "Proactive",
+    "CONTROLS": [
+        {
+            "id": 0,
+            "name": "Day Heat Lamp",
+            "types": [
+                "Day",
+                "Heat",
+                "Light"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Night Heat Lamp",
+            "types": [
+                "Night",
+                "Heat",
+                "Light"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Day Grow Light",
+            "types": [
+                "Day",
+                "Light"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Waterfall",
+            "types": [
+                "Humidify",
+                "Water"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Vent Fan",
+            "types": [
+                "Dehumidify",
+                "Cool",
+                "Fan"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Cricket Vent",
+            "types": [
+                "Cricket",
+                "Fan"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Water Filter and Pump",
+            "types": [
+                "Water",
+                "Humidify"
+            ]
+        }
+    ],
+    "CLIMATE": [
+        {
+            "hour": 0,
+            "temperature": 23,
+            "humidity": 85
+        },
+        {
+            "hour": 1,
+            "temperature": 23,
+            "humidity": 80
+        },
+        {
+            "hour": 2,
+            "temperature": 22,
+            "humidity": 80
+        },
+        {
+            "hour": 3,
+            "temperature": 22,
+            "humidity": 90
+        },
+        {
+            "hour": 4,
+            "temperature": 21,
+            "humidity": 90
+        },
+        {
+            "hour": 5,
+            "temperature": 21,
+            "humidity": 95
+        },
+        {
+            "hour": 6,
+            "temperature": 22,
+            "humidity": 95
+        },
+        {
+            "hour": 7,
+            "temperature": 22,
+            "humidity": 90
+        },
+        {
+            "hour": 8,
+            "temperature": 22,
+            "humidity": 90
+        },
+        {
+            "hour": 9,
+            "temperature": 23,
+            "humidity": 85
+        },
+        {
+            "hour": 10,
+            "temperature": 23,
+            "humidity": 85
+        },
+        {
+            "hour": 11,
+            "temperature": 23,
+            "humidity": 80
+        },
+        {
+            "hour": 12,
+            "temperature": 24,
+            "humidity": 80
+        },
+        {
+            "hour": 13,
+            "temperature": 24,
+            "humidity": 80
+        },
+        {
+            "hour": 14,
+            "temperature": 25,
+            "humidity": 80
+        },
+        {
+            "hour": 15,
+            "temperature": 26,
+            "humidity": 75
+        },
+        {
+            "hour": 16,
+            "temperature": 26,
+            "humidity": 75
+        },
+        {
+            "hour": 17,
+            "temperature": 25,
+            "humidity": 75
+        },
+        {
+            "hour": 18,
+            "temperature": 25,
+            "humidity": 80
+        },
+        {
+            "hour": 19,
+            "temperature": 25,
+            "humidity": 80
+        },
+        {
+            "hour": 20,
+            "temperature": 24,
+            "humidity": 80
+        },
+        {
+            "hour": 21,
+            "temperature": 24,
+            "humidity": 80
+        },
+        {
+            "hour": 22,
+            "temperature": 23,
+            "humidity": 80
+        },
+        {
+            "hour": 23,
+            "temperature": 23,
+            "humidity": 80
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+[2-27-2022 19:17:28] >> DELETED ./log.txt File => Success     > null = 86:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[2-27-2022 19:17:28] Terrarium Server Restarted
+Initialization Complete
+     > null = 429:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[2-28-2022 12:26:44] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-28-2022 12:26:57] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[2-28-2022 16:02:38] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.16-F = 26.20-C  > 26.00-C = 78.80-F
+
+[2-28-2022 16:29:38] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+80.06-F = 26.70-C  > 26.00-C = 78.80-F
+
+[2-28-2022 18:44:38] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[2-28-2022 19:11:38] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+
+[3-1-2022 0:15:02] API :: Successful: New Schedule Created: Immediate Water : 1646115302774     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[3-1-2022 5:00:00] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[3-1-2022 5:00:00] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+

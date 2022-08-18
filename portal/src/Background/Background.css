@@ -1,0 +1,4 @@
+.blur-effect{
+    filter: blur(6px);
+  -webkit-filter: blur(6px);
+}

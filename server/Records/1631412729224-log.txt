@@ -1,0 +1,4 @@
+[9-11-2021 20:55:38] >>> RESET FILE STRUCTURE :: SAVED DATA AND DELETED FILES :: ./terrarium.db | ./log.txt | ./settings.json
+	> Object.resetClearSavedData = 90:11 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/data.mjs
+	>> null = 9:1 => async file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/server.mjs
+

@@ -1,0 +1,290 @@
+[11-30-2021 13:19:28] >> DELETED ./log.txt File => Success     > null = 86:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[11-30-2021 13:19:28] Terrarium Server Restarted
+Initialization Complete
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-1-2021 14:17:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 14:17:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 14:30:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 14:30:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 14:30:30] Sensor Disconnected
+DHT22 Sensor Failed Reading in Proactive Mode | [Sensor is currently ON]
+Failed with Error: Error: failed to read sensor
+Operating with Historic 10 Average Values
+     > null = 109:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+-> Email Sent Successfully
+[12-1-2021 14:43:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 14:43:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 14:56:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 14:56:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 15:09:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 15:09:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 15:22:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 15:22:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 15:35:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 15:35:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 15:48:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 15:48:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:01:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:01:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:14:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:14:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:27:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:27:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:40:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:40:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:53:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 16:53:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:06:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:06:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:19:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:19:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:32:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:32:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:45:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:45:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:58:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 17:58:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 18:11:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 18:11:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 18:24:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 18:24:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 18:37:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 18:37:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 18:50:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 18:50:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:03:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:03:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:16:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:16:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:29:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:29:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:42:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:42:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:55:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 19:55:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 20:03:35] API :: Successful: New Schedule Created: Toggle [Cricket] : 1638410615013     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-1-2021 20:08:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 20:08:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 20:21:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 20:21:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 20:34:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 20:34:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 20:47:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 20:47:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:00:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:00:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:13:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:13:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:26:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:26:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:39:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:39:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:52:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 21:52:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:05:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:05:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:18:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:18:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:31:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:31:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:44:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:44:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:57:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 22:57:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 23:10:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 23:10:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 23:23:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 23:23:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 23:36:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 23:36:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 23:49:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-1-2021 23:49:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:02:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:02:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:15:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:15:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:28:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:28:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:41:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:41:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:50:13] API :: Successful: New Schedule Created: ALL OFF : 1638427811456     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:50:25] API :: Successful: New Schedule Created: Toggle (D.H.L) : 1638427823029     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:51:19] API :: Successful: New Schedule Created: Toggle (D.H.L) : 1638427877950     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:51:22] API :: Successful: Postponing Next Evaluation for: 900000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:51:27] API :: Successful: New Schedule Created: Toggle (D.G.L) : 1638427885668     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:52:02] API :: Successful: New Schedule Created: Toggle (D.H.L) : 1638427920704     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:53:19] API :: Successful: New Schedule Created: Toggle (W) : 1638427997650     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:53:32] API :: Successful: New Schedule Created: Toggle (W) : 1638428010723     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:54:54] API :: Successful: New Schedule Created: Toggle [Cool] : 1638428092471     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:55:14] API :: Successful: New Schedule Created: Toggle [Cool] : 1638428112776     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:56:11] API :: Successful: New Schedule Created: Toggle [Cool] : 1638428169780     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:56:33] API :: Successful: New Schedule Created: Immediate Fan : 1638428191121     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:56:46] API :: Successful: New Schedule Created: Toggle [Night] : 1638428204238     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:57:03] API :: Successful: New Schedule Created: Toggle [Cool] : 1638428221395     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:57:18] API :: Successful: New Schedule Created: Immediate [Night] : 1638428236531     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:58:57] Sensor Reconnected
+DHT22 Sensor in Proactive Mode | [Sensor is currently ON]
+Operating Status: Operating with Current Conditions
+     > null = 87:49 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-2-2021 0:58:57] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-2-2021 0:59:39] API :: Successful: New Schedule Created: Toggle [Cool] : 1638428377572     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 0:59:50] API :: Successful: New Schedule Created: Toggle [Night] : 1638428388250     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:00:16] API :: Successful: New Schedule Created: Toggle [Night] : 1638428414152     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:02:18] API :: Successful: Delete Schedule: 159     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:02:21] API :: Successful: Delete Schedule: 158     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:02:27] API :: Successful: Delete Schedule: 157     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:02:29] API :: Successful: Delete Schedule: 156     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:02:32] API :: Successful: Delete Schedule: 155     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:02:34] API :: Successful: Delete Schedule: 153     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:02:58] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:03:57] API :: Successful: New Schedule Created: Immediate (D.H.L-N.H.L-D.G.L-W-V.F-C.V-W.F.A.P) : 1638428635140     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:04:34] API :: Successful: New Schedule Created: Toggle (W) : 1638428672349     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:06:01] API :: Successful: New Schedule Created: Toggle (W) : 1638428759279     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:27:16] API :: Successful: New Schedule Created: Immediate Heat : 1638430034602     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:29:20] API :: Successful: New Schedule Created: Toggle [Cool] : 1638430158731     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:29:44] API :: Successful: Replace Schedule: Toggle [Cool] : 1638430158731     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 1:33:20] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1638430398698     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 3:16:24] API :: Successful: New Schedule Created: ALL OFF : 1638436582802     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 5:57:28] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 76:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-2-2021 5:57:28] >> MOVE ./database.db File to ./Records => Success     > null = 78:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+

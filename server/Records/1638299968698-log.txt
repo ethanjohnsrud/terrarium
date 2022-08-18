@@ -1,0 +1,634 @@
+[11-14-2021 22:15:07] >> DELETED ./log.txt File => Success     > null = 86:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[11-14-2021 22:15:07] Terrarium Server Restarted
+Initialization Complete
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-14-2021 22:15:28] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-14-2021 22:15:41] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-14-2021 22:16:43] API :: Settings evaluationFrequency Successfully Updated     > null = 358:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-14-2021 22:16:51] API :: Successful: Status Email Queued     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-14-2021 22:19:12] API :: Successful: New Schedule Created: Immediate Water : 1636949952484     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-15-2021 0:21:25] API :: Successful: New Schedule Created: Toggle [Night] : 1636957285685     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-15-2021 0:21:28] API :: Successful: New Schedule Created: Toggle (D.H.L) : 1636957288688     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-16-2021 12:57:35] API :: Successful: New Schedule Created: Immediate [Cool] : 1637089055855     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-16-2021 12:59:02] API :: Successful: New Schedule Created: Clean  : 1637111400000     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-16-2021 17:34:35] API :: Successful: New Schedule Created: ALL OFF : 1637105675688     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-17-2021 7:10:54] API :: Successful: Immediate-Evaluation has been Queued     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-18-2021 18:32:48] API :: Successful: New Schedule Created: ALL OFF : 1637281967048     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-19-2021 3:25:23] API :: Successful: New Schedule Created: Vent  : 1637323200000     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-19-2021 11:15:17] API :: Successful: New Schedule Created: Immediate [Cool] : 1637342116212     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-19-2021 11:15:31] API :: Successful: New Schedule Created: Immediate (W) : 1637342129842     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-19-2021 11:21:56] API :: Successful: Status Email Queued     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-19-2021 11:54:53] API :: Successful: New Schedule Created: Toggle (W) : 1637344492417     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-19-2021 12:22:21] API :: Successful: New Schedule Created: Toggle (W) : 1637346139847     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-20-2021 6:04:58] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.90%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-20-2021 6:47:59] API :: Successful: New Schedule Created: ALL OFF : 1637412478992     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-20-2021 6:48:31] API :: Successful: Replace Schedule: ALL OFF : 1637412478992     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-20-2021 7:12:25] API :: Successful: Delete Schedule: 105     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-20-2021 7:12:55] API :: Successful: Immediate-Evaluation has been Queued     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-20-2021 8:33:57] API :: Successful: Replace Schedule: Ventilation : 1637420400000     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-20-2021 8:34:04] API :: Successful: New Schedule Created: Toggle [Cool] : 1637418844959     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-21-2021 5:44:01] API :: Successful: New Schedule Created: Toggle (W) : 1637495042021     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-21-2021 14:17:33] Terrarium Server Restarted
+Initialization Complete
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-21-2021 14:43:25] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-21-2021 14:43:38] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-21-2021 19:13:19] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.80%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-21-2021 19:36:15] API :: Successful: Immediate-Evaluation has been Queued     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-21-2021 19:37:18] API :: Successful: Postponing Next Evaluation for: 3600000     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-21-2021 19:37:43] API :: Successful: New Schedule Created: Toggle (W) : 1637545063491     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-21-2021 19:37:44] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1637545064356     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-21-2021 21:08:51] API :: Successful: New Schedule Created: Immediate (V.F-W.F.A.P-W) : 1637550531412     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-22-2021 6:54:25] API :: Successful: New Schedule Created: Immediate Day : 1637585665470     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-22-2021 6:54:26] API :: Successful: New Schedule Created: DEACTIVATING : 1637585667102     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-23-2021 5:01:33] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.08-F = 20.60-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 101:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-23-2021 12:13:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 12:13:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 12:40:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 12:40:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 12:40:51] Sensor Disconnected
+DHT22 Sensor Failed Reading in Proactive Mode | [Sensor is currently ON]
+Failed with Error: Error: failed to read sensor
+Operating with Historic 10 Average Values
+     > null = 109:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+# ERROR Sending Email Error: connect EHOSTUNREACH 142.250.113.109:465  	->Attempting to resend without Attachment and Stats
+[11-23-2021 13:07:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 13:07:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 13:34:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 13:34:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 14:01:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 14:01:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 14:28:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 14:28:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 14:55:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 14:55:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 15:22:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 15:22:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 15:49:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 15:49:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 16:16:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 16:16:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 16:43:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 16:43:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 17:10:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 17:10:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 17:37:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 17:37:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 18:04:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 18:04:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 18:31:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 18:31:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 18:58:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 18:58:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 19:25:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 19:25:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 19:52:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 19:52:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 20:19:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 20:19:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 20:46:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 20:46:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 21:13:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 21:13:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 21:40:39] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 21:40:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 22:07:39] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 22:07:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 22:34:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 22:34:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 23:01:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 23:01:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 23:28:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 23:28:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 23:55:38] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-23-2021 23:55:51] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-24-2021 0:22:33] Sensor Reconnected
+DHT22 Sensor in Proactive Mode | [Sensor is currently ON]
+Operating Status: Operating with Current Conditions
+     > null = 87:49 => file:///home/pi/terrarium/backend/utility.mjs
+
+# ERROR Sending Email Error: connect EHOSTUNREACH 142.250.113.109:465  	->Attempting to resend without Attachment and Stats
+[11-24-2021 1:10:15] Terrarium Server Restarted
+Initialization Complete
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-24-2021 1:10:36] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-24-2021 1:10:49] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-24-2021 1:30:44] API :: Successful: Immediate-Evaluation has been Queued     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-24-2021 9:56:06] API :: Successful: New Schedule Created: Toggle (W) : 1637769365851     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-24-2021 11:31:31] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+64.80%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-24-2021 11:58:30] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+64.59%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-24-2021 20:31:30] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.40%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-24-2021 21:33:26] API :: Successful: New Schedule Created: Toggle (W) : 1637811206253     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-24-2021 21:33:32] API :: Successful: New Schedule Created: Toggle [Cool] : 1637811212057     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-25-2021 10:55:31] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.30%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-26-2021 3:34:29] API :: Successful: New Schedule Created: Immediate Light : 1637919268557     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-26-2021 3:34:31] API :: Successful: New Schedule Created: ALL OFF : 1637919270170     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-26-2021 10:19:30] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.00%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 3:28:33] Terrarium Server Restarted
+Initialization Complete
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-27-2021 5:57:26] API :: Successful: New Schedule Created: Immediate Light : 1638014246631     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 5:57:33] API :: Successful: New Schedule Created: Immediate Light : 1638014253933     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 5:58:06] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1638014286787     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 5:58:18] API :: Successful: New Schedule Created: ALL OFF : 1638014299354     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 8:04:08] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+68.36-F = 20.20-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 101:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 8:31:08] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.42-F = 20.79-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 101:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 10:19:08] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+68.18-F = 20.10-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 101:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 10:46:08] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+68.70-F = 20.39-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 101:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 11:13:08] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.60-F = 20.89-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 101:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 14:22:08] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.30%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 14:23:49] Terrarium Server Restarted
+Initialization Complete
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-27-2021 14:50:18] API :: Successful: New Schedule Created: Toggle (D.H.L) : 1638046218848     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 15:41:01] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.59%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 17:02:01] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.19%  < 70.00%
+     > evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 17:08:19] API :: Successful: New Schedule Created: Toggle (D.H.L) : 1638054500026     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 17:13:54] API :: Successful: New Schedule Created: Toggle [Cricket] : 1638054835557     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 17:31:06] API :: Successful: New Schedule Created: Immediate (D.H.L-V.F-W.F.A.P) : 1638055867469     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 17:37:36] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.40%  < 70.00%
+     > Object.evaluateConditions = 123:174 => file:///home/pi/terrarium/backend/server.mjs
+
+[11-27-2021 17:37:36] API :: Successful: Immediate-Evaluation has been Queued     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-27-2021 18:35:07] API :: Successful: New Schedule Created: Immediate (V.F-W-C.V-W.F.A.P) : 1638059708701     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 18:35:16] API :: Successful: Postponing Next Evaluation for: 7200000     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 18:36:46] API :: Successful: Initiating Sensor Testing for: 3600000, with interval of: 300000     > validate = 192:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 19:31:06] Terrarium Server Restarted
+Initialization Complete
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-27-2021 19:31:49] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-27-2021 19:32:02] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-27-2021 20:07:30] Terrarium Server Restarted
+Initialization Complete
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-27-2021 20:27:42] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-27-2021 20:27:55] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-27-2021 20:40:43] Terrarium Server Restarted
+Initialization Complete
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-27-2021 20:41:04] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-27-2021 20:41:17] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-27-2021 20:42:47] API :: Successful: Initiating Sensor Testing for: 60000, with interval of: 15000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 20:44:11] Terrarium Server Restarted
+Initialization Complete
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-27-2021 20:44:49] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+62.29%  < 70.00%
+     > evaluateConditions = 137:171 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 20:47:46] API :: Settings controls-types Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 20:48:11] API :: Settings evaluationFrequency Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 20:48:32] API :: Settings updateRegularity Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 20:50:10] Humidity Reestablished
+70.30% 
+     > Object.evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+[11-27-2021 20:50:10] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-27-2021 20:57:32] API :: Settings dayHourStart Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 20:57:42] API :: Settings nightHourStart Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 20:58:36] API :: Successful: New Schedule Created: Toggle [Cool] : 1638068317764     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 21:14:26] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.19%  < 70.00%
+     > evaluateConditions = 137:171 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 21:27:26] Humidity Reestablished
+78.90% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 22:45:26] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+67.59%  < 70.00%
+     > evaluateConditions = 137:171 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 22:57:26] API :: Settings controls-types Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-27-2021 22:58:27] Humidity Reestablished
+97.80% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 23:11:27] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.19%  < 70.00%
+     > evaluateConditions = 137:171 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 23:24:26] Humidity Reestablished
+86.40% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-27-2021 23:50:27] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.90%  < 70.00%
+     > evaluateConditions = 137:171 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-28-2021 0:03:27] Humidity Reestablished
+92.30% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-28-2021 1:28:17] Terrarium Server Restarted
+Initialization Complete
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-28-2021 4:36:54] API :: Successful: New Schedule Created: Toggle [Night] : 1638095815496     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-28-2021 4:41:11] API :: Successful: Replace Schedule: Calm : 1638079200000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-28-2021 4:43:16] API :: Successful: New Schedule Created: Heat Day : 1638126000000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-28-2021 4:44:41] API :: Successful: New Schedule Created: Day  Calm : 1638126000000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-28-2021 4:45:19] API :: Successful: Replace Schedule: Night Calm : 1638079200000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-28-2021 8:11:55] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.69%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-28-2021 8:24:55] Humidity Reestablished
+86.80% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-28-2021 9:03:55] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.90%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-28-2021 9:16:55] Humidity Reestablished
+71.40% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 0:00:55] Humidity Reestablished
+73.00% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 1:21:26] API :: Successful: New Schedule Created: ALL OFF : 1638170486964     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-29-2021 1:21:37] API :: Successful: Postponing Next Evaluation for: 7200000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-29-2021 7:02:52] Humidity Reestablished
+93.09% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 7:28:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.59%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 7:41:52] Humidity Reestablished
+94.00% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 8:07:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.09%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 8:20:52] Humidity Reestablished
+92.19% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 8:46:52] Humidity Reestablished
+90.90% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 9:12:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.30%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 9:25:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+64.80%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 9:38:52] Humidity Reestablished
+92.09% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 10:04:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.00%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 10:17:52] Humidity Reestablished
+87.90% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 10:43:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.30%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 10:56:52] Humidity Reestablished
+88.19% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-29-2021 11:41:34] API :: Successful: New Schedule Created: Toggle [Cool] : 1638207695405     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 0:25:30] API :: Successful: New Schedule Created: Toggle [Cool] : 1638253530982     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 0:54:40] API :: Successful: New Schedule Created: Immediate (W.F.A.P-W-V.F) : 1638255281216     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 1:01:52] Humidity Reestablished
+94.90% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-30-2021 2:46:20] API :: Successful: New Schedule Created: Toggle [Night] : 1638261979776     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 2:46:21] API :: Successful: New Schedule Created: Toggle [Cool] : 1638261980943     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 3:11:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.19%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-30-2021 3:24:52] Humidity Reestablished
+87.59% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-30-2021 3:50:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.80%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-30-2021 4:03:52] Humidity Reestablished
+97.00% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[11-30-2021 6:19:53] API :: Successful: New Schedule Created: ALL OFF : 1638274793564     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 6:20:13] API :: Successful: Postponing Next Evaluation for: 10800000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 8:52:50] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+67.00%  < 70.00%
+     > Object.evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+[11-30-2021 8:52:50] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[11-30-2021 8:53:45] API :: Successful: New Schedule Created: ALL OFF : 1638284024943     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 8:53:48] API :: Successful: New Schedule Created: Toggle (D.H.L) : 1638284027796     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 8:53:57] API :: Successful: Postponing Next Evaluation for: 10800000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 9:20:28] Humidity Reestablished
+72.09% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-30-2021 10:41:08] API :: Successful: New Schedule Created: ALL OFF : 1638290468593     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 10:41:20] API :: Successful: New Schedule Created: Immediate Light : 1638290479746     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 10:41:31] API :: Successful: Postponing Next Evaluation for: 10800000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 12:46:12] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+58.79%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-30-2021 13:12:12] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+55.70%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[11-30-2021 13:41:46] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+83.30-F = 28.50-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 89:185 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully

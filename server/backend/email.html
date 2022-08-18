@@ -1,0 +1,114 @@
+<div id='Terrarium Email Template' style="margin: auto; width: 100%; max-width: 700px; text-align: center;">
+    <h1 style="text-align: center; color: green;">{subject}</h1>
+    <h3 style="margin: 5px; text-align: center; color:\{emailTypeColor\}">{emailType}</h3>
+    <div style="border: none; background-color: black; border-radius: 5px; padding: 15px; margin: 5px;">
+        {message}
+    </div>
+    <table style="margin: 0; width: 100%; border: 2px solid #013214; border-spacing: 4px;">
+        <tr>
+            <th style="padding: 3px; font-weight: 700;  text-align: center;" >Public</th>
+            <th style="padding: 3px; font-weight: 700;  text-align: center;" >Private</th>
+        </tr>
+        <tr>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{public}</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{private}</td>
+        </tr>
+    </table>
+    <h3 style="width: 100%; margin-bottom: 5px; color: green; text-align: center;">Conditions</h3>
+    <table style="margin: 0; width: 100%; border: 2px solid #013214; border-spacing: 4px;">
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right; white-space: nowrap;">Current As Of:</td>
+            <td style="width: 100%; padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{currentTime}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right; white-space: nowrap;">Last Reading Time:</td>
+            <td style="width: 100%; padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{timeLastReading}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right; white-space: nowrap;">Status:</td>
+            <td style="width: 100%; padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{statusMessage1}</td>
+        </tr>
+        {statusMessage2}
+    </table>
+    <h3 style="width: 100%; margin-bottom: 5px; color: green; text-align: center;">Readings</h3>
+    <table style="margin: 0; width: 100%; border: 2px solid #013214; border-spacing: 4px;">
+        <tr>
+            <td></td>
+            <th style="padding: 3px; text-align: center;" >Temperature</th>
+            <th style="padding: 3px; text-align: center;" >Humidity</th>
+        </tr>
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right;" >Operating:</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{operatingTemperature}</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{operatingHumidity}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right;" >Climate:</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{climateTemperature}</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{climateHumidity}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{climateHour}:00</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{climateTemperaturePercent}</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{climateHumidityPercent}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >{day}</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >Sunrise: {dayStartHour}:00</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" >Sunset: {nightStartHour}:00</td>
+        </tr>
+    </table>
+    <h3 style="width: 100%; margin-bottom: 5px; color: green; text-align: center;">Status Codes</h3>
+    <table style="margin: 0; width: 100%; border: 2px solid #013214; border-spacing: 4px;">
+        <tr >
+            <td style="padding: 3px; font-weight: 700; text-align: right;" colspan="4">Evaluation:</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" colspan="4">{evaluationFrequency}</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" colspan="4">{nextEvaluation}</td>
+        </tr>
+        <tr  >
+            <td style="padding: 3px; font-weight: 700; text-align: right;" colspan="3">Sensor:</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" colspan="3">{sensorType}</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" colspan="3">{sensorMode}</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: center;" colspan="3">{sensorActive}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right;" colspan="6">Sensor Code:</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: left;" colspan="6">{sensorCode}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right;" colspan="6">Maximum Temperature Code:</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: left;" colspan="6">{maximumTemperatureCode}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right;" colspan="6">Minimum Temperature Code:</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: left;" colspan="6">{minimumTemperatureCode}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right;" colspan="6">Maximum Humidity Code:</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: left;" colspan="6">{maximumHumidityCode}</td>
+        </tr>
+        <tr>
+            <td style="padding: 3px; font-weight: 700; text-align: right;" colspan="6">Minimum Humidity Code:</td>
+            <td style="padding: 3px; border: 0.05rem solid #013214; text-align: left;" colspan="6">{minimumHumidityCode}</td>
+        </tr>
+    </table>
+    <h3 style="width: 100%; margin-bottom: 5px; color: green; text-align: center;">Controls</h3>
+    <table style="margin: 0; width: 100%; border: 2px solid #013214; border-spacing: 4px;">
+        <tr>
+            <th style="padding: 3px; font-weight: 700;  text-align: right;" >Name</th>
+            <th style="padding: 3px; font-weight: 700;  text-align: center;" >Operating</th>
+            <th style="padding: 3px; font-weight: 700;  text-align: center;" >Reason</th>
+        </tr>
+        {controlRows}
+    </table>
+    <h3 style="width: 100%; margin-bottom: 5px; color: green; text-align: center;">History</h3>
+    <table style="margin: 0; width: 100%; border: 2px solid #013214; border-spacing: 4px;">
+        <tr>
+            <th style="padding: 3px; font-weight: 700;  text-align: center;" >Time</th>
+            <th style="padding: 3px; font-weight: 700;  text-align: center;" >Temperature</th>
+            <th style="padding: 3px; font-weight: 700;  text-align: center;" >Humidity</th>
+            <th style="padding: 3px; font-weight: 700;  text-align: center;" >Active</th>
+        </tr>
+        {historyRows}
+    </table>
+</div>

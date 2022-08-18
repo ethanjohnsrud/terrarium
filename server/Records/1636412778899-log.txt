@@ -1,0 +1,2671 @@
+[10-22-2021 18:38:34] Resetting File Structure
+SAVED DATA AND DELETED FILES :: ./database.db | ./log.txt | ./settings.json
+
+     > Object.resetClearSavedData = 40:11 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[10-22-2021 18:38:34] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE time BETWEEN ? AND ? ORDER BY time DESC;' :: 1634855914315,1634945914316 => Error: SQLITE_ERROR: no such table: readings
+
+     > null = 37:31 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseGetReadingRange = 63:18 => file:///home/pi/terrarium/backend/database.mjs
+     >>> async generateEmailHTML = 63:21 => file:///home/pi/terrarium/backend/communicate.mjs
+
+Issue Email Sent: 
+[10-22-2021 18:38:34] API :: Successful: RESETTING ENTIRE FILE SYSTEM -> Server will Terminate
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[10-22-2021 18:38:41] [#5] SENSOR ERROR [Sensor is OFF] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-22-2021 18:40:44] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 18:46:07] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 400:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-22-2021 18:46:28] [#5] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-22-2021 18:46:41] [#4] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-22-2021 18:46:54] [#3] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-22-2021 18:47:07] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-22-2021 18:47:19] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-22-2021 19:12:55] API :: Successful: New Schedule Created: Morning : 1634986800000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 19:31:48] API :: Successful: New Schedule Created: Grow : 1634904000000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 19:32:03] API :: Successful: DECREASE Priority Schedule: 2
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 19:33:36] API :: Successful: INCREASE Priority Schedule: 3
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 19:35:18] API :: Successful: Schedule Updated: undefined :: Attribute: priority = 3
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 19:36:29] API :: Successful: Schedule Updated: undefined :: Attribute: priority = 1
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 20:08:01] API :: Successful: Initiating Sensor Testing for: 60000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 20:18:50] API :: Successful: DECREASE Priority Schedule: 3
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 20:19:00] API :: Successful: Schedule Updated: undefined :: Attribute: priority = 1
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 20:19:03] API :: Successful: Schedule Updated: undefined :: Attribute: priority = 2
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 20:19:10] API :: Successful: INCREASE Priority Schedule: 1
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 20:19:16] API :: Successful: Schedule Updated: undefined :: Attribute: priority = 1
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 20:19:19] API :: Successful: Schedule Updated: undefined :: Attribute: priority = 2
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 20:32:58] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-22-2021 20:35:19] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-22-2021 20:37:21] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-22-2021 20:49:02] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-22-2021 20:51:16] API :: Successful: New Schedule Created: Morning Waterfall : 1634990400000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 20:51:47] API :: Successful: New Schedule Created: Evening Waterfall : 1634950800000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 22:10:49] API :: Successful: New Schedule Created: Night : 1634959800000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 23:11:51] API :: Successful: New Schedule Created: Filtration : 1634956200000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 23:13:35] API :: Successful: New Schedule Created: Cricket Venting : 1634983200000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-22-2021 23:23:40] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-22-2021 23:23:55] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-22-2021 23:24:16] [#5] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-22-2021 23:24:41] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 0:06:06] API :: Successful: New Schedule Created: Toggle [Cricket] ON : 1634965566772
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 0:06:20] API :: Successful: New Schedule Created: Immediate [Cricket] Active : 1634965580470
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 0:06:33] API :: Successful: New Schedule Created: Immediate [Cricket] Active : 1634965593683
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 0:07:01] API :: Successful: New Schedule Created: Immediate [Cool] Active : 1634965621917
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 1:10:19] API :: Successful: New Schedule Created: Ventilation : 1634968800000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 1:23:46] THis is the first reported Email...be ware of the frogs :)
+
+
+     > null = 191:92 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 1:24:15] This is an email test
+
+     > null = 191:92 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 1:24:21] log test
+
+     > null = 191:92 => file:///home/pi/terrarium/terrarium.mjs
+
+ Status Email Sent: 
+[10-23-2021 1:24:26] API :: Successful: Status Email Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[10-23-2021 1:24:50] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 1:26:36] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 1:27:02] API Message
+Second attemp???
+
+     > null = 191:113 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 1:28:32] API Message
+Third the charm!!
+
+     > null = 191:113 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 1:28:56] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 1:29:01] API Message
+fwwgqea
+
+     > null = 191:113 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 1:29:08] API Message
+wdfdas
+
+     > null = 191:113 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 1:29:15] cddsdcdcs
+
+     > null = 191:169 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 1:29:16] [#5] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-23-2021 1:35:25] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 1:36:27] API Message
+Making sure
+
+     > null = 191:113 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+ Status Email Sent: 
+[10-23-2021 1:37:35] API :: Successful: Status Email Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[10-23-2021 1:39:12] API :: Successful: New Schedule Created: Immediate (W.F.A.P) : 1634971152794
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 1:39:51] API :: Successful: New Schedule Created: Immediate [Cool] : 1634971191275
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 1:40:10] API :: Successful: New Schedule Created: Toggle [Cricket] : 1634971210043
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 1:40:22] API :: Successful: New Schedule Created: Toggle [Night] : 1634971222706
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 2:12:11] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 2:24:28] API :: Successful: New Schedule Created: Toggle [Cricket] : 1634973868618
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 2:27:47] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 2:28:10] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 2:31:12] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 2:52:28] API :: Successful: New Schedule Created: Toggle [Night] : 1634975548335
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 2:52:52] API :: Successful: Postponing Next Evaluation for: 600000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 2:53:36] API :: Successful: Postponing Next Evaluation for: 1800000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 2:55:07] API :: Successful: Postponing Next Evaluation for: 2700000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 3:05:17] API :: Successful: New Schedule Created: ALL OFF : 1634976317534
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 3:05:38] API :: Successful: Postponing Next Evaluation for: 2700000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 3:06:01] API :: Successful: Postponing Next Evaluation for: 7200000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 5:00:03] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 9:07:48] API :: Successful: New Schedule Created: Toggle [Cricket] : 1634998068262
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 12:44:53] API :: Successful: Replace Schedule: Immediate (W.F.A.P) : 1634971152794
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 12:46:16] API :: Settings sensorMode Successfully Updated
+     > null = 348:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 19:50:03] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 20:00:58] API :: Successful: New Schedule Created: Toggle (W) : 1635037258196
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 21:15:17] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 409:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 21:16:21] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 409:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 21:17:53] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 409:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 21:18:13] [#5] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-23-2021 21:18:26] [#4] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-23-2021 21:18:39] [#3] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-23-2021 21:18:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-23-2021 21:19:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-23-2021 21:29:10] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 409:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+ Status Email Sent: 
+[10-23-2021 21:30:44] API :: Successful: Status Email Queued
+     > validate = 187:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[10-23-2021 21:43:55] Successfully Deleted Readings Table
+
+     > Object.setupDatabase = 143:102 => file:///home/pi/terrarium/backend/database.mjs
+
+[10-23-2021 21:43:55] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE time BETWEEN ? AND ? ORDER BY time DESC;' :: 1634953435780,1635043435780 => Error: SQLITE_ERROR: no such table: readings
+
+     > null = 37:31 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseGetReadingRange = 64:18 => file:///home/pi/terrarium/backend/database.mjs
+     >>> async generateEmailHTML = 63:21 => file:///home/pi/terrarium/backend/communicate.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+[10-23-2021 21:43:56] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[10-23-2021 22:54:37] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-23-2021 22:57:18] API :: Successful: New Schedule Created: Immediate [Light] : 1635047837957
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 22:57:40] API :: Successful: New Schedule Created: Immediate (W-V.F-C.V-W.F.A.P) : 1635047860659
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 22:58:37] API :: Successful: Delete Schedule: 13
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 23:35:32] API :: Successful: Delete Schedule: 22
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 23:35:34] API :: Successful: Delete Schedule: 23
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 23:35:50] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1635050150870
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 23:36:11] API :: Successful: New Schedule Created: Immediate (C.V-W) : 1635050172000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 23:36:23] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 23:37:25] API :: Successful: Replace Schedule: Immediate (C.V-W) : 1635050172000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 23:37:30] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 1:57:04] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1635058624789
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 1:57:16] API :: Successful: New Schedule Created: Toggle [Night] : 1635058636861
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 3:09:43] [#5] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 3:09:56] [#4] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 3:10:09] [#3] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 3:10:22] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 3:10:35] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 5:00:03] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 5:00:23] [#5] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 5:00:36] [#4] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 5:00:49] [#3] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 5:01:02] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 5:01:15] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 14:36:38] API :: Settings sensorMode Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 14:45:03] [#5] SENSOR ERROR [Sensor is ON] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 14:45:10] [#4] SENSOR ERROR [Sensor is ON] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 14:45:17] [#3] SENSOR ERROR [Sensor is ON] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 14:45:24] [#2] SENSOR ERROR [Sensor is ON] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 14:45:31] [#1] SENSOR ERROR [Sensor is ON] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:00:03] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:00:10] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:00:17] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:00:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:00:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:00:31] Sensor Disconnected
+DHT22 Sensor Failed Reading in Off Mode | [Sensor is currently OFF]
+Failed with Error: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+Operating with Default Values
+
+     > null = 105:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 15:15:03] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:15:10] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:15:17] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:15:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:15:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:30:03] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:30:10] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:30:17] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:30:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:30:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:45:03] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:45:10] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:45:17] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:45:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 15:45:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:00:03] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:00:10] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:00:17] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:00:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:00:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:15:03] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:15:10] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:15:17] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:15:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:15:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:30:03] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:30:10] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:30:17] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:30:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:30:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:45:03] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:45:10] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:45:17] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:45:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 16:45:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:00:03] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:00:10] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:00:17] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:00:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:00:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:16:04] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:16:04] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 17:17:27] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:17:34] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:17:41] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:17:48] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:17:55] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:17:55] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 17:24:37] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:24:44] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:24:51] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:24:58] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:25:05] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:25:05] Sensor Disconnected
+DHT22 Sensor Failed Reading in Off Mode | [Sensor is currently OFF]
+Failed with Error: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+Operating with Default Values
+
+     > null = 105:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:25:05] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 17:31:04] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:31:11] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:46:03] API :: Settings sensorMode Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 17:46:12] Sensor Reconnected
+DHT22 Sensor in On Mode | [Sensor is currently ON]
+Operating Status: Operating with Current Conditions
+
+     > null = 83:49 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 17:46:12] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 17:46:59] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 17:55:54] API :: Successful: Initiating Sensor Testing for: 60000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 18:01:55] API :: Successful: Initiating Sensor Testing for: 60000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 20:50:01] API :: Successful: Initiating Sensor Testing for: 60000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 21:20:57] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 21:24:48] API :: Settings updateRegularity Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 21:25:04] API Message
+Just Checking :)
+
+     > null = 194:113 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 22:00:03] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 22:21:51] API :: Successful: Replace Schedule: Toggle (W.F.A.P) : 1635050150870
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 22:22:27] API :: Successful: Replace Schedule: Immediate (C.V-W) : 1635050172000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 22:22:46] API :: Successful: Delete Schedule: 24
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 22:25:00] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-24-2021 23:00:03] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 23:00:24] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 23:00:37] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 23:15:09] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 23:15:22] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 23:15:22] Sensor Disconnected
+DHT22 Sensor Failed Reading in On Mode | [Sensor is currently ON]
+Failed with Error: Error: failed to read sensor
+Operating with Default Values
+
+     > null = 105:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-24-2021 23:30:09] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 23:30:22] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 23:45:09] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-24-2021 23:45:22] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 0:00:03] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 0:15:09] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 0:15:22] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 0:30:09] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 0:30:22] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 0:30:22] Sensor Disconnected
+DHT22 Sensor Failed Reading in On Mode | [Sensor is currently ON]
+Failed with Error: Error: failed to read sensor
+Operating with Default Values
+
+     > null = 105:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 0:45:09] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 0:45:22] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 1:00:03] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 2:00:03] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 2:30:30] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 2:35:51] API :: Successful: New Schedule Created: Toggle [Night] : 1635147351250
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:36:20] API :: Successful: New Schedule Created: Immediate [Cool] : 1635147380368
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:36:55] API :: Successful: New Schedule Created: DEACTIVATING : 1635147414976
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:36:57] API :: Successful: New Schedule Created: ACTIVATING : 1635147417774
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:37:01] API :: Successful: New Schedule Created: ALL ON : 1635147421742
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:37:05] API :: Successful: New Schedule Created: ALL OFF : 1635147425708
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:37:23] API :: Successful: Delete Schedule: 28
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:37:25] API :: Successful: Delete Schedule: 29
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:37:27] API :: Successful: Delete Schedule: 30
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:37:38] API :: Successful: Delete Schedule: 32
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:37:40] API :: Successful: Delete Schedule: 33
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:37:42] API :: Successful: Delete Schedule: 31
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:39:56] API :: Successful: New Schedule Created: Toggle [Cool] : 1635147596534
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:40:11] API :: Successful: New Schedule Created: Immediate [Night] : 1635147611264
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:42:08] API :: Successful: New Schedule Created: ALL OFF : 1635147728647
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:42:16] API :: Successful: New Schedule Created: Immediate [Night] : 1635147736003
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:46:54] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:47:51] API :: Successful: New Schedule Created: Immediate [Cool] : 1635148071584
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:48:08] API :: Successful: New Schedule Created: Toggle [Night] : 1635148088638
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:48:21] API :: Successful: Delete Schedule: 35
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 2:49:00] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+ Status Email Sent: 
+[10-25-2021 3:17:53] API :: Successful: Status Email Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+Issue Email Sent: 
+-> Email Sending SUCCESS
+Issue Email Sent: 
+-> Email Sending SUCCESS
+Issue Email Sent: 
+-> Email Sending SUCCESS
+Issue Email Sent: 
+-> Email Sending SUCCESS
+Issue Email Sent: 
+-> Email Sending SUCCESS
+Issue Email Sent: 
+-> Email Sending SUCCESS
+Issue Email Sent: 
+-> Email Sending SUCCESS
+Issue Email Sent: 
+-> Email Sending SUCCESS
+Issue Email Sent: 
+-> Email Sending SUCCESS
+ Status Email Sent: 
+[10-25-2021 12:39:28] API :: Successful: Status Email Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[10-25-2021 12:41:25] API :: Settings dayHourStart Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 12:42:34] API :: Settings updateRegularity Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 14:07:59] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 14:36:38] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 14:36:58] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:37:11] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:47:47] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 14:48:32] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:48:45] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:58:02] [#5] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:58:15] [#4] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:58:27] [#3] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:58:40] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:58:53] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:58:53] Sensor Disconnected
+DHT22 Sensor Failed Reading in On Mode | [Sensor is currently ON]
+Failed with Error: Error: failed to read sensor
+Operating with Default Values
+
+     > null = 105:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 14:58:53] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 15:00:02] API :: Settings sensorMode Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 15:00:25] [#5] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 15:00:38] [#4] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 15:00:51] [#3] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 15:01:04] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 15:01:16] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 15:01:16] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 15:03:27] Sensor Reconnected
+DHT22 Sensor in Reactive Mode | [Sensor is currently ON]
+Operating Status: Operating with Current Conditions
+
+     > null = 83:49 => file:///home/pi/terrarium/backend/utility.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 20:00:07] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1635210008190
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 20:00:24] API :: Successful: Delete Schedule: 40
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 22:48:17] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 22:48:30] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 22:59:13] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-25-2021 22:59:34] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 22:59:47] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-25-2021 23:14:28] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: CONTROLS is not defined
+
+     > evaluateConditions = 120:23 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+[10-25-2021 23:14:29] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sending SUCCESS
+[10-25-2021 23:29:28] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: CONTROLS is not defined
+
+     > evaluateConditions = 120:23 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+[10-25-2021 23:29:29] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sending SUCCESS
+[10-25-2021 23:44:29] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: CONTROLS is not defined
+
+     > evaluateConditions = 120:23 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+[10-25-2021 23:44:29] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sending SUCCESS
+[10-25-2021 23:59:29] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: CONTROLS is not defined
+
+     > evaluateConditions = 120:23 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+[10-25-2021 23:59:29] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sending SUCCESS
+[10-26-2021 0:14:29] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: CONTROLS is not defined
+
+     > evaluateConditions = 120:23 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+[10-26-2021 0:14:29] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sending SUCCESS
+[10-26-2021 0:29:29] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: CONTROLS is not defined
+
+     > evaluateConditions = 120:23 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+[10-26-2021 0:29:29] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sending SUCCESS
+[10-26-2021 0:35:07] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 0:35:28] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 0:35:40] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 0:35:52] API :: Successful: Replace Schedule: Immediate (C.V-W) : 1635050172000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 0:44:15] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 11:35:22] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.09%  > 70.00%
+
+     > evaluateConditions = 103:174 => file:///home/pi/terrarium/backend/server.mjs
+
+[10-26-2021 11:35:22] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: c is not defined
+
+     > evaluateConditions = 120:23 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+[10-26-2021 11:35:22] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[10-26-2021 11:50:22] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.80%  > 70.00%
+
+     > evaluateConditions = 103:174 => file:///home/pi/terrarium/backend/server.mjs
+
+[10-26-2021 11:50:22] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: c is not defined
+
+     > evaluateConditions = 120:23 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+[10-26-2021 11:50:22] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[10-26-2021 12:13:42] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 12:14:56] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 12:21:14] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 12:21:35] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 12:22:18] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 12:26:22] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 12:28:24] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: SON is not defined
+
+     > Object.evaluateConditions = 121:23 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+[10-26-2021 12:28:24] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[10-26-2021 12:28:24] API :: Attempt to Immediate-Evaluation has been Queued Failed: Unsuccessful
+     > validate = 189:23 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[10-26-2021 12:30:06] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 12:30:27] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 12:30:40] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 12:45:21] SAVING READING
+1635270321799
+ACTIVE: 
+[object Object]
+[]
+INACTIVE: 
+[object Object],[object Object],[object Object]
+[{"name":"Day Grow Light","settings":[{"reason":"Schedule Grow\n","set":1,"until":1635296400000},{"reason":"Default","set":0,"until":null}]},{"name":"Vent Fan","settings":[{"reason":"Climate Cooling","set":1,"until":1635270340448},{"reason":"Low Humidity","set":0,"until":1635270340448},{"reason":"Default","set":0,"until":null}]},{"name":"Water Filter and Pump","settings":[{"reason":"Schedule Filtration\n","set":1,"until":1635273000000},{"reason":"Climate Humidifying","set":1,"until":1635270340448},{"reason":"Default","set":0,"until":null}]}]
+
+     > Object.databaseSaveReading = 61:52 => file:///home/pi/terrarium/backend/database.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 12:58:37] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 12:58:58] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 12:59:11] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 13:13:53] SAVING READING
+1635272033052
+ACTIVE: 
+[object Object]
+undefined
+[]
+{"time":1635272033052,"temperature":25.6,"humidity":76.8,"statusMessage":"Operating with Current Conditions"}
+INACTIVE: 
+3
+[object Object],[object Object],[object Object]
+[{"name":"Day Grow Light","settings":[{"reason":"Schedule Grow\n","set":1,"until":1635296400000},{"reason":"Default","set":0,"until":null}]},{"name":"Vent Fan","settings":[{"reason":"Climate Cooling","set":1,"until":1635272051204},{"reason":"Low Humidity","set":0,"until":1635272051204},{"reason":"Default","set":0,"until":null}]},{"name":"Water Filter and Pump","settings":[{"reason":"Schedule Filtration\n","set":1,"until":1635273000000},{"reason":"Climate Humidifying","set":1,"until":1635272051204},{"reason":"Default","set":0,"until":null}]}]
+[{"name":"Day Grow Light","settings":[{"reason":"Schedule Grow\n","set":1,"until":1635296400000},{"reason":"Default","set":0,"until":null}]},{"name":"Vent Fan","settings":[{"reason":"Climate Cooling","set":1,"until":1635272051204},{"reason":"Low Humidity","set":0,"until":1635272051204},{"reason":"Default","set":0,"until":null}]},{"name":"Water Filter and Pump","settings":[{"reason":"Schedule Filtration\n","set":1,"until":1635273000000},{"reason":"Climate Humidifying","set":1,"until":1635272051204},{"reason":"Default","set":0,"until":null}]}]
+
+     > Object.databaseSaveReading = 61:52 => file:///home/pi/terrarium/backend/database.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 13:43:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.50%  > 70.00%
+
+     > evaluateConditions = 102:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 13:58:53] Humidity Reestablished
+77.90% 
+
+     > evaluateConditions = 110:51 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 14:13:52] SAVING READING
+1635275632582
+ACTIVE: 
+[object Object]
+undefined
+[]
+{"time":1635275632582,"temperature":25.39,"humidity":77.9,"statusMessage":"Operating with Current Conditions"}
+INACTIVE: 
+3
+[object Object],[object Object],[object Object]
+[{"name":"Day Grow Light","settings":[{"reason":"Schedule Grow\n","set":1,"until":1635296400000},{"reason":"Default","set":0,"until":null}]},{"name":"Vent Fan","settings":[{"reason":"Climate Cooling","set":1,"until":1635275633052},{"reason":"Low Humidity","set":0,"until":1635275633052},{"reason":"Default","set":0,"until":null}]},{"name":"Water Filter and Pump","settings":[{"reason":"Climate Humidifying","set":1,"until":1635275633052},{"reason":"Default","set":0,"until":null}]}]
+[{"name":"Day Grow Light","settings":[{"reason":"Schedule Grow\n","set":1,"until":1635296400000},{"reason":"Default","set":0,"until":null}]},{"name":"Vent Fan","settings":[{"reason":"Climate Cooling","set":1,"until":1635275633052},{"reason":"Low Humidity","set":0,"until":1635275633052},{"reason":"Default","set":0,"until":null}]},{"name":"Water Filter and Pump","settings":[{"reason":"Climate Humidifying","set":1,"until":1635275633052},{"reason":"Default","set":0,"until":null}]}]
+
+     > Object.databaseSaveReading = 61:52 => file:///home/pi/terrarium/backend/database.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 14:28:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.59%  > 70.00%
+
+     > evaluateConditions = 102:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 14:43:52] Humidity Reestablished
+72.59% 
+
+     > evaluateConditions = 110:51 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 15:13:52] SAVING READING
+1635279232584
+ACTIVE: 
+[object Object]
+undefined
+[]
+{"time":1635279232584,"temperature":25.5,"humidity":68.3,"statusMessage":"Operating with Current Conditions"}
+INACTIVE: 
+3
+[object Object],[object Object],[object Object]
+[{"name":"Day Grow Light","settings":[{"reason":"Schedule Grow\n","set":1,"until":1635296400000},{"reason":"Default","set":0,"until":null}]},{"name":"Vent Fan","settings":[{"reason":"Climate Cooling","set":1,"until":1635279232584},{"reason":"Low Humidity","set":0,"until":1635279232584},{"reason":"Default","set":0,"until":null}]},{"name":"Water Filter and Pump","settings":[{"reason":"Climate Humidifying","set":1,"until":1635279232584},{"reason":"Default","set":0,"until":null}]}]
+[{"name":"Day Grow Light","settings":[{"reason":"Schedule Grow\n","set":1,"until":1635296400000},{"reason":"Default","set":0,"until":null}]},{"name":"Vent Fan","settings":[{"reason":"Climate Cooling","set":1,"until":1635279232584},{"reason":"Low Humidity","set":0,"until":1635279232584},{"reason":"Default","set":0,"until":null}]},{"name":"Water Filter and Pump","settings":[{"reason":"Climate Humidifying","set":1,"until":1635279232584},{"reason":"Default","set":0,"until":null}]}]
+
+     > Object.databaseSaveReading = 61:52 => file:///home/pi/terrarium/backend/database.mjs
+
+[10-26-2021 15:13:52] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.30%  > 70.00%
+
+     > evaluateConditions = 102:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[10-26-2021 15:21:02] API :: Successful: Postponing Next Evaluation for: 7200000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+ Status Email Sent: 
+[10-26-2021 16:00:36] API :: Successful: Status Email Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[10-26-2021 16:05:12] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 16:05:32] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 16:05:41] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 16:06:02] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 16:06:15] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 16:12:25] API :: Settings minimumHumidity Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 16:12:48] SAVING READING
+1635282768428
+ACTIVE: 
+[object Object],[object Object],[object Object],[object Object]
+4
+[{"name":"Day Heat Lamp","settings":[{"reason":"Climate Heating","set":1,"until":1635283275485},{"reason":"Default","set":0,"until":null}]},{"name":"Day Grow Light","settings":[{"reason":"Schedule Grow\n","set":1,"until":1635296400000},{"reason":"Default","set":0,"until":null}]},{"name":"Vent Fan","settings":[{"reason":"Schedule Ventilation\n","set":1,"until":1635279300000},{"reason":"Low Temperature","set":0,"until":1635283275485},{"reason":"Default","set":0,"until":null}]},{"name":"Water Filter and Pump","settings":[{"reason":"Schedule Filtration\n","set":1,"until":1635283800000},{"reason":"Default","set":0,"until":null}]}]
+[{"name":"Day Heat Lamp","settings":[{"reason":"Climate Heating","set":1,"until":1635283275485},{"reason":"Default","set":0,"until":null}]},{"name":"Day Grow Light","settings":[{"reason":"Schedule Grow\n","set":1,"until":1635296400000},{"reason":"Default","set":0,"until":null}]},{"name":"Vent Fan","settings":[{"reason":"Schedule Ventilation\n","set":1,"until":1635279300000},{"reason":"Low Temperature","set":0,"until":1635283275485},{"reason":"Default","set":0,"until":null}]},{"name":"Water Filter and Pump","settings":[{"reason":"Schedule Filtration\n","set":1,"until":1635283800000},{"reason":"Default","set":0,"until":null}]}]
+INACTIVE: 
+3
+[object Object],[object Object],[object Object]
+[{"name":"Night Heat Lamp","settings":[{"reason":"Daytime","set":0,"until":1635296400486},{"reason":"Climate Heating","set":1,"until":1635283275485},{"reason":"Default","set":0,"until":null}]},{"name":"Waterfall","settings":[{"reason":"Immediate (C.V-W)","set":0,"until":1635383472000},{"reason":"Default","set":0,"until":null}]},{"name":"Cricket Vent","settings":[{"reason":"Default","set":0,"until":null}]}]
+[{"name":"Night Heat Lamp","settings":[{"reason":"Daytime","set":0,"until":1635296400486},{"reason":"Climate Heating","set":1,"until":1635283275485},{"reason":"Default","set":0,"until":null}]},{"name":"Waterfall","settings":[{"reason":"Immediate (C.V-W)","set":0,"until":1635383472000},{"reason":"Default","set":0,"until":null}]},{"name":"Cricket Vent","settings":[{"reason":"Default","set":0,"until":null}]}]
+
+     > Object.databaseSaveReading = 61:52 => file:///home/pi/terrarium/backend/database.mjs
+
+Issue Email Sent: 
+[10-26-2021 16:12:48] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[10-26-2021 16:14:38] API :: Settings minimumHumidity Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 16:14:56] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.30%  > 99.00%
+
+     > Object.evaluateConditions = 102:174 => file:///home/pi/terrarium/backend/server.mjs
+
+[10-26-2021 16:14:56] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 16:46:43] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 16:47:04] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 16:47:17] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-26-2021 16:47:17] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+67.80%  < 99.00%
+
+     > evaluateConditions = 105:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 16:52:30] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 16:52:45] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+94.30%  < 99.00%
+
+     > evaluateConditions = 105:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-26-2021 17:03:44] API :: Settings minimumHumidity Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 17:04:02] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 17:12:29] RESETTING DATA SETTINGS
+     > Object.resetSettings = 56:51 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[10-26-2021 17:12:29] API :: Successful: RESETTING SETTINGS -> Server will Restart and be Offline Temporary
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 17:18:47] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 17:37:29] API :: Successful: Delete Schedule: 25
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 17:38:48] API :: Successful: New Schedule Created: Immediate (W.F.A.P) : 1635287928405
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 17:39:31] API :: Successful: New Schedule Created: Immediate (W.F.A.P-W-V.F-D.H.L) : 1635287971490
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 18:24:09] API :: Successful: Replace Schedule: Immediate (W.F.A.P-W-V.F-D.H.L) : 1635287971490
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-26-2021 18:24:35] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-27-2021 1:32:54] API :: Successful: New Schedule Created: Immediate Water : 1635316375260
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-27-2021 1:33:18] API :: Successful: New Schedule Created: Immediate [Humidify] : 1635316399292
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-27-2021 1:33:45] API :: Successful: Delete Schedule: 42
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-27-2021 5:23:46] API :: Successful: Delete Schedule: 43
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-27-2021 8:06:01] API :: Successful: New Schedule Created: Calm : 1635357600000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-27-2021 22:10:33] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-27-2021 22:10:54] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-27-2021 22:11:07] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-28-2021 16:33:25] API :: Successful: New Schedule Created: Toggle [Cricket] : 1635456804820
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-28-2021 18:02:08] API :: Successful: New Schedule Created: Toggle (W) : 1635462128438
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 0:20:42] API :: Successful: New Schedule Created: Toggle [Night] : 1635484842227
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 0:24:06] API :: Settings minimumTemperature Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 0:25:18] API :: Successful: New Schedule Created: Toggle [Night] : 1635485118292
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 0:25:49] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+76.28-F = 24.60-C  < 27.00-C = 80.60-F
+
+     > evaluateConditions = 79:175 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-29-2021 0:28:39] API :: Successful: New Schedule Created: Toggle (D.H.L) : 1635485319080
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 0:30:13] API :: Settings minimumTemperature Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 0:31:22] API :: Attempt to New Schedule Created: Immediate [On] : 1635485481586 Failed: Failed to Parse List: []
+     > validate = 189:23 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 0:31:23] API :: Attempt to New Schedule Created: Immediate [On] : 1635485483189 Failed: Failed to Parse List: []
+     > validate = 189:23 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 2:16:47] API :: Successful: New Schedule Created: Toggle [Night] : 1635491807237
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 21:09:20] API :: Successful: New Schedule Created: Toggle (D.G.L) : 1635559761710
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 21:09:26] API :: Successful: New Schedule Created: Toggle [Cool] : 1635559767057
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 21:09:36] API :: Successful: Postponing Next Evaluation for: 900000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 21:10:21] API :: Successful: Postponing Next Evaluation for: 1800000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-29-2021 21:10:45] API :: Successful: New Schedule Created: Toggle [Cricket] : 1635559846392
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-30-2021 3:09:52] API :: Successful: New Schedule Created: Toggle [Cool] : 1635581393760
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-30-2021 5:32:32] API :: Successful: New Schedule Created: Immediate (W.F.A.P) : 1635589953775
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-30-2021 6:25:36] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.60-F = 20.89-C  < 21.00-C = 69.80-F
+
+     > evaluateConditions = 79:175 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-30-2021 18:22:23] API :: Settings climate-all Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-30-2021 18:24:36] API :: Settings climate-all Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-30-2021 18:25:09] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-31-2021 5:30:47] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1635676248271
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-31-2021 12:03:39] API :: Successful: New Schedule Created: Off : 1635699600000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-31-2021 20:11:05] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1635729065251
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-31-2021 20:11:08] API :: Successful: New Schedule Created: Toggle (W) : 1635729068687
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-1-2021 0:41:04] API :: Successful: New Schedule Created: Immediate [Humidify] : 1635745264163
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-1-2021 5:25:36] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+64.00%  < 70.00%
+
+     > evaluateConditions = 101:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-1-2021 6:25:36] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+67.59%  < 70.00%
+
+     > evaluateConditions = 101:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-1-2021 6:31:24] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1635766285135
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-1-2021 6:31:35] API :: Successful: New Schedule Created: Toggle (W) : 1635766296125
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-1-2021 6:31:36] API :: Successful: New Schedule Created: Toggle [Cool] : 1635766297360
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-1-2021 6:31:53] API :: Successful: Postponing Next Evaluation for: 86400000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-1-2021 12:17:30] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-2-2021 17:25:57] API :: Successful: New Schedule Created: Toggle [Cricket] : 1635891958030
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-2-2021 18:36:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.69%  < 70.00%
+
+     > evaluateConditions = 101:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-2-2021 22:58:52] API :: Successful: New Schedule Created: ALL OFF : 1635911933823
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-2-2021 23:37:50] API :: Successful: New Schedule Created: ALL OFF : 1635914271178
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 0:07:31] API :: Successful: Replace Schedule: ALL OFF : 1635914271178
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 0:08:06] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 1:15:06] API :: Successful: Delete Schedule: 66
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 1:15:08] API :: Successful: Delete Schedule: 60
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 1:15:45] API :: Successful: New Schedule Created: Immediate (W.F.A.P) : 1635920146152
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 1:15:47] API :: Successful: New Schedule Created: Immediate (W.F.A.P) : 1635920148547
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 1:16:23] API :: Successful: New Schedule Created: Immediate (W-V.F-N.H.L) : 1635920184260
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 1:16:58] API :: Successful: Replace Schedule: Immediate (W-V.F-N.H.L) : 1635920184260
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 1:17:15] API :: Successful: Delete Schedule: 67
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 3:29:58] API :: Successful: New Schedule Created: Immediate (W.F.A.P-W-V.F) : 1635928199849
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 3:30:14] API :: Successful: New Schedule Created: Toggle [Night] : 1635928215408
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-3-2021 3:30:47] API :: Successful: Replace Schedule: Toggle [Night] : 1635928215408
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-4-2021 7:06:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.80%  < 70.00%
+
+     > evaluateConditions = 101:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-4-2021 7:21:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+67.30%  < 70.00%
+
+     > evaluateConditions = 101:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-4-2021 14:45:08] API :: Successful: Replace Schedule: Calm : 1636045200000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-4-2021 14:46:35] API :: Successful: Replace Schedule: Evening Waterfall : 1636169400000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-4-2021 14:48:09] API :: Successful: Replace Schedule: Cricket Venting : 1636063200000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-4-2021 14:49:24] API :: Successful: Replace Schedule: Cricket Venting : 1636045200000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-4-2021 23:40:27] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-4-2021 23:40:48] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-4-2021 23:41:01] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-5-2021 4:25:43] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.00%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 4:40:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.00%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 5:55:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+67.90%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 7:10:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.69%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 7:25:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+62.79%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 9:10:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.40%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 9:25:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.09%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 9:55:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.09%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 10:25:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.30%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 10:40:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.30%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 12:40:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.09%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 14:19:52] API :: Successful: Initiating Sensor Testing for: 60000, with interval of: 5000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-5-2021 14:20:52] Sensor Testing Completed
+Initiating 1 minute Sensor Test, at 5 second intervals: 11-5-2021 14:19
+
+0] 19:58 | 23.7-C | 58.9% | Successful Sensor Reading
+1] 20:02 | 23.5-C | 59.79% | Successful Sensor Reading
+2] 20:07 | 23.5-C | 59.79% | Successful Sensor Reading
+3] 20:12 | 23.5-C | 59.7% | Successful Sensor Reading
+4] 20:17 | 23.5-C | 59.79% | Successful Sensor Reading
+5] 20:22 | 23.5-C | 59.79% | Successful Sensor Reading
+6] 20:27 | 23.5-C | 59.79% | Successful Sensor Reading
+7] 20:32 | 23.5-C | 59.79% | Successful Sensor Reading
+8] 20:37 | 23.5-C | 59.79% | Successful Sensor Reading
+9] 20:42 | 23.5-C | 59.79% | Successful Sensor Reading
+10] 20:47 | 23.5-C | 59.9% | Successful Sensor Reading
+
+
+     > Timeout._onTimeout = 374:66 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 14:25:27] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+59.90%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 14:40:42] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+60.50%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-5-2021 14:52:51] API :: Settings evaluationFrequency Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-5-2021 17:35:06] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.19%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-6-2021 4:18:28] API :: Successful: New Schedule Created: ALL OFF : 1636190308053
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-6-2021 4:18:33] API :: Successful: New Schedule Created: Toggle [Night] : 1636190312480
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-6-2021 4:19:10] API :: Successful: Replace Schedule: Toggle [Night] : 1636190312480
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-6-2021 4:33:51] API :: Successful: New Schedule Created: ALL OFF : 1636191230223
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-6-2021 4:34:03] API :: Successful: New Schedule Created: Toggle [Night] : 1636191242268
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-6-2021 4:38:53] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-6-2021 8:53:06] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+64.90%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-6-2021 12:02:06] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.69%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+# ERROR: Sending Email :: Error: connect EHOSTUNREACH 142.250.114.108:465
+                	->Attempting to resend without Attachment and Stats
+Issue Email Sent: 
+# ERROR: Sending Email :: Error: connect EHOSTUNREACH 142.250.114.108:465
+                
+[11-6-2021 13:17:26] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-6-2021 14:33:44] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.69%  < 70.00%
+
+     > evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-6-2021 14:53:05] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.59%  < 70.00%
+
+     > Object.evaluateConditions = 111:174 => file:///home/pi/terrarium/backend/server.mjs
+
+[11-6-2021 14:53:05] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-6-2021 21:16:07] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-6-2021 21:16:53] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-6-2021 21:17:06] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-6-2021 21:27:25] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-7-2021 0:31:40] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-7-2021 0:38:42] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-7-2021 0:47:29] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-7-2021 0:47:50] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-7-2021 0:48:02] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-7-2021 0:50:53] API :: Settings evaluationFrequency Successfully Updated
+     > null = 351:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-7-2021 0:55:41] API :: Successful: New Schedule Created: ALL ON : 1636264541684
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-7-2021 0:56:02] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-7-2021 1:53:58] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 409:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-7-2021 1:53:58] MEMORY REPORTING
+System Up Time: 505.81
+Process Up Time: 3.574883443
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 360.63671875
+Load Average 15m: 0.25
+Total Load Average 15m: 0.9400,0.4500,0.2500
+
+     > null = 420:5 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[11-7-2021 1:54:22] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 409:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-7-2021 1:54:22] MEMORY REPORTING
+System Up Time: 530.55
+Process Up Time: 2.899249901
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 356.69921875
+Load Average 15m: 0.26
+Total Load Average 15m: 0.7300,0.4400,0.2600
+
+     > null = 420:5 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[11-7-2021 1:54:43] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-7-2021 1:54:56] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-7-2021 1:06:11] API :: Settings evaluationFrequency Successfully Updated
+     > null = 353:9 => file:///home/pi/terrarium/terrarium.mjs
+
+ Status Email Sent: 
+[11-7-2021 1:06:18] API :: Successful: Status Email Queued
+     > validate = 187:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[11-7-2021 1:06:22] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 187:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-7-2021 1:17:25] API :: Successful: New Schedule Created: Immediate (N.H.L-W) : 1636269444572
+     > validate = 187:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-7-2021 5:36:26] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.42-F = 20.79-C  < 21.00-C = 69.80-F
+
+     > evaluateConditions = 89:175 => file:///home/pi/terrarium/backend/server.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-7-2021 6:54:22] MEMORY REPORTING
+System Up Time: 22130.55
+Process Up Time: 21602.899890741
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 302.79296875
+Load Average 15m: 0
+Total Load Average 15m: 0.0000,0.0200,0.0000
+
+     > Timeout._onTimeout = 412:17 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-7-2021 12:54:22] MEMORY REPORTING
+System Up Time: 43730.55
+Process Up Time: 43202.899068001
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 296.125
+Load Average 15m: 0
+Total Load Average 15m: 0.0500,0.0300,0.0000
+
+     > Timeout._onTimeout = 412:17 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-7-2021 18:54:22] MEMORY REPORTING
+System Up Time: 65330.55
+Process Up Time: 64802.899245587
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 290.140625
+Load Average 15m: 0.01
+Total Load Average 15m: 0.0500,0.0500,0.0100
+
+     > Timeout._onTimeout = 412:17 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 0:54:22] MEMORY REPORTING
+System Up Time: 86930.55
+Process Up Time: 86402.89936464
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 273.765625
+Load Average 15m: 0
+Total Load Average 15m: 0.0500,0.0500,0.0000
+
+     > Timeout._onTimeout = 412:17 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 6:54:22] MEMORY REPORTING
+System Up Time: 108530.57
+Process Up Time: 108002.914818102
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 268.9296875
+Load Average 15m: 0.01
+Total Load Average 15m: 0.1000,0.0700,0.0100
+
+     > Timeout._onTimeout = 412:17 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 12:20:07] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 420:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-8-2021 12:20:07] MEMORY REPORTING
+System Up Time: 128075.4
+Process Up Time: 9.529237863
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 220.6875
+Load Average 15m: 0.11
+Total Load Average 15m: 1.1600,0.3500,0.1100
+
+     > null = 431:5 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[11-8-2021 12:20:28] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 12:20:41] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 12:23:17] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 420:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-8-2021 12:23:17] MEMORY REPORTING
+System Up Time: 128264.83
+Process Up Time: 2.783979278
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 222.5859375
+Load Average 15m: 0.15
+Total Load Average 15m: 0.1100,0.3100,0.1500
+
+     > null = 431:5 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[11-8-2021 12:23:37] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 12:23:50] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:19:52] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-8-2021 15:19:52] MEMORY REPORTING
+System Up Time: 138860.3
+Process Up Time: 2.369195849
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 222.1953125
+Load Average 15m: 0
+Total Load Average 15m: 0.0000,0.0000,0.0000
+
+     > null = 426:5 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[11-8-2021 15:20:13] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:20:21] API :: Settings evaluationFrequency Successfully Updated
+     > null = 359:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-8-2021 15:20:26] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+ Status Email Sent: 
+[11-8-2021 15:20:29] API :: Successful: Status Email Queued
+     > validate = 193:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[11-8-2021 15:20:32] [#2] SENSOR ERROR [Sensor is OFF] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:21:52] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-8-2021 15:21:52] MEMORY REPORTING
+System Up Time: 138980.1
+Process Up Time: 2.413429697
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 222.703125
+Load Average 15m: 0.01
+Total Load Average 15m: 0.0700,0.0300,0.0100
+
+     > null = 426:5 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[11-8-2021 15:22:13] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:22:26] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:23:24] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 415:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-8-2021 15:23:24] MEMORY REPORTING
+System Up Time: 139072.4
+Process Up Time: 2.411364164
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 222.6484375
+Load Average 15m: 0.01
+Total Load Average 15m: 0.1100,0.0500,0.0100
+
+     > null = 426:5 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[11-8-2021 15:28:24] MEMORY REPORTING
+System Up Time: 139372.4
+Process Up Time: 302.412484189
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 206.796875
+Load Average 15m: 0.02
+Total Load Average 15m: 0.0500,0.0800,0.0200
+
+     > Timeout._onTimeout = 418:17 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 15:29:28] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-8-2021 15:29:28] MEMORY REPORTING
+System Up Time: 139436.16
+Process Up Time: 2.452142365
+Available Memory (mb): function(){
+
+    return _os.totalmem() / ( 1024 * 1024 );
+}
+Memory Usage (mb): 222.80859375
+Load Average 15m: 0.02
+Total Load Average 15m: 0.0100,0.0600,0.0200
+
+     > null = 428:5 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[11-8-2021 15:32:22] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 15:32:43] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:32:55] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:35:22] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 418:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 15:35:43] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:35:56] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:37:09] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 418:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 15:39:07] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 417:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 15:39:28] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:39:41] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:41:11] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 417:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 15:41:32] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:41:45] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:53:35] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 417:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-8-2021 15:53:56] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:54:09] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-8-2021 15:59:15] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 414:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS

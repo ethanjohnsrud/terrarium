@@ -1,0 +1,1465 @@
+[8-6-2022 19:32:49] >> DELETED ./log.txt File => Success     > null = 88:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[8-6-2022 19:32:50] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 19:32:50] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 19:32:50] Terrarium Server Restarted
+Initialization Complete
+     > null = 440:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-6-2022 19:32:50] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+-> Email Sent Successfully
+[8-6-2022 19:33:33] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[8-6-2022 19:33:33] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 0
+
+[8-6-2022 19:33:40] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 19:33:46] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[8-6-2022 19:33:46] Error Lights
+Mode: bounce
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 19:40:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 19:47:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 19:54:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:01:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:08:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:15:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:22:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:29:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:36:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:38:07] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:38:30] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:39:18] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:40:21] Error Lights
+Mode: unlock
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+[8-6-2022 20:40:21] Error Lights
+Mode: unlock
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+[8-6-2022 20:40:38] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:12] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:43:17] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:21] Error Lights
+Mode: off
+MAX_TEMP_CONTROL,Locked,Operating: 1,Setting: 0
+MIN_TEMP_CONTROL,Locked,Operating: 1,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: 1,Setting: 0
+
+[8-6-2022 20:43:21] API :: Successful: Executing Error Lights Mode: off     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:21] Error Lights
+Mode: off
+MAX_TEMP_CONTROL,Locked,Operating: 1,Setting: 0
+MIN_TEMP_CONTROL,Locked,Operating: 1,Setting: 0
+HUMIDITY_CONTROL,Locked,Operating: 1,Setting: 0
+
+[8-6-2022 20:43:21] API :: Successful: Executing Error Lights Mode: off     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:32] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:43:32] API :: Successful: Executing Error Lights Mode: on     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:32] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:43:32] API :: Successful: Executing Error Lights Mode: on     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:40] Error Lights
+Mode: max
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:43:40] API :: Successful: Executing Error Lights Mode: max     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:40] Error Lights
+Mode: max
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 20:43:40] API :: Successful: Executing Error Lights Mode: max     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:44] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:49] Error Lights
+Mode: humid
+MAX_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 1,Setting: 1
+
+[8-6-2022 20:43:49] API :: Successful: Executing Error Lights Mode: humid     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:49] Error Lights
+Mode: humid
+MAX_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 1,Setting: 1
+
+[8-6-2022 20:43:49] API :: Successful: Executing Error Lights Mode: humid     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:43:54] Error Lights
+Mode: humid
+MAX_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 1,Setting: 1
+
+[8-6-2022 20:43:54] API :: Successful: Executing Error Lights Mode: humid     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:45:21] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:45:25] Error Lights
+Mode: unlock
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-6-2022 20:45:47] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:46:08] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:46:33] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:47:54] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:50:05] API :: Successful: Delete Schedule: 10     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-6-2022 20:50:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 1,Setting: 1
+
+[8-6-2022 20:50:10] API :: Successful: Postponing Next Evaluation for: 420000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-6-2022 20:51:44] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:51:50] Error Lights
+Mode: unlock
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-6-2022 20:51:50] Error Lights
+Mode: unlock
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-6-2022 20:52:39] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> runMicrotasks = null:null => null
+     >>> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-6-2022 20:57:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 1,Setting: 1
+
+[8-6-2022 21:04:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 21:11:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 21:18:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 21:25:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 21:32:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 21:39:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 21:46:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 21:53:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 22:00:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 22:07:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 22:14:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 22:21:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 22:28:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 22:35:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 22:42:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 22:49:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 22:56:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 23:03:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 23:10:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 23:17:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 23:24:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 23:31:10] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Locked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Locked,Operating: 0,Setting: 1
+
+[8-6-2022 23:36:46] API :: Successful: TERMINATING SERVER     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-6-2022 23:36:53] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 78:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[8-6-2022 23:36:53] >> MOVE ./database.db File to ./Records => Success     > null = 80:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[8-6-2022 23:36:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-6-2022 23:36:54] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-6-2022 23:36:54] Terrarium Server Restarted
+Initialization Complete
+     > null = 440:1 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-6-2022 23:36:54] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+-> Email Sent Successfully
+[8-6-2022 23:37:15] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[8-6-2022 23:37:15] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-6-2022 23:37:15] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-6-2022 23:37:21] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 103:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[8-6-2022 23:37:21] Error Lights
+Mode: bounce
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-6-2022 23:43:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-6-2022 23:50:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-6-2022 23:57:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 0:04:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 0:11:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 0:18:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 0:25:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 0:32:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 0:39:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 0:46:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 0:53:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:00:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:07:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:14:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:21:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:28:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:35:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:42:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:49:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:56:47] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:56:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:57:21] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:57:21] API :: Successful: Executing Error Lights Mode: on     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:57:21] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 1:57:21] API :: Successful: Executing Error Lights Mode: on     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:57:25] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:57:29] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-7-2022 1:57:29] API :: Successful: Executing Error Lights Mode: on     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:57:29] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-7-2022 1:57:29] API :: Successful: Executing Error Lights Mode: on     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:57:35] Error Lights
+Mode: off
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 0
+
+[8-7-2022 1:57:35] API :: Successful: Executing Error Lights Mode: off     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:57:35] Error Lights
+Mode: off
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 0
+
+[8-7-2022 1:57:35] API :: Successful: Executing Error Lights Mode: off     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:57:40] Error Lights
+Mode: off
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 0
+
+[8-7-2022 1:57:40] API :: Successful: Executing Error Lights Mode: off     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:57:58] Error Lights
+Mode: humid
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-7-2022 1:57:58] API :: Successful: Executing Error Lights Mode: humid     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:57:58] Error Lights
+Mode: humid
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-7-2022 1:57:58] API :: Successful: Executing Error Lights Mode: humid     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:58:01] Error Lights
+Mode: max
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-7-2022 1:58:01] API :: Successful: Executing Error Lights Mode: max     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:58:01] Error Lights
+Mode: max
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-7-2022 1:58:01] API :: Successful: Executing Error Lights Mode: max     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:58:04] Error Lights
+Mode: min
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-7-2022 1:58:04] API :: Successful: Executing Error Lights Mode: min     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:58:04] Error Lights
+Mode: min
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-7-2022 1:58:04] API :: Successful: Executing Error Lights Mode: min     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:58:25] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 1:59:00] API :: Successful: New Schedule Created: Toggle [Night] : 1659855540524     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-7-2022 1:59:00] API :: Successful: New Schedule Created: Toggle (W) : 1659855540780     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-7-2022 2:00:58] API :: Successful: New Schedule Created: Immediate Light : 1659855657989     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-7-2022 2:02:35] API :: Successful: New Schedule Created: Immediate Light : 1659855754809     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-7-2022 2:02:39] API :: Successful: New Schedule Created: Toggle [Night] : 1659855758842     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-7-2022 2:02:42] API :: Successful: New Schedule Created: Toggle [Night] : 1659855762670     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-7-2022 2:02:47] API :: Successful: New Schedule Created: Immediate [Night] : 1659855767709     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-7-2022 2:03:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 1,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 1,Setting: 1
+
+[8-7-2022 2:10:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 2:17:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 2:24:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 2:31:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 2:38:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 2:45:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 2:52:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 2:59:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 3:06:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 3:13:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 3:20:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 3:27:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 3:34:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 3:41:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 3:48:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 3:55:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 4:02:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 4:09:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 4:16:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 4:23:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 4:30:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 4:37:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 4:44:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 4:51:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 4:58:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 5:00:00] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+-> Email Sent Successfully
+[8-7-2022 5:05:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 5:12:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 5:19:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 5:26:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 5:33:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 5:40:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 5:47:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 5:54:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 6:01:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 6:08:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 6:15:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 6:22:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 6:29:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 6:36:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 6:43:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 6:50:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 6:57:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 7:04:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 7:11:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 7:18:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 7:25:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 7:32:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 7:39:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 7:46:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 7:53:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 8:00:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 8:07:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 8:14:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 8:21:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 8:28:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 8:35:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 8:42:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 8:49:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 8:56:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:03:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:10:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:17:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:24:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:31:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:38:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:45:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:52:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:55:25] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 9:55:53] Error Lights
+Mode: off
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+[8-7-2022 9:55:53] API :: Successful: Executing Error Lights Mode: off     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 9:55:53] Error Lights
+Mode: off
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+[8-7-2022 9:55:53] API :: Successful: Executing Error Lights Mode: off     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 9:56:01] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:56:01] API :: Successful: Executing Error Lights Mode: on     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 9:56:01] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 9:56:01] API :: Successful: Executing Error Lights Mode: on     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 9:59:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 10:06:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 10:13:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 10:20:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 10:27:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 10:34:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 10:41:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 10:48:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 10:55:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 11:02:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 11:09:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 11:16:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 11:23:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 11:30:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 11:37:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 11:44:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 11:51:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 11:58:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 12:05:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 12:12:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 12:19:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 12:26:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 12:33:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 12:40:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 12:47:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 12:54:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 13:01:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 13:08:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 13:15:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 13:22:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 13:29:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 13:34:26] API :: Successful: Executing Error Lights Mode: reset     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+     >> processTicksAndRejections = 95:5 => internal/process/task_queues.js
+
+[8-7-2022 13:36:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 13:43:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 13:50:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 13:57:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 14:04:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 14:11:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 14:18:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 14:25:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 14:32:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 14:39:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 14:46:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 14:53:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 15:00:54] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 1
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 1
+
+[8-7-2022 15:06:40] API :: Successful: RESTART PI     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[8-7-2022 15:07:14] COPYING DATABASE to RECORDS and CLEARING OLD READINGS     > Object.clearOldLogs = 78:15 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[8-7-2022 15:07:15] >> MOVE ./database.db File to ./Records => Success     > null = 80:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+

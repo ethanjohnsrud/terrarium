@@ -1,0 +1,642 @@
+[12-2-2021 5:57:28] >> DELETED ./log.txt File => Success     > null = 86:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-2-2021 8:20:11] API :: Settings controls-types Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 8:20:26] API :: Successful: Status Email Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-2-2021 9:07:37] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+64.00%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-2-2021 9:20:37] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+60.00%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-2-2021 9:29:08] API :: Successful: New Schedule Created: Toggle [Cricket] : 1638458946304     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 9:33:37] Humidity Reestablished
+95.19% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-2-2021 13:27:37] Humidity Reestablished
+74.19% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-2-2021 13:32:44] API :: Successful: Replace Schedule: Toggle (W.F.A.P) : 1638430398698     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-2-2021 13:33:05] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-3-2021 2:17:25] Terrarium Server Restarted
+Initialization Complete
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-3-2021 3:01:19] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-3-2021 3:01:32] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-3-2021 3:38:11] API :: Successful: New Schedule Created: No Fan : 1638522000000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-3-2021 3:38:41] API :: Successful: New Schedule Created: Clean water  : 1638532800000     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-3-2021 21:18:46] API :: Settings climate-all Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-3-2021 21:19:32] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-5-2021 16:16:00] API :: Successful: Delete Schedule: 168     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-6-2021 17:41:14] Humidity Reestablished
+93.90% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-6-2021 18:07:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.90%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-6-2021 18:20:13] Humidity Reestablished
+94.19% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-6-2021 18:59:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+67.50%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-6-2021 19:12:13] Humidity Reestablished
+93.59% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-6-2021 21:48:13] Humidity Reestablished
+94.80% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-6-2021 22:53:13] Humidity Reestablished
+89.30% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-6-2021 23:32:13] Humidity Reestablished
+93.90% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-6-2021 23:36:00] API :: Successful: New Schedule Created: Toggle (V.F) : 1638855361068     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-7-2021 22:47:41] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1638938860579     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-8-2021 9:21:14] API :: Successful: New Schedule Created: Toggle (W) : 1638976873392     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-8-2021 9:21:14] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1638976873823     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-8-2021 9:26:03] API :: Successful: New Schedule Created: Immediate (V.F-D.H.L) : 1638977162236     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-8-2021 9:33:14] Humidity Reestablished
+90.69% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 10:12:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.00%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 10:24:05] Humidity Reestablished
+84.80% 
+     > Object.evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-8-2021 10:24:05] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-8-2021 11:04:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.30%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 11:30:13] Humidity Reestablished
+77.40% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 12:09:13] Humidity Reestablished
+82.80% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 13:40:13] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+83.30-F = 28.50-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 89:185 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-8-2021 13:40:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+63.40%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-8-2021 13:53:13] Temperature Reestablished from Maximum
+79.70-F = 26.50-C 
+     > evaluateConditions = 99:60 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-8-2021 13:53:13] Humidity Reestablished
+72.69% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-8-2021 14:32:13] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.76-F = 28.20-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 89:185 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 14:58:13] Humidity Reestablished
+80.50% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 15:50:14] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.92-F = 28.29-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 89:185 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 16:03:13] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+83.30-F = 28.50-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 89:185 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 16:55:14] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.58-F = 28.10-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 89:185 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-8-2021 17:07:30] API :: Successful: New Schedule Created: Immediate (D.H.L) : 1639004848981     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-8-2021 17:08:13] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+83.30-F = 28.50-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 89:185 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-9-2021 8:05:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.90%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-9-2021 8:18:13] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.76-F = 28.20-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 89:185 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-9-2021 8:18:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.30%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-9-2021 8:31:13] Temperature Reestablished from Maximum
+78.98-F = 26.10-C 
+     > evaluateConditions = 99:60 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-9-2021 8:31:13] Humidity Reestablished
+82.19% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-9-2021 9:10:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.00%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-9-2021 9:23:13] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.76-F = 28.20-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 89:185 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-9-2021 9:23:13] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.30%  < 70.00%
+     > evaluateConditions = 137:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-9-2021 9:36:14] Temperature Reestablished from Maximum
+77.00-F = 25.00-C 
+     > evaluateConditions = 99:60 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-9-2021 9:36:14] Humidity Reestablished
+90.80% 
+     > evaluateConditions = 147:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-10-2021 0:24:54] Terrarium Server Restarted
+Initialization Complete
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-10-2021 0:25:15] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-10-2021 0:25:28] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 100:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-10-2021 2:43:19] API :: Successful: New Schedule Created: ALL OFF : 1639125798438     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-10-2021 9:36:45] API :: Attempt to Alter Settings Failed: TypeError: request.body.name.toLowercase is not a function     > null = 360:18 => file:///home/pi/terrarium/terrarium.mjs
+     >> Layer.handle [as handle_request] = 95:5 => /home/pi/terrarium/node_modules/express/lib/router/layer.js
+     >>> next = 137:13 => /home/pi/terrarium/node_modules/express/lib/router/route.js
+
+[12-10-2021 9:37:18] API :: Attempt to Alter Settings Failed: TypeError: request.body.name.toLowercase is not a function     > null = 360:18 => file:///home/pi/terrarium/terrarium.mjs
+     >> Layer.handle [as handle_request] = 95:5 => /home/pi/terrarium/node_modules/express/lib/router/layer.js
+     >>> next = 137:13 => /home/pi/terrarium/node_modules/express/lib/router/route.js
+
+[12-10-2021 9:37:49] API :: Attempt to Alter Settings Failed: TypeError: request.body.name.toLowercase is not a function     > null = 360:18 => file:///home/pi/terrarium/terrarium.mjs
+     >> Layer.handle [as handle_request] = 95:5 => /home/pi/terrarium/node_modules/express/lib/router/layer.js
+     >>> next = 137:13 => /home/pi/terrarium/node_modules/express/lib/router/route.js
+
+[12-10-2021 11:29:15] Terrarium Server Restarted
+Initialization Complete
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-10-2021 11:29:36] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 104:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-10-2021 11:29:49] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor     > null = 104:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[12-10-2021 11:42:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 11:42:30] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 11:42:30] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 11:42:30] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 11:55:31] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 11:55:31] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 11:55:31] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 11:55:31] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 12:08:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 12:08:30] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 12:08:30] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 12:08:30] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 12:21:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 12:21:30] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 12:21:30] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 12:21:30] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 12:34:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 12:34:30] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 12:34:30] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 12:34:30] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 12:47:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 12:47:30] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 12:47:30] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 12:47:30] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 13:00:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 13:00:30] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:00:30] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:00:30] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 13:13:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 13:13:31] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:13:31] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:13:31] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 13:26:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 13:26:30] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:26:30] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:26:30] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 13:39:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 13:39:30] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:39:30] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:39:30] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 13:52:30] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: percentTemperatureOffset is not defined
+     > evaluateConditions = 164:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 13:52:30] RESETTING DATA SETTINGS     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:52:30] >> MOVE ./settings.json File to ./Record => Success     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[12-10-2021 13:52:30] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[12-10-2021 14:02:32] Terrarium Server Restarted
+Initialization Complete
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-10-2021 14:02:47] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+88.88-F = 31.60-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 93:185 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-10-2021 14:02:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.59%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-10-2021 14:17:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.19%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-10-2021 14:32:47] Humidity Reestablished
+90.69% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-10-2021 15:02:47] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+82.76-F = 28.20-C  > 28.00-C = 82.40-F
+     > evaluateConditions = 93:185 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-10-2021 17:47:48] Humidity Reestablished
+88.19% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-10-2021 20:02:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+67.30%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-10-2021 20:17:48] Humidity Reestablished
+83.09% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-10-2021 21:02:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.69%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-10-2021 21:17:47] Humidity Reestablished
+83.19% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 0:32:47] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+68.90-F = 20.50-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 109:184 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 1:02:47] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.26-F = 20.70-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 109:184 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 1:32:48] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.80%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 2:02:47] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+69.42-F = 20.79-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 109:184 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-11-2021 2:02:47] Humidity Reestablished
+72.19% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-11-2021 2:17:47] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+68.90-F = 20.50-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 109:184 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 2:47:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+66.09%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 3:02:47] SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+68.52-F = 20.29-C  < 21.00-C = 69.80-F
+     > evaluateConditions = 109:184 => file:///home/pi/terrarium/backend/server.mjs
+
+[12-11-2021 3:02:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.30%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[12-11-2021 3:32:48] Humidity Reestablished
+85.50% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 8:02:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+61.40%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 8:17:47] Humidity Reestablished
+70.09% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 9:02:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+60.09%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 9:17:47] Humidity Reestablished
+70.50% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 11:02:47] Humidity Reestablished
+71.90% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 12:02:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+68.50%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 12:17:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+69.19%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 12:32:47] Humidity Reestablished
+76.50% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 13:02:47] SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED
+65.50%  < 70.00%
+     > evaluateConditions = 141:175 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 13:17:47] Humidity Reestablished
+76.59% 
+     > evaluateConditions = 151:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 13:42:56] Terrarium Server Restarted
+Initialization Complete
+     > null = 416:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[12-11-2021 13:44:21] API :: Settings controls-name Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 13:45:14] API :: Settings controls-types Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 13:45:55] API :: Settings dayHourStart Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 13:46:57] API :: Settings maximumTemperature Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 13:47:06] API :: Settings minimumTemperature Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 13:47:51] API :: Settings maximumHumidity Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 13:47:59] API :: Settings minimumHumidity Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 13:58:12] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.32-F = 26.29-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:185 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 14:13:12] SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED
+79.50-F = 26.39-C  > 26.00-C = 78.80-F
+     > evaluateConditions = 93:185 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 17:41:47] API :: Successful: New Schedule Created: Toggle [Extra Heat] : 1639266107781     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 19:58:12] SEVERE HIGH HUMIDITY -> IMMEDIATE ACTION REQUIRED
+99.90%  > 85.00%
+     > evaluateConditions = 125:176 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 20:13:12] SEVERE HIGH HUMIDITY -> IMMEDIATE ACTION REQUIRED
+99.90%  > 85.00%
+     > evaluateConditions = 125:176 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 20:46:51] API :: Successful: Immediate-Evaluation has been Queued     > validate = 190:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 21:04:32] API :: Attempt to Alter Settings Failed: Value is more than maximum: 90 > 85     > null = 360:18 => file:///home/pi/terrarium/terrarium.mjs
+     >> Layer.handle [as handle_request] = 95:5 => /home/pi/terrarium/node_modules/express/lib/router/layer.js
+     >>> next = 137:13 => /home/pi/terrarium/node_modules/express/lib/router/route.js
+
+[12-11-2021 21:05:02] API :: Attempt to Alter Settings Failed: Value is more than maximum: 90 > 85     > null = 360:18 => file:///home/pi/terrarium/terrarium.mjs
+     >> Layer.handle [as handle_request] = 95:5 => /home/pi/terrarium/node_modules/express/lib/router/layer.js
+     >>> next = 137:13 => /home/pi/terrarium/node_modules/express/lib/router/route.js
+
+[12-11-2021 21:06:50] API :: Attempt to Alter Settings Failed: Value is more than maximum: 90 > 85     > null = 360:18 => file:///home/pi/terrarium/terrarium.mjs
+     >> Layer.handle [as handle_request] = 95:5 => /home/pi/terrarium/node_modules/express/lib/router/layer.js
+     >>> next = 137:13 => /home/pi/terrarium/node_modules/express/lib/router/route.js
+
+[12-11-2021 21:08:48] API :: Settings maximumHumidity Successfully Updated     > null = 356:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[12-11-2021 21:13:12] Humidity Reestablished
+94.40% 
+     > evaluateConditions = 135:52 => file:///home/pi/terrarium/backend/server.mjs
+
+-> Email Sent Successfully
+[12-11-2021 21:23:32] API :: Attempt to Alter Settings Failed: Value is less than minimum: 21.43 < 21.5     > null = 360:18 => file:///home/pi/terrarium/terrarium.mjs
+     >> Layer.handle [as handle_request] = 95:5 => /home/pi/terrarium/node_modules/express/lib/router/layer.js
+     >>> next = 137:13 => /home/pi/terrarium/node_modules/express/lib/router/route.js
+

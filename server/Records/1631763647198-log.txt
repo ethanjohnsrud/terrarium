@@ -1,0 +1,98 @@
+[9-15-2021 22:37:19] Resetting File Structure
+SAVED DATA AND DELETED FILES :: ./terrarium.db | ./log.txt | ./settings.json
+     > Object.resetClearSavedData = 31:11 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/data-manage.mjs
+     >> null = 6:1 => async file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/server.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+[9-15-2021 22:37:19] Terrarium Server Restarted
+Initialization Complete
+     > null = 192:1 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/server.mjs
+
+[9-15-2021 22:37:19] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 22:37:19] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+[9-15-2021 22:37:19] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+[9-15-2021 22:37:19] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+Issue Email Sent: 
+Issue Email Sent: 
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+[9-15-2021 22:37:19] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+Issue Email Sent: 
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+[9-15-2021 22:37:19] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE hour = ? ORDER BY time ASC LIMIT ?;' :: 22,10 => Error: SQLITE_ERROR: no such table: readings
+     > null = 37:31 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/database.mjs
+     >> async Object.databaseGetAverageValues = 51:22 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/database.mjs
+     >>> null = 97:37 => async file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+Issue Email Sent: 
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+[9-15-2021 22:38:19] [#5] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 22:38:19] [#4] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+[9-15-2021 22:38:19] [#3] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+[9-15-2021 22:38:19] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+[9-15-2021 22:38:19] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor     > null = 91:9 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 42:63 => file:///C:/Users/ethan/Projects/terrariumControl/01-New-Server/utility.mjs
+
+Issue Email Sent: 
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+Issue Email Sent: 
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+-> Email Sending SUCCESS
+# ERROR with sendEmail :: Type [Error] Email -> Attempting to resend without Attachments and Stats
+Issue Email Sent: 
+Issue Email Sent: 
