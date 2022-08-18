@@ -1,2 +1,4 @@
 /demo-portal/
 /terrarium-old/
+/portal/.env
+/server/.env
