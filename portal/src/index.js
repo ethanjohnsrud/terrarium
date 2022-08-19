@@ -119,7 +119,8 @@ export const fetchData = async()=> { console.log(store.getState().serverURL);
   return await axios.get(`${store.getState().serverURL}/data/`, { responseType: "json" })
 .then((res) => {const response = res.data;
   store.dispatch({type: 'setData', payload: response});
-  localStorage.setItem("server", store.getState().serverURL.toString());
+  if(!localStorage.getItem("server"))
+    localStorage.setItem("server", store.getState().serverURL.toString());
   console.log('fetching Data', response);
   setTimeout(()=>fetchData(), response ? (((response.timeNextEvaluation) - new Date().getTime())+30000) : (60*1000));
   return true;
