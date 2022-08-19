@@ -1,0 +1,16 @@
+[[redirects]]
+  from = "/demo"
+  to = "https://terrarium-demo.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/origional"
+  to = "https://terrarium-control-demo.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

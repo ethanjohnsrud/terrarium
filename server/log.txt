@@ -478,3 +478,58 @@ HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
 
 
 -> Email Sent Successfully
+[8-19-2022 0:21:18] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-19-2022 0:21:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-19-2022 0:21:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-19-2022 0:21:18] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-19-2022 0:21:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-19-2022 0:21:18] Error Lights
+Mode: bounce
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-19-2022 0:21:23] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+[8-19-2022 0:21:23] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+-> Email Sent Successfully
