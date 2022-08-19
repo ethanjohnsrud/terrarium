@@ -154,3 +154,327 @@ HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
 
 -> Email Sent Successfully
 -> Email Sent Successfully
+[8-18-2022 23:06:18] COPYING DATABASE to RECORDS and CLEARING OLD READINGS
+     > Object.clearOldLogs = 78:15 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/data-manage.mjs
+
+[8-18-2022 23:06:18] >> MOVE ./database.db File to ./Records => Success
+     > null = 80:31 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/data-manage.mjs
+
+[8-18-2022 23:06:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:06:18] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-18-2022 23:06:18] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 489:1 => file:///C:/Users/ethan/Projects/terrariumControl/server/terrarium.mjs
+
+[8-18-2022 23:06:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:06:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:06:18] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-18-2022 23:06:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:06:18] Error Lights
+Mode: bounce
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+[8-18-2022 23:06:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:06:23] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+[8-18-2022 23:06:23] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[8-18-2022 23:21:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:21:18] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-18-2022 23:21:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:21:18] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-18-2022 23:21:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:21:18] Sensor Disconnected
+DHT22 Sensor Failed Reading in Proactive Mode | [Sensor is currently OFF]
+Failed with Error: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+Operating with Historic 10 Average Values
+
+     > null = 112:53 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-18-2022 23:21:18] Error Lights
+Mode: bounce
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+[8-18-2022 23:21:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:21:23] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+[8-18-2022 23:21:23] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+-> Email Sent Successfully
+-> Email Sent Successfully
+[8-18-2022 23:36:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:36:18] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-18-2022 23:36:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:36:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:36:18] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-18-2022 23:36:18] Error Lights
+Mode: bounce
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:36:23] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+[8-18-2022 23:36:23] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+-> Email Sent Successfully
+[8-18-2022 23:51:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:51:18] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-18-2022 23:51:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:51:18] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-18-2022 23:51:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:51:18] Error Lights
+Mode: bounce
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-18-2022 23:51:23] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+[8-18-2022 23:51:23] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+-> Email Sent Successfully
+[8-19-2022 0:06:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-19-2022 0:06:18] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> Object.evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-19-2022 0:06:18] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-19-2022 0:06:18] Error Lights
+Mode: on
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-19-2022 0:06:18] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+     > null = 103:9 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 53:63 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+[8-19-2022 0:06:18] Error Lights
+Mode: bounce
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+[8-19-2022 0:06:23] Extra Sensor Evaluation Catch -> Resolving all Zeros
+TypeError: Cannot read properties of null (reading 'writeSync')
+
+     > null = 123:14 => file:///C:/Users/ethan/Projects/terrariumControl/server/backend/utility.mjs
+
+privateInfo Error: Error: Command failed: hostname -I
+sethostname: Use the Network Control Panel Applet to set hostname.
+hostname -s is not supported.
+
+[8-19-2022 0:06:23] Error Lights
+Mode: flash
+MAX_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+MIN_TEMP_CONTROL,Unlocked,Operating: 0,Setting: 0
+HUMIDITY_CONTROL,Unlocked,Operating: 0,Setting: 0
+
+
+-> Email Sent Successfully

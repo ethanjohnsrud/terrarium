@@ -61,7 +61,7 @@ const HOLDINGBACKGROUNDCOLOR = '#cc5500';
             <div className='readings-box-inner' style={{backgroundColor: sensorColor}}>
                 <div className=' readings-value-box' >
                     {(ERROR_LIST.length) 
-                        ? <strong id={'readings-top-error'} >{ERROR_LIST[0]}</strong>
+                        ? <strong id={'readings-top-error'} style={{color: sensorColor == ERRORBACKGROUNDCOLOR ? 'white' : ERRORBACKGROUNDCOLOR}}>{ERROR_LIST[0]}</strong>
                         : <div className='none no-size'></div>
                      }
                     {(ERROR_LIST.length > 1) ? ERROR_LIST.slice(1).map((e,i)=><strong key={`error-${i}`} className=' ' style={{gridRow: (i+3), gridColumn: 1, overflowX: 'auto', fontSize: '1.2rem', fontFamily: `'New Tegomin', serif`, margin: 0, color: sensorColor == ERRORBACKGROUNDCOLOR ? 'white' : ERRORBACKGROUNDCOLOR}} >{e}</strong>): <div className='none no-size'></div>}
@@ -131,7 +131,7 @@ useEffect(()=>{setTimeout(()=>{
 
 const HumidityOnClick = async(password) => {const response = await fetchData(); routeHistory.push('/'); return response == true ? 'UPDATING' : response;}
 const TemperatureOnClick = async(password) => {dispatch({type: 'toggleConvertToFahrenheit'}); return null;}
-const sensorOnClick = async(password) => {if(maxError) routeHistory.push('/log'); else routeHistory.push('/settings'); return null;}
+const sensorOnClick = async(password) => {if(maxError && DATA.sensorErrorCode != undefined) routeHistory.push('/log'); else routeHistory.push('/settings'); return null;}
 
     return (align ? <div ref={ref} id='readings-container' className='readings-align'  >
                 <SettingsButton title={getSensor()}

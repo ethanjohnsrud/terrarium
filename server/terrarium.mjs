@@ -1,4 +1,5 @@
 import fs from 'fs';
+import https from 'https';
 import http from 'http';
 import path from 'path';
 const __dirname = path.resolve();
@@ -21,8 +22,12 @@ import SERVER from './backend/server.mjs';
 /***************************** */
 /* ****  Server SETUP    ***** */
 /***************************** */
-const SERVER_PORT = process.env.SERVER_PORT || 4500;
+const HTTP_SERVER_PORT = process.env.HTTP_SERVER_PORT || 4700;
+const HTTPS_SERVER_PORT = process.env.HTTPS_SERVER_PORT || 4750;
 const apiServer = express();
+//Open SSL for HTTPS
+const SERVER_KEY = fs.readFileSync('./key.pem');
+const SERVER_CERT = fs.readFileSync('./cert.pem');
 
 //Middleware :: gives access to local files
 apiServer.use(express.static(path.join(__dirname, 'frontend', 'build')));
@@ -457,10 +462,8 @@ apiServer.get('*', function(request, response) {
     response.redirect('/');
 });
 
-apiServer.listen(SERVER_PORT, () => console.log(`Back End Server listening on port: ${SERVER_PORT}`));
-
-
-
+http.createServer(apiServer).listen(HTTP_SERVER_PORT, () => console.log(`Back End Server listening on LOCAL HTTP port: ${HTTP_SERVER_PORT}`));
+https.createServer({key: SERVER_KEY, cert: SERVER_CERT }, apiServer).listen(HTTPS_SERVER_PORT, () => console.log(`Back End Server listening on LOCAL HTTP port: ${HTTPS_SERVER_PORT}`));
 
 /***************************** */
 /* ***   INITIALIZATION    *** */

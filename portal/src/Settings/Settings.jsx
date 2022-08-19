@@ -28,6 +28,7 @@ SettingsBlank.jsx
     ? verifyLevel = 2
     ? inputType = current type: text/number
     ? numberStep = 1
+    ? cache: true/false //Won't clear Input on Failed Request
 SettingsButton.jsx
     + title
     + onUpdate
@@ -67,6 +68,7 @@ const routeHistory = useHistory();
         <SettingsBlank title='Server URL:'
                 current={SERVER_URL}
                 verifyLevel={0}
+                cache={true}
                 onUpdate={async(value, password)=>{dispatch({type: 'setServerURL', payload: value}); const response = await fetchData(); if(response == true) routeHistory.push('/'); return (response == true) ? 'UPDATING' : response;}}/>,
         <SettingsButton title='Update Data' pendingText='RETRIEVING'
         onUpdate={async()=>{const response = await fetchData(); return (response == true) ? 'UPDATED' : response;}} />

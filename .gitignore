@@ -1,4 +1,16 @@
 /demo-portal/
 /terrarium-old/
-/portal/.env
+
 /server/.env
+/server/key.pem
+/server/cert.pem
+/server/frontend/.env
+/server/Records/
+/server/node_modules/
+/server/package-lock.json
+
+/portal/.env
+/portal/build/.env
+/portal/node_modules/
+/portal/package-lock.json
+

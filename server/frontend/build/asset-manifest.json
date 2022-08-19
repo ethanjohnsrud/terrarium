@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9239d79a.chunk.css",
+    "main.js": "/static/js/main.948fd03f.chunk.js",
+    "main.js.map": "/static/js/main.948fd03f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f66585a9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f66585a9.js.map",
+    "static/js/2.74498e8d.chunk.js": "/static/js/2.74498e8d.chunk.js",
+    "static/js/2.74498e8d.chunk.js.map": "/static/js/2.74498e8d.chunk.js.map",
+    "static/js/3.c52cc46d.chunk.js": "/static/js/3.c52cc46d.chunk.js",
+    "static/js/3.c52cc46d.chunk.js.map": "/static/js/3.c52cc46d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9239d79a.chunk.css.map": "/static/css/main.9239d79a.chunk.css.map",
+    "static/js/2.74498e8d.chunk.js.LICENSE.txt": "/static/js/2.74498e8d.chunk.js.LICENSE.txt",
+    "static/media/frog-logo.61394956.png": "/static/media/frog-logo.61394956.png",
+    "static/media/terrarium-buddies.3158d65c.jpg": "/static/media/terrarium-buddies.3158d65c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f66585a9.js",
+    "static/js/2.74498e8d.chunk.js",
+    "static/css/main.9239d79a.chunk.css",
+    "static/js/main.948fd03f.chunk.js"
+  ]
+}

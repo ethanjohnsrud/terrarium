@@ -1,26 +1,26 @@
 /************************************* */
 /*         TESTING IMPORTS             */
 /************************************* */    
-// const CONTROL_SERVER = false;    
-// const dht22Sensor = undefined;
-// const bme280Sensor = undefined;
-// const SAVE_TO_LOG = true;
-// const SEND_EMAILS = false;
+const CONTROL_SERVER = false;    
+const dht22Sensor = undefined;
+const bme280Sensor = undefined;
+const SAVE_TO_LOG = true;
+const SEND_EMAILS = false;
 
 /************************************* */
 /* ******  RASPBERRY PI IMPORTS  ***** */
 /************************************* */
-const CONTROL_SERVER =  ((process.env.CONTROL_SERVER || 'true') == 'true') || true; 
-import {Gpio} from 'onoff';
-import dht22Sensor from 'node-dht-sensor';
-import BME280 from 'bme280-sensor';
-const BME280OPTIONS = {
-        i2cBusNo   : 1, // defaults to 1
-        i2cAddress : 0x76, // defaults to 0x77
-      };
-const bme280Sensor = new BME280(BME280OPTIONS);
-const SAVE_TO_LOG = true;
-const SEND_EMAILS = true;
+// const CONTROL_SERVER =  ((process.env.CONTROL_SERVER || 'true') == 'true') || true; 
+// import {Gpio} from 'onoff';
+// import dht22Sensor from 'node-dht-sensor';
+// import BME280 from 'bme280-sensor';
+// const BME280OPTIONS = {
+//         i2cBusNo   : 1, // defaults to 1
+//         i2cAddress : 0x76, // defaults to 0x77
+//       };
+// const bme280Sensor = new BME280(BME280OPTIONS);
+// const SAVE_TO_LOG = true;
+// const SEND_EMAILS = true;
 
 /************************************* */
 /* ******    Universal Imports   ***** */

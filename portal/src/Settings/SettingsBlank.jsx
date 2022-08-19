@@ -29,9 +29,9 @@ const SettingsBlank = (props) => {
         if(verifyLevel == 1 && !localStorage.getItem("password")) await localStorage.setItem("password", password.toString());
         const success = await props.onUpdate(value, password);
         if(success == true || isNaN(success)) {setButtonText((success != true) ? success : 'SAVED'); setCurrent(inputType == 'textarea' ? '' : value); if(inputType == 'textarea') setValue(''); setTimeout(()=>setButtonText(''), 5000); }
-        else if(success == 401) { setButtonText('PASS'); setTimeout(()=>setValue(current), 5000);  localStorage.clear();}
-        else if(success == 404) { setButtonText('INVALID');setTimeout(()=>setValue(current), 5000); }
-        else {setButtonText('FAILED'); setTimeout(()=>setValue(current), 5000); }
+        else if(success == 401) { if(!props.cache) setButtonText('PASS'); setTimeout(()=>setValue(current), 5000);  localStorage.clear();}
+        else if(success == 404) { if(!props.cache) setButtonText('INVALID');setTimeout(()=>setValue(current), 5000); }
+        else {setButtonText('FAILED'); if(!props.cache) setTimeout(()=>setValue(current), 5000); }
 
     }
 
