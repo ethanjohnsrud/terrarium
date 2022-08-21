@@ -7,6 +7,7 @@ import './Readings.css';
 import '../index.css';
 import SettingsButton from '../Settings/SettingsButton';
 import { fetchData } from '..';
+import SettingsBlank from '../Settings/SettingsBlank';
 
 
 const BACKGROUNDCOLOR = 'rgba(24, 98, 24, 0.5)';
@@ -82,8 +83,22 @@ const HOLDINGBACKGROUNDCOLOR = '#cc5500';
                     <strong className='none readings-value' style={{gridRow: 3, gridColumn: 2, }} >{DATA.evaluationFrequency/60000} minutes</strong>
                     <p className='none readings-description' style={{gridRow: 4, gridColumn: 1,  }} >Next Evaluation:</p>
                     <strong className='none readings-value' style={{gridRow: 4, gridColumn: 2, }} >{nextCountDown <= 0 ? 'Reading' : nextCountDown > 60000 ? `${Math.floor(nextCountDown/60000)}:${nextCountDown%60000<10000?'0':''}${Math.floor((nextCountDown%60000)/1000)}` : `${Math.floor(nextCountDown/1000)} seconds`}</strong>
-                </section> : <div  className='none no-size'></div>}
+                </section> 
+                : <div className='none no-size'></div>}
             </div>
+            {(DATA.sensorErrorCode == undefined) ? 
+                <div className='readings-box-inner' style={{backgroundColor: 'rgba(0,0,0,0.75)'}}>
+                <SettingsBlank title='Server URL:'
+                    current={SERVER_URL}
+                    verifyLevel={0}
+                    cache={true}
+                    overrideValidation={true}
+                    onUpdate={async(value, password)=>{
+                        dispatch({type: 'setServerURL', payload: value}); 
+                        const response = await fetchData(); if(response == true) routeHistory.push('/'); 
+                        return (response == true) ? 'UPDATING' : response;}}
+                />
+            </div> : <div className='none no-size'></div>}
         </div>;
 
     const getTemperature = () => (DATA.operatingTemperature) ? <div id='temperature-section' className='none readings-box-outer' style={{marginLeft: align ? 'auto' : 0}}>
@@ -133,51 +148,47 @@ const HumidityOnClick = async(password) => {const response = await fetchData(); 
 const TemperatureOnClick = async(password) => {dispatch({type: 'toggleConvertToFahrenheit'}); return null;}
 const sensorOnClick = async(password) => {if(maxError && DATA.sensorErrorCode != undefined) routeHistory.push('/log'); else routeHistory.push('/settings'); return null;}
 
-    return (align ? <div ref={ref} id='readings-container' className='readings-align'  >
-                <SettingsButton title={getSensor()}
-                    condense={true}
-                    buttonColor={'transparent'}
-                    buttonStyle={{border: 'none', margin: '1.0rem', padding: '0', borderRadius: '0.75rem'}}
-                    verifyLevel={maxError ? 0 : 1}
-                    pendingText='INITIATING'
-                    onUpdate = {sensorOnClick}/>
-                <SettingsButton title={getTemperature()}
-                    condense={true}
-                    buttonColor={'transparent'}
-                    buttonStyle={{border: 'none', margin: '1.0rem', padding: '0', borderRadius: '0.75rem'}}
-                    verifyLevel={0}
-                    onUpdate = {TemperatureOnClick}/>
-                <SettingsButton title={getHumidity()}
-                    condense={true}
-                    buttonColor={'transparent'}
-                    buttonStyle={{border: 'none', margin: '1.0rem', padding: '0', borderRadius: '0.75rem'}}
-                    verifyLevel={0}
-                    pendingText='RETRIEVING'
-                    onUpdate={HumidityOnClick}/>
-        </div> : <div ref={ref} id='readings-container' className='readings-top'  >
-                <SettingsButton title={getTemperature()}
-                    condense={true}
-                    buttonColor={'transparent'}
-                    buttonStyle={{border: 'none', margin: '1.0rem', padding: '0', borderRadius: '0.75rem'}}
-                    verifyLevel={0}
-                    onUpdate = {TemperatureOnClick}/>
-                <SettingsButton title={getSensor()}
-                    condense={true}
-                    buttonColor={'transparent'}
-                    buttonStyle={{border: 'none', margin: '1.0rem', padding: '0', borderRadius: '0.75rem'}}
-                    verifyLevel={maxError ? 0 : 1}
-                    pendingText='INITIATING'
-                    onUpdate = {sensorOnClick}/>
-                <SettingsButton title={getHumidity()}
-                    condense={true}
-                    buttonColor={'transparent'}
-                    buttonStyle={{border: 'none', margin: '1.0rem', padding: '0', borderRadius: '0.75rem'}}
-                    verifyLevel={0}
-                    pendingText='RETRIEVING'
-                    onUpdate={HumidityOnClick}/>
-        </div>);
+const ReadingsArrangement = [
+    {mobile: 1, desktop: 2, 
+        getWidget:  getSensor,
+        getUpdate: sensorOnClick,
+        pendingText: 'DIRECTING'
+    },
+    {mobile: 2, desktop: 1, 
+        getWidget:  getTemperature,
+        getUpdate: TemperatureOnClick,
+        pendingText: 'CONVERTING'
+    },
+    {mobile: 3, desktop: 3, 
+        getWidget:  getHumidity,
+        getUpdate: HumidityOnClick,
+        pendingText: 'RETRIEVING'
+    }     
+];
+    return (
+    <div ref={ref} id='readings-container' className={align ? 'readings-align' : 'readings-top' }  >
+        {ReadingsArrangement.sort((a,b) => align ? (a.mobile - b.mobile) : (a.desktop - b.desktop))
+            .map(widget =>
+                <div style={{margin: 'auto', padding: '2.0rem'}}>
+                    <SettingsButton title={widget.getWidget()}
+                            condense={true}
+                            buttonColor={'transparent'}
+                            buttonStyle={{border: 'none', margin: '0', padding: '0', borderRadius: '0.75rem'}}
+                            verifyLevel={0}
+                            pendingText={widget.pendingText}
+                            onUpdate = {widget.getUpdate}
+                        />
+                </div>
+            )
+        }
+    </div>
+    );
 });
 
+
+/* ------------------------------
+Depreciated For Now: 8/10/2022
+------------------------------ */
 const ScrollText=(props)=>{
     const boxRef = useRef();
     const textRef = useRef();

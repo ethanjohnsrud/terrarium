@@ -4,7 +4,7 @@ import Verify from '../Verify';
 import '../index.css';
 import './Settings.css';
 
-const getButtonColor=(buttonText)=>(buttonText=='') ? 'transparent' : (buttonText=='UPDATE') ? 'var(--main-color)' : (buttonText=='PASS' || buttonText=='INVALID' || buttonText=='FAILED') ? '#e8000d' : (buttonText=='PENDING' || buttonText=='BLANK') ? 'orange' : '#cc5500';
+const getButtonColor=(buttonText) =>  (buttonText=='' || buttonText=='SEND') ? 'transparent' : (buttonText=='UPDATE') ? 'var(--main-color)' : (buttonText=='PASS' || buttonText=='INVALID' || buttonText=='FAILED') ? '#e8000d' : (buttonText=='PENDING' || buttonText=='BLANK') ? 'orange' : '#cc5500';
 
 const SettingsBlank = (props) => {
     const [verification, setVerification] = useState(undefined);
@@ -18,7 +18,7 @@ const SettingsBlank = (props) => {
         const numberStep = (props.numberStep != undefined) ? props.numberStep : 1;
         const condense = (props.condense != undefined) ? props.condense : false;
 
-        const updateButton = async()=>{const text = (value == current && props.current == undefined) ? 'BLANK' : (inputType == 'number' && isNaN(value)) ? 'NUMBER' : (value != current) ? 'UPDATE' : '';
+        const updateButton = async()=>{const text = (value == current && props.current == undefined) ? 'BLANK' : (inputType == 'number' && isNaN(value)) ? 'NUMBER' : (value != current) ? 'UPDATE' : (props.overrideValidation) ? 'SEND' : '';
                                         setButtonText(text); return text;}
         useEffect(()=>updateButton(), [value]);
 
@@ -35,7 +35,7 @@ const SettingsBlank = (props) => {
 
     }
 
-    const processUpdate=async()=>{ if(await updateButton() == 'UPDATE') { setButtonText('PENDING');
+    const processUpdate=async()=>{ if(props.overrideValidation || await updateButton() == 'UPDATE') { setButtonText('PENDING');
         if(verifyLevel == 0) makeRequest(undefined); //No Security
         else if(verifyLevel == 1 && !localStorage.getItem("password")) setVerification('Enter Control Password to Continue:'); //Only Request if not stored
         else if(verifyLevel == 1) makeRequest(localStorage.getItem("password")); //Use Saved Password

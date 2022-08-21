@@ -36,7 +36,7 @@
 
 .readings-box-inner {
     display: grid;
-    margin: 1.0rem;
+    /* margin: 1.0rem; */
     padding: 0.5rem;
     overflow-x: hidden;
     max-width: 85vw;
