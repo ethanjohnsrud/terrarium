@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/terrarium/static/css/main.81b34657.chunk.css",
-    "main.js": "/terrarium/static/js/main.b98148f8.chunk.js",
-    "main.js.map": "/terrarium/static/js/main.b98148f8.chunk.js.map",
+    "main.js": "/terrarium/static/js/main.d88f8df4.chunk.js",
+    "main.js.map": "/terrarium/static/js/main.d88f8df4.chunk.js.map",
     "runtime-main.js": "/terrarium/static/js/runtime-main.4d805369.js",
     "runtime-main.js.map": "/terrarium/static/js/runtime-main.4d805369.js.map",
-    "static/js/2.64b81724.chunk.js": "/terrarium/static/js/2.64b81724.chunk.js",
-    "static/js/2.64b81724.chunk.js.map": "/terrarium/static/js/2.64b81724.chunk.js.map",
+    "static/js/2.42f31364.chunk.js": "/terrarium/static/js/2.42f31364.chunk.js",
+    "static/js/2.42f31364.chunk.js.map": "/terrarium/static/js/2.42f31364.chunk.js.map",
     "static/js/3.53307765.chunk.js": "/terrarium/static/js/3.53307765.chunk.js",
     "static/js/3.53307765.chunk.js.map": "/terrarium/static/js/3.53307765.chunk.js.map",
     "index.html": "/terrarium/index.html",
     "static/css/main.81b34657.chunk.css.map": "/terrarium/static/css/main.81b34657.chunk.css.map",
-    "static/js/2.64b81724.chunk.js.LICENSE.txt": "/terrarium/static/js/2.64b81724.chunk.js.LICENSE.txt",
+    "static/js/2.42f31364.chunk.js.LICENSE.txt": "/terrarium/static/js/2.42f31364.chunk.js.LICENSE.txt",
     "static/media/frog-logo.61394956.png": "/terrarium/static/media/frog-logo.61394956.png",
     "static/media/terrarium-buddies.3158d65c.jpg": "/terrarium/static/media/terrarium-buddies.3158d65c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4d805369.js",
-    "static/js/2.64b81724.chunk.js",
+    "static/js/2.42f31364.chunk.js",
     "static/css/main.81b34657.chunk.css",
-    "static/js/main.b98148f8.chunk.js"
+    "static/js/main.d88f8df4.chunk.js"
   ]
 }
