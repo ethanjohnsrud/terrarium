@@ -16,6 +16,7 @@ jobs:
     - run: |
         pwd
         cd portal
+        pwd
         npm install
         npm run build
 
@@ -23,6 +24,7 @@ jobs:
       run: |
         pwd
         cd build
+        pwd
         git init
         git add -A
         git config --local user.email "action@github.com"
