@@ -1,8 +1,7 @@
 {
   "name": "terrarium-display",
   "version": "2.3.0",
-  "private": true,
-  "homepage": "https://ethanjohnsrud.github.io./terrarium/",
+  "homepage": "https://ethanjohnsrud.github.io/terrarium/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
