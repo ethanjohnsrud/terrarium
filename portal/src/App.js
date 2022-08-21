@@ -35,7 +35,7 @@ const App = () => {
       onWheel={()=>screenSaverRef.current.deactivateScreenSaver()}
       >
         <Background /> 
-        {/* Screen saver toggle to not render and diable timer is reduct screenSaverBrightness.setting == 'Disabled' */}
+        {/* Screen saver toggle to not render and disable timer is redux screenSaverBrightness.setting == 'Disabled' */}
         <ScreenSaver ref={screenSaverRef}/>
             
         {/* <div id='page-box' className=' border-box' style={{ top: 0, padding: '1.0rem', height: `${menuRef.current ?  (window.innerHeight - (menuRef.current.offsetHeight) - 75) : window.innerHeight}px` }}>  */}
