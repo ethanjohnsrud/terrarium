@@ -13,13 +13,15 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '16'
-    - run: 
+    - run: |
+        pwd
         cd portal
         npm ci
         npm run build
 
     - name: Init new repo in dist folder and commit generated files
       run: |
+        pwd
         cd build
         git init
         git add -A
