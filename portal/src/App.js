@@ -28,7 +28,7 @@ const App = () => {
   useEffect(() => window.addEventListener('scroll', deactivateScreenSaver, false), []); //https://stackoverflow.com/questions/5657292/why-is-false-used-after-this-simple-addeventlistener-function   
 
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <div id="App" className=' border-box' 
       onClick={()=>screenSaverRef.current.deactivateScreenSaver()}
       onMouseMove={()=>screenSaverRef.current.deactivateScreenSaver()}
