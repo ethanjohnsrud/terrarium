@@ -16,7 +16,7 @@ import defaultImage from './Background/terrarium-buddies.jpg';
 //Single State with one Reducer | Could all be separate with separate reducers and combine with: 'combineReducers'
 
 //Reducers : Perform state Update
-const setServerURLReducer = (state = process.env.REACT_APP_SERVER_URL || '', action) => {
+const setServerURLReducer = (state = '' || '', action) => {
   if(action.type == 'setServerURL')  return action.payload;
   else return state;
 }
@@ -123,24 +123,25 @@ setInterval(()=>{//console.log('fetching Image', store.getState().image.image);
 export const fetchData = async(testURL)=> {
   const url = testURL || store.getState().serverURL;
 
-  return await axios.get(`${url}/data/`, { responseType: "json", timeout: testURL ? 500 : undefined })
-    .then((res) => {const response = res.data;
-      store.dispatch({type: 'setData', payload: response});
+  // return await axios.get(`${url}/data/`, { responseType: "json", timeout: testURL ? 500 : undefined })
+  //   .then((res) => {const response = res.data;
+  //     store.dispatch({type: 'setData', payload: response});
 
-      store.dispatch({type: 'setServerURL', payload: url});
-      localStorage.setItem("server", url);
+  //     store.dispatch({type: 'setServerURL', payload: url});
+  //     localStorage.setItem("server", url);
 
-      console.log('Fetching Data Successful: ', url, response);
-      setTimeout(()=>fetchData(), response ? (((response.timeNextEvaluation) - new Date().getTime())+30000) : (60*1000));
-      return true;
-    })
-    .catch((error) => {
-        console.error('Failed to Fetch Data:', url, error);
-        // store.dispatch({type: 'setData'});
-      if(!testURL) 
-        setTimeout(()=>fetchData(), (60*1000));
-      return false;
-    });
+  //     console.log('Fetching Data Successful: ', url, response);
+  //     setTimeout(()=>fetchData(), response ? (((response.timeNextEvaluation) - new Date().getTime())+30000) : (60*1000));
+  //     return true;
+  //   })
+  //   .catch((error) => {
+  //       console.error('Failed to Fetch Data:', url, error);
+  //       // store.dispatch({type: 'setData'});
+  //     if(!testURL) 
+  //       setTimeout(()=>fetchData(), (60*1000));
+  //     return false;
+  //   });
+  return false;
   }
 
 /**************************************
@@ -186,11 +187,12 @@ if(!foundServer) {
 }
 }
 
-start();
+// start();
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store} >
+      <strong>this is index</strong>
           <App />
     </Provider>
   </React.StrictMode>,
