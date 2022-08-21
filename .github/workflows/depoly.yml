@@ -16,7 +16,7 @@ jobs:
     - run: |
         pwd
         cd portal
-        npm ci
+        npm install
         npm run build
 
     - name: Init new repo in dist folder and commit generated files
