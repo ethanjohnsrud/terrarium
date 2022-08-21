@@ -10,7 +10,7 @@
 .readings-top {
     /* position: relative; */
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-break-spaces: break-spaces;
     justify-content: space-between;
     /* width: 100vw; */
 }
@@ -18,7 +18,7 @@
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-break-spaces: nowrap;
 }
 
 .readings-box-outer {
@@ -92,7 +92,7 @@
     font-size: 4.0rem;
     font-weight: 700;
     font-family: 'New Tegomin', serif;
-    white-space: wrap;
+    white-space: break-spaces;
     margin: 0 auto;
 }
 .readings-status-message {
@@ -101,7 +101,7 @@
     text-align: left;
     width: 100%;
     font-size: 1.2rem;
-    white-space: wrap;
+    white-space: break-spaces;
 }
 .readings-schedule-list {
     width: 100%;
@@ -109,7 +109,7 @@
     font-size: 0.85rem;
     font-weight: 600;
     letter-spacing: 0.12rem;
-    white-space: wrap;
+    white-space: break-spaces;
 }
 hr {
     width: 100%;

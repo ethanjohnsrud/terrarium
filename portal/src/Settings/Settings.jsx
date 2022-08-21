@@ -6,7 +6,6 @@ import SettingsList from './SettingsList';
 import SettingsBlank from './SettingsBlank';
 import SettingsButton from './SettingsButton';
 import {fetchData} from '../index';
-import useInterval from '../useInterval';
 
 import '../index.css';
 import './Settings.css';

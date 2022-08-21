@@ -38,8 +38,8 @@ const getPrivateIP = async(extras)=> extras ? await new Promise((res, rej)  =>
 
 const generateEmailHTML = async(subject, message, typeIssue=true, extras = true) => { if(!extras) return message;
     const template = await fs.readFileSync(EMAIL_TEMPLATE_FILE).toString();
-    const publicIP = await getPublicIP(extras);
-    const privateIP = await getPrivateIP(extras);
+    const publicIP = await getPublicIP(extras).trim();
+    const privateIP = await getPrivateIP(extras).trim();
 //Time Precalculations
     const hour = new Date().getHours();
     // const timeTillEvaluationFrequency = DATA.LOCAL.timeLastReading + DATA.SETTINGS.evaluationFrequency - new Date().getTime();
