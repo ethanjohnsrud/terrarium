@@ -3,9 +3,11 @@
   to = "https://terrarium-demo.netlify.app/"
   status = 200
   force = true
+  headers = {X-From = "Netlify"}
 
 [[redirects]]
   from = "/original"
   to = "https://terrarium-control-demo.netlify.app/"
   status = 200
   force = true
+  headers = {X-From = "Netlify"}
