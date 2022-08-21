@@ -5,7 +5,7 @@ const CONTROL_SERVER = false;
 const dht22Sensor = undefined;
 const bme280Sensor = undefined;
 const SAVE_TO_LOG = true;
-const SEND_EMAILS = false;
+const SEND_EMAILS = true;
 
 /************************************* */
 /* ******  RASPBERRY PI IMPORTS  ***** */

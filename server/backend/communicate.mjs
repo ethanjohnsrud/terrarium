@@ -36,10 +36,13 @@ const getPrivateIP = async(extras)=> extras ? await new Promise((res, rej)  =>
         })) : '';
 
 
-const generateEmailHTML = async(subject, message, typeIssue=true, extras = true) => { if(!extras) return message;
+const generateEmailHTML = async (subject, message, typeIssue=true, extras = true) => { if(!extras) return message;
     const template = await fs.readFileSync(EMAIL_TEMPLATE_FILE).toString();
-    const publicIP = await getPublicIP(extras).trim();
-    const privateIP = await getPrivateIP(extras).trim();
+    let publicIP = await getPublicIP(extras);
+        publicIP = publicIP.toString().replace(/\s/g, '');
+    let privateIP = await getPrivateIP(extras);
+        privateIP = privateIP.toString().replace(/\s/g, '');
+
 //Time Precalculations
     const hour = new Date().getHours();
     // const timeTillEvaluationFrequency = DATA.LOCAL.timeLastReading + DATA.SETTINGS.evaluationFrequency - new Date().getTime();
@@ -80,7 +83,7 @@ const controlRows = DATA.CONTROLS.map(c=>`<tr>
 return await template.replace(/{subject}/g, subject)
     .replace(/\{emailTypeColor\}/g, typeIssue ? 'red' : 'black')
     .replace(/{emailType}/g, typeIssue ? 'Terrarium Error' : 'Terrarium Status Update')
-    .replace(/{hosted}/g, `<a href="https://${process.env.HOSTED_DOMAIN}?server=${publicIP}:${process.env.HTTPS_SERVER_PORT}&redirect=http://${privateIP}:${process.env.HTTP_SERVER_PORT}/">${process.env.HOSTED_DOMAIN}</a>`)
+    .replace(/{hosted}/g, `<a href="https://${process.env.HOSTED_DOMAIN}?server=${publicIP}:${process.env.HTTPS_SERVER_PORT}&server=${publicIP}:${process.env.HTTP_SERVER_PORT}&redirect=http://${privateIP}:${process.env.HTTP_SERVER_PORT}/">${process.env.HOSTED_DOMAIN}</a>`)
     .replace(/{public}/g, `<a href="http://${publicIP}:${process.env.HTTP_SERVER_PORT}/">${publicIP}:${process.env.HTTP_SERVER_PORT}</a>`)
     .replace(/{private}/g, `<a href="http://${privateIP}:${process.env.HTTP_SERVER_PORT}/">${privateIP}:${process.env.HTTP_SERVER_PORT}</a>`)
     .replace(/{message}/g, messageList)
