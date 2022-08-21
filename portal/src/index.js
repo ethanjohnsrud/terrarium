@@ -192,7 +192,6 @@ if(!foundServer) {
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store} >
-      <div>this is index</div>
           <App />
     </Provider>
   </React.StrictMode>,
