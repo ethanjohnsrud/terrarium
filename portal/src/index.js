@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -84,7 +83,9 @@ const setDropListReducer = (state = 'OFF', action) => {
   else return state;
 }
 
-//Setup Store
+/*********************
+  Setup Redux Store
+********************/
 const allStateDomains = combineReducers({
   serverURL: setServerURLReducer,
   image: setImageReducer,
@@ -98,7 +99,9 @@ const allStateDomains = combineReducers({
 const store = createStore(allStateDomains,{});
 
 
-//Fetch Image
+/*********************
+     Fetch Background Image
+********************/
 setInterval(()=>{//console.log('fetching Image', store.getState().image.image);
   axios.get(`${store.getState().serverURL}/${(window.innerHeight > window.innerWidth) ? 'image-portrait' : 'image-landscape'}/`, { responseType: "blob" })
   .then((response) => {
@@ -114,28 +117,75 @@ setInterval(()=>{//console.log('fetching Image', store.getState().image.image);
     });
 }, store.getState().image.IMAGE_INTERVAL+store.getState().image.TRANSITION_INTERVAL || 5000);
 
-//Fetch Data
-export const fetchData = async()=> { console.log(store.getState().serverURL);
-  return await axios.get(`${store.getState().serverURL}/data/`, { responseType: "json" })
-.then((res) => {const response = res.data;
-  store.dispatch({type: 'setData', payload: response});
-    localStorage.setItem("server", store.getState().serverURL.toString());
-  console.log('fetching Data', response);
-  setTimeout(()=>fetchData(), response ? (((response.timeNextEvaluation) - new Date().getTime())+30000) : (60*1000));
-  return true;
-})
-.catch((error) => {
-    console.error(error);
-    store.dispatch({type: 'setData'});
-  setTimeout(()=>fetchData(), (60*1000));
-  return error.response ? error.response.status : false
-});}
+/*********************
+     Fetch Data
+********************/
+export const fetchData = async(testURL)=> {
+  const url = testURL || store.getState().serverURL;
 
+  return await axios.get(`${url}/data/`, { responseType: "json", timeout: testURL ? 500 : undefined })
+    .then((res) => {const response = res.data;
+      store.dispatch({type: 'setData', payload: response});
+
+      store.dispatch({type: 'setServerURL', payload: url});
+      localStorage.setItem("server", url);
+
+      console.log('Fetching Data Successful: ', url, response);
+      setTimeout(()=>fetchData(), response ? (((response.timeNextEvaluation) - new Date().getTime())+30000) : (60*1000));
+      return true;
+    })
+    .catch((error) => {
+        console.error('Failed to Fetch Data:', url, error);
+        // store.dispatch({type: 'setData'});
+      if(!testURL) 
+        setTimeout(()=>fetchData(), (60*1000));
+      return false;
+    });
+  }
+
+/**************************************
+ Initialization and Find Server URL
+***************************************/
+//Sample URL: https://terrarium-control.tech/?server=70.124.144.161:4750&server=192.168.1.240:4700&redirect=http://192.168.1.240:4700/
 const start = async() => {
+
+const redirectURL = /(?<=redirect=).*?(?:(?!&|$).)*/.exec(window.location.search);
+const serverPramList = window.location.search.match(/(?<=server=).*?(?:(?!\/|&|$).)*/g);
+let foundServer = false;
+console.log(redirectURL);
+if(serverPramList) {
+  for(let serverPram of serverPramList) { console.log("Server Pram:", serverPram, serverPramList);
+    //Query Parameter HTTPS Secure
+    if(!foundServer && await fetchData(`https://${serverPram}`)) {
+      console.log('HTTPS Query Server Identified:', store.getState().serverURL);
+      foundServer = true;
+      break;
+    }
+
+    //Query Parameter HTTP
+    else if(!foundServer && await fetchData(`http://${serverPram}`)) {
+      console.log('HTTP Query Server Identified:', store.getState().serverURL);
+      foundServer = true;
+      break;
+    } 
+  }
+} 
+
+  //Local Storage
+if(!foundServer && await fetchData(localStorage.getItem("server"))) {
+      console.log('LocalStorage Server Identified:', store.getState().serverURL);
+  }
+  //Failed: Assign Current URL
+else if(!foundServer && redirectURL) {
+  window.location.replace(redirectURL[0]);
+}
+if(!foundServer) {
+  console.error('Failed to Identify Server');
   store.dispatch({type: 'setServerURL', payload: window.location.origin});
-  if(await fetchData() !== true) { store.dispatch({type: 'setServerURL', payload: localStorage.getItem("server")}); 
-    if(await fetchData() !== true) store.dispatch({type: 'setServerURL', payload: window.location.origin}); 
-  }}
+  fetchData(); //Enter Reattempt State
+}
+}
+
 start();
 
 ReactDOM.render(

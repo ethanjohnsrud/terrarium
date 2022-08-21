@@ -23,15 +23,14 @@ const getFahrenheit = (celsius) => (celsius* (9.0/5.0)) + 32;
 
 const getDuration = (ms) => `${Math.floor(ms/60000)}:${Math.abs(ms)%60000<10000?'0':''}${Math.floor((Math.abs(ms)%60000)/1000)}`;
 
-const getPublicIP = async(extras)=> DATA.LOCAL.publicURL;
-    // extras ? await new Promise((res, rej)  => 
-        // exec('wget -qO- https://ipecho.net/plain', (err, stdout, stderr) => {
-        //     if(err) {writeMessage(`publicIP Error: ${err}`); res('');}
-        //     res(stdout);
-        // })) : '';
+const getPublicIP = async(extras)=> extras ? await new Promise((res, rej)  => 
+        exec('curl ifconfig.me', (err, stdout, stderr) => {
+            if(err) {writeMessage(`publicIP Error: ${err}`); res('');}
+            res(stdout);
+        })) : '';
 
 const getPrivateIP = async(extras)=> extras ? await new Promise((res, rej)  => 
-        exec('hostname -I', (err, stdout, stderr) => {
+        exec('hostname -I | awk \'{print $1}\'', (err, stdout, stderr) => {
             if(err) {writeMessage(`privateInfo Error: ${err}`); res('');}
             res(stdout);
         })) : '';
@@ -39,9 +38,8 @@ const getPrivateIP = async(extras)=> extras ? await new Promise((res, rej)  =>
 
 const generateEmailHTML = async(subject, message, typeIssue=true, extras = true) => { if(!extras) return message;
     const template = await fs.readFileSync(EMAIL_TEMPLATE_FILE).toString();
-    // const publicIP = await getPublicIP(extras);
-    const privateInfo = await getPrivateIP(extras);
-    const privateIP = privateInfo.replace(/\s/g,'');
+    const publicIP = await getPublicIP(extras);
+    const privateIP = await getPrivateIP(extras);
 //Time Precalculations
     const hour = new Date().getHours();
     // const timeTillEvaluationFrequency = DATA.LOCAL.timeLastReading + DATA.SETTINGS.evaluationFrequency - new Date().getTime();
@@ -82,8 +80,9 @@ const controlRows = DATA.CONTROLS.map(c=>`<tr>
 return await template.replace(/{subject}/g, subject)
     .replace(/\{emailTypeColor\}/g, typeIssue ? 'red' : 'black')
     .replace(/{emailType}/g, typeIssue ? 'Terrarium Error' : 'Terrarium Status Update')
-    .replace(/{public}/g, `<a href="${DATA.LOCAL.publicURL}">${DATA.LOCAL.publicURL}</a>`)
-    .replace(/{private}/g, `<a href="http://${privateIP}:${process.env.SERVER_PORT}">http://${privateIP}:${process.env.SERVER_PORT}</a>`)
+    .replace(/{hosted}/g, `<a href="https://${process.env.HOSTED_DOMAIN}?server=${publicIP}:${process.env.HTTPS_SERVER_PORT}&redirect=${privateIP}:${process.env.HTTP_SERVER_PORT}/">${process.env.HOSTED_DOMAIN}</a>`)
+    .replace(/{public}/g, `<a href="http://${publicIP}:${process.env.HTTP_SERVER_PORT}/">${publicIP}:${process.env.HTTP_SERVER_PORT}</a>`)
+    .replace(/{private}/g, `<a href="http://${privateIP}:${process.env.HTTP_SERVER_PORT}/">${privateIP}:${process.env.HTTP_SERVER_PORT}</a>`)
     .replace(/{message}/g, messageList)
     .replace(/{statusMessage1}/g, statusMessage1)
     .replace(/{statusMessage2}/g, statusMessage2)

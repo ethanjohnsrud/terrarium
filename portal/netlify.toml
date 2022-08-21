@@ -1,11 +1,11 @@
 [[redirects]]
   from = "/demo"
   to = "https://terrarium-demo.netlify.app/"
-  status = 301
+  status = 200
   force = true
 
 [[redirects]]
-  from = "/origional"
+  from = "/original"
   to = "https://terrarium-control-demo.netlify.app/"
-  status = 301
+  status = 200
   force = true
