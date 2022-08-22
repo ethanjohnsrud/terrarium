@@ -32,7 +32,9 @@ const SettingsButton = (props) => {
         else {setButtonText('FAILED'); setTimeout(()=>setButtonText('UPDATE'), 5000);}
     }
 
-    const processUpdate=()=>{ if(buttonText == 'UPDATE') { setButtonText('PENDING');
+    const processUpdate=(event)=>{
+        event.stopPropagation();
+        if(buttonText == 'UPDATE') { setButtonText('PENDING');
         if(verifyLevel == 0) makeRequest(undefined); //No Security
         else if(verifyLevel == 1 && !localStorage.getItem("password")) setVerification('Enter Control Password to Continue:'); //Only Request if not stored
         else if(verifyLevel == 1) makeRequest(localStorage.getItem("password")); //Use Saved Password
@@ -44,10 +46,10 @@ const SettingsButton = (props) => {
     //*********************************
 
     return(<section style={{overflow: 'hidden'}}>
-        {(condense) ?   <button className={`settings-single-button`} onClick={()=>processUpdate()}  style={{...props.buttonStyle, overflow: 'hidden', backgroundColor: buttonColor}}>{props.title}
+        {(condense) ?   <button className={`settings-single-button`} onClick={processUpdate}  style={{...props.buttonStyle, overflow: 'hidden', backgroundColor: buttonColor}}>{props.title}
                                 <label className={`settings-single-button-overlay`} style={{display: buttonText == 'UPDATE' ? 'none' : 'flex', overflow: 'hidden', backgroundColor: getButtonColor(buttonText)}}>{buttonText}</label></button>
         : <div className='settings-value-box' style={{display: (condense) ? 'block' : 'grid'}}>
-        <button className={`settings-single-button`} onClick={()=>processUpdate()}  style={{...props.buttonStyle, overflow: 'hidden', backgroundColor:  getButtonColor(buttonText)}}>{buttonText == 'UPDATE' ? props.title : buttonText == 'PENDING' ? pendingText : buttonText}</button>
+        <button className={`settings-single-button`} onClick={processUpdate}  style={{...props.buttonStyle, overflow: 'hidden', backgroundColor:  getButtonColor(buttonText)}}>{buttonText == 'UPDATE' ? props.title : buttonText == 'PENDING' ? pendingText : buttonText}</button>
         </div>}
         {verification ?
             <Verify

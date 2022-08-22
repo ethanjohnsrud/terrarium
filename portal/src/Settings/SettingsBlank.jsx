@@ -35,7 +35,9 @@ const SettingsBlank = (props) => {
 
     }
 
-    const processUpdate=async()=>{ if(props.overrideValidation || await updateButton() == 'UPDATE') { setButtonText('PENDING');
+    const processUpdate=async(event)=>{
+        event.stopPropagation();
+        if(props.overrideValidation || await updateButton() == 'UPDATE') { setButtonText('PENDING');
         if(verifyLevel == 0) makeRequest(undefined); //No Security
         else if(verifyLevel == 1 && !localStorage.getItem("password")) setVerification('Enter Control Password to Continue:'); //Only Request if not stored
         else if(verifyLevel == 1) makeRequest(localStorage.getItem("password")); //Use Saved Password
