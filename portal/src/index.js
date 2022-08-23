@@ -176,12 +176,12 @@ if(serverPramList) {
   //Test Query Redirects
   else {
     const redirectPramList = window.location.search.match(/(?<=redirect=).*?(?:(?!&|$).)*/g);
+    console.log("Server Redirect List:", redirectPramList, window.location.origin);
+    if(redirectPramList) { 
+      const currentURLIndex = redirectPramList.findIndex(n => n == window.location.origin.toString());
 
-    if(redirectPramList) {
-      const redirectURL = redirectPramList.findIndex(window.location.host);
-
-      if((redirectURL > -1) && ((redirectURL+1) < redirectPramList.length))
-        window.location.replace(redirectPramList[redirectURL+1]+window.location.search);  //Redirect with Query Parameters
+      if((currentURLIndex+1) < redirectPramList.length)
+        window.location.replace(redirectPramList[currentURLIndex+1]+window.location.search);  //Redirect with Query Parameters
     }
 
   } 
