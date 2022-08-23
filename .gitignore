@@ -5,7 +5,7 @@
 /server/key.pem
 /server/cert.pem
 /server/frontend/.env
-server/frontend/
+/server/frontend/
 /server/Records/
 /server/node_modules/
 /server/package-lock.json
