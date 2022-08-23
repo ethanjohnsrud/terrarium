@@ -148,42 +148,47 @@ export const fetchData = async(testURL)=> {
 ***************************************/
 //Sample URL: https://terrarium-control.tech/?server=70.124.144.161:4750&server=192.168.1.240:4700&redirect=http://192.168.1.240:4700/
 const start = async() => {
-
-const redirectURL = /(?<=redirect=).*?(?:(?!&|$).)*/.exec(window.location.search);
+//Test Server Queries
 const serverPramList = window.location.search.match(/(?<=server=).*?(?:(?!\/|&|$).)*/g);
-let foundServer = false;
-console.log(redirectURL);
+
 if(serverPramList) {
   for(let serverPram of serverPramList) { console.log("Server Pram:", serverPram, serverPramList);
-    //Query Parameter HTTPS Secure
-    if(!foundServer && await fetchData(`https://${serverPram}`)) {
-      console.log('HTTPS Query Server Identified:', store.getState().serverURL);
-      foundServer = true;
-      break;
-    }
 
     //Query Parameter HTTP
-    else if(!foundServer && await fetchData(`http://${serverPram}`)) {
+    if(await fetchData(`http://${serverPram}`)) {
       console.log('HTTP Query Server Identified:', store.getState().serverURL);
-      foundServer = true;
-      break;
+      return;
     } 
+
+    //Query Parameter HTTPS Secure
+    else if(await fetchData(`https://${serverPram}`)) {
+      console.log('HTTPS Query Server Identified:', store.getState().serverURL);
+      return;
+    }
   }
 } 
 
   //Local Storage
-if(!foundServer && await fetchData(localStorage.getItem("server"))) {
+  if(await fetchData(localStorage.getItem("server"))) {
       console.log('LocalStorage Server Identified:', store.getState().serverURL);
   }
-  //Failed: Assign Current URL
-else if(!foundServer && redirectURL) {
-  window.location.replace(redirectURL[0]);
-}
-if(!foundServer) {
+
+  //Test Query Redirects
+  else {
+    const redirectPramList = window.location.search.match(/(?<=redirect=).*?(?:(?!&|$).)*/g);
+
+    if(redirectPramList) {
+      const redirectURL = redirectPramList.findIndex(window.location.host);
+
+      if((redirectURL > -1) && ((redirectURL+1) < redirectPramList.length))
+        window.location.replace(redirectPramList[redirectURL+1]+window.location.search);  //Redirect with Query Parameters
+    }
+
+  } 
+
   console.error('Failed to Identify Server');
   store.dispatch({type: 'setServerURL', payload: window.location.origin});
   fetchData(); //Enter Reattempt State
-}
 }
 
 start();
