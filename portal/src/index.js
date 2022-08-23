@@ -164,32 +164,32 @@ if(serverPramList) {
   //Local Storage
   if(await fetchData(localStorage.getItem("server"))) {
       console.log('LocalStorage Server Identified:', store.getState().serverURL);
-  }
+  } else {
  //Direct Smart Redirects
-   await axios.get('https://geolocation-db.com/json/')
-   .then((res) => {const location = res.data
-   const publicURL = /(?<=public=).*?(?:(?!&|$).)*/.exec(window.location.search);
-   const privateURL = /(?<=private=).*?(?:(?!&|$).)*/.exec(window.location.search);
-setTimeout(()=>console.log(location, publicURL, privateURL, JSON.parse(location.data).IPv4, location && publicURL && publicURL.includes(JSON.parse(location.data).IPv4), location && privateURL && privateURL.includes(JSON.parse(location.data).IPv4)), 10000);
-   }).catch((err) => console.error('Failed to Fetch Location for Redirects'));
-  //  if(location && publicURL && publicURL.includes(JSON.parse(location.data).IPv4)) 
-  //     window.location.replace(publicURL+window.location.search);
+  await axios.get('https://geolocation-db.com/json/', { responseType: "json"})
+    .then((res) => {const location = res.data
+        const publicQuery = /(?<=public=).*?(?:(?!&|$).)*/.exec(window.location.search);
+        const privateQuery = /(?<=private=).*?(?:(?!&|$).)*/.exec(window.location.search);
 
-  //  if(location && privateURL && privateURL.includes(JSON.parse(location.data).IPv4)) 
-  //     window.location.replace(privateURL+window.location.search);
+        if(location && publicQuery && publicQuery[0].includes(location.IPv4))
+          window.location.replace(privateQuery[0]+window.location.search);
+
+        if(location && privateQuery && privateQuery[0].includes(location.IPv4)) 
+          window.location.replace(publicQuery[0]+window.location.search);
+
+    }).catch((err) => console.error('Failed to Fetch Location for Redirects:', err));
    
   //Test Query Redirects
-  // else {
-  //   const redirectPramList = window.location.search.match(/(?<=redirect=).*?(?:(?!&|$).)*/g);
+    const redirectPramList = window.location.search.match(/(?<=redirect=).*?(?:(?!&|$).)*/g);
 
-  //   if(redirectPramList) { 
-  //     const currentURLIndex = redirectPramList.findIndex(n => n == window.location.origin.toString());
+    if(redirectPramList) { 
+      const currentURLIndex = redirectPramList.findIndex(n => n == window.location.origin.toString());
 
-  //     if((currentURLIndex+1) < redirectPramList.length)
-  //       window.location.replace(redirectPramList[currentURLIndex+1]+window.location.search);  //Redirect with Query Parameters
-  //   }
+      if((currentURLIndex+1) < redirectPramList.length)
+        window.location.replace(redirectPramList[currentURLIndex+1]+window.location.search);  //Redirect with Query Parameters
+    }
 
-  // } 
+  } 
 
   console.error('Failed to Identify Server');
   store.dispatch({type: 'setServerURL', payload: window.location.origin});

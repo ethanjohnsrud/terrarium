@@ -83,7 +83,7 @@ const controlRows = DATA.CONTROLS.map(c=>`<tr>
 return await template.replace(/{subject}/g, subject)
     .replace(/\{emailTypeColor\}/g, typeIssue ? 'red' : 'black')
     .replace(/{emailType}/g, typeIssue ? 'Terrarium Error' : 'Terrarium Status Update')
-    .replace(/{hosted}/g, `<a href="http://${process.env.HOSTED_DOMAIN}?server=http://${publicIP}:${process.env.HTTP_SERVER_PORT}&server=https://${publicIP}:${process.env.HTTPS_SERVER_PORT}&server=http://${privateIP}:${process.env.HTTP_SERVER_PORT}&public=http://${publicIP}:${process.env.HTTP_SERVER_PORT}&local=http://${privateIP}:${process.env.HTTP_SERVER_PORT}&redirect=http://${privateIP}:${process.env.HTTP_SERVER_PORT}/">${process.env.HOSTED_DOMAIN}</a>`)
+    .replace(/{hosted}/g, `<a href="http://${process.env.HOSTED_DOMAIN}?server=http://${publicIP}:${process.env.HTTP_SERVER_PORT}&server=https://${publicIP}:${process.env.HTTPS_SERVER_PORT}&server=http://${privateIP}:${process.env.HTTP_SERVER_PORT}&public=http://${publicIP}:${process.env.HTTP_SERVER_PORT}&private=http://${privateIP}:${process.env.HTTP_SERVER_PORT}&redirect=http://${privateIP}:${process.env.HTTP_SERVER_PORT}&redirect=http://${publicIP}:${process.env.HTTP_SERVER_PORT}/">${process.env.HOSTED_DOMAIN}</a>`)
     .replace(/{public}/g, `<a href="http://${publicIP}:${process.env.HTTP_SERVER_PORT}/">${publicIP}:${process.env.HTTP_SERVER_PORT}</a>`)
     .replace(/{private}/g, `<a href="http://${privateIP}:${process.env.HTTP_SERVER_PORT}/">${privateIP}:${process.env.HTTP_SERVER_PORT}</a>`)
     .replace(/{message}/g, messageList)
