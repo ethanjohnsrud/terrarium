@@ -244,9 +244,9 @@ schedule.scheduleJob('0 0 5 * * *', () =>{const message = '';
   errorLights('reset');
 });
 //Clear Data logs :: Monthly
-schedule.scheduleJob('0 0 5 1 * *', () =>DM.clearOldLogs());
+schedule.scheduleJob('0 0 4 1 * *', () =>DM.clearOldLogs());
 //Condense Schedule Priority Numbering Daily
-schedule.scheduleJob('0 0 4 * * *', () =>DATABASE.databaseSimplifyPriority());
+schedule.scheduleJob('0 15 4 * * *', () =>DATABASE.databaseSimplifyPriority());
 
 export default  {
   evaluateConditions,

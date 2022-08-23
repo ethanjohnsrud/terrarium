@@ -249,6 +249,7 @@ const databaseIncreasePriority = async (priority, increase = true) => {
     } catch(error){logMessage(`Failed to ${increase ? 'Increase' : 'Decrease'} Priority: ${error}`); return false;}
 }
 
+//Reset Primary Key
 const databaseSimplifyPriority = async () => { 
     try{ if(!DATA.SETTINGS.accessDatabase) throw 'Database Access Denied';
 
@@ -267,6 +268,9 @@ const databaseSimplifyPriority = async () => {
                 queryList.push(`UPDATE schedules SET priority = ${priority} WHERE priority = ${s.priority};`); //Set New Priority       
                 priority++;
             });  
+
+            //Reset AUTO INCREMENT KEY: Priority
+            queryList.push(`UPDATE 'sqlite_sequence' SET 'seq' = ${SCHEDULES.length + 2} WHERE 'name' = 'schedules';`);
 
         return queryExecuteSequence(queryList);
 

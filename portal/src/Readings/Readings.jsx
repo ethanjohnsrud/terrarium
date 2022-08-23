@@ -146,7 +146,7 @@ useEffect(()=>{setTimeout(()=>{
 
 const HumidityOnClick = async(password) => {const response = await fetchData(); routeHistory.push('/'); return response == true ? 'UPDATING' : response;}
 const TemperatureOnClick = async(password) => {dispatch({type: 'toggleConvertToFahrenheit'}); return null;}
-const sensorOnClick = async(password) => {if(maxError && DATA.sensorErrorCode != undefined) routeHistory.push('/log'); else routeHistory.push('/settings'); return null;}
+const sensorOnClick = async(password) => {if(maxError && DATA.sensorErrorCode != undefined) routeHistory.push('/log'); else if(DATA.sensorErrorCode != undefined) routeHistory.push('/settings'); else return null;}
 
 const ReadingsArrangement = [
     {mobile: 1, desktop: 2, 

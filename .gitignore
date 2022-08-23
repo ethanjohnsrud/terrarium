@@ -5,12 +5,14 @@
 /server/key.pem
 /server/cert.pem
 /server/frontend/.env
+server/frontend/
 /server/Records/
 /server/node_modules/
 /server/package-lock.json
 
 /portal/.env
 /portal/build/.env
+/portal/build/
 /portal/node_modules/
 /portal/package-lock.json
 

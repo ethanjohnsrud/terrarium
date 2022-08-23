@@ -152,7 +152,7 @@ const start = async() => {
 const serverPramList = window.location.search.match(/(?<=server=).*?(?:(?!\/|&|$).)*/g);
 
 if(serverPramList) {
-  for(let serverPram of serverPramList) { console.log("Server Pram:", serverPram, serverPramList);
+  for(let serverPram of serverPramList) { 
 
     //Query Parameter HTTP
     if(await fetchData(`http://${serverPram}`)) {
@@ -176,7 +176,7 @@ if(serverPramList) {
   //Test Query Redirects
   else {
     const redirectPramList = window.location.search.match(/(?<=redirect=).*?(?:(?!&|$).)*/g);
-    console.log("Server Redirect List:", redirectPramList, window.location.origin);
+
     if(redirectPramList) { 
       const currentURLIndex = redirectPramList.findIndex(n => n == window.location.origin.toString());
 
