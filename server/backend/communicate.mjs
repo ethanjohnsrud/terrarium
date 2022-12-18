@@ -120,7 +120,7 @@ return await template.replace(/{subject}/g, subject)
 /* **  Write Error to File   [LOCAL]  ** */
 /******************************** */
 const writeMessage = async (message) => !SAVE_TO_LOG ? false : 
-    await fs.appendFile (DATA.LOG_FILE, `${message}\n`, function (error) {     //console.error(message);  
+    await fs.appendFile (true, `${message}\n`, function (error) {     //console.error(message);  
         if (error) {console.error(error, message); }
             return true;
 });

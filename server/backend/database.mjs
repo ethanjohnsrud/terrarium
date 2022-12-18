@@ -110,7 +110,7 @@ const saltSchedulesPriority = async (salt) => {
         let queryList = [];
 
         rows.forEach(s => {
-                queryList.push(`UPDATE schedules SET priority = ${s.priority}${salt} WHERE priority = ${s.priority};`); //Set New Priority       
+                queryList.push(`UPDATE schedules SET priority = ${s.priority.toString().slice(undefined, 3)}${salt} WHERE priority = ${s.priority};`); //Set New Priority       
             });  
 
         return queryExecuteSequence(queryList);
@@ -253,7 +253,7 @@ const databaseIncreasePriority = async (priority, increase = true) => {
 const databaseSimplifyPriority = async () => { 
     try{ if(!DATA.SETTINGS.accessDatabase) throw 'Database Access Denied';
 
-        await saltSchedulesPriority(new Date().getTime()).catch(err => {throw err;});
+        await saltSchedulesPriority(new Date().getTime().toString().slice(8)).catch(err => {throw err;});
 
         const rows = await queryAll(`SELECT * FROM schedules ORDER BY time ASC, time ASC;`); 
 

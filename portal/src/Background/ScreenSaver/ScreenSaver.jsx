@@ -111,7 +111,7 @@ return((!showScreenSaver) ? <div className='none no-size'></div> :
         backgroundColor: 'black'
         }}></div>
       <div key='ScreenSaver Image' style={{position: 'absolute',  }}>
-        <img  className="" src={IMAGE.location || defaultImage} alt={'screensaver'}  style={{
+        <ch  className="" src={IMAGE.location || defaultImage} alt={'screensaver'}  style={{
           // zIndex: '9',
           display: 'block',
           objectFit: 'cover',

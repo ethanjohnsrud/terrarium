@@ -108,14 +108,14 @@ const SettingsList = (props) => {
                             <label key={option+i+'old'} className='drop-menu-item' style={{gridRow: (i+2), color: 'gold'}} onClick={()=>{ 
                                 setList(old => [...old.filter((o) => (o != option && options.includes(o)))])
                                 if(!selectMultiple) dispatch({type: 'setDropList'});
-                                if(!selectMultiple) processUpdate();
+                                if(!selectMultiple) processUpdate([option]);
                             }}>{option.toString()}</label>
                         )}
                         {options.map((option, i) => 
                             <label key={option+i} className='drop-menu-item' style={{gridRow: (i+2+getOldOptions().length), border: list.includes(option) ? '1px solid var(--main-color)' : 'none', color: list.includes(option) ? 'var(--main-color)' : 'white'}} onClick={async()=>{
                                 await toggleOption(option);
                                 if(!selectMultiple) dispatch({type: 'setDropList'});
-                                if(!selectMultiple) processUpdate();
+                                if(!selectMultiple) processUpdate([option]);
                             }}>{option.toString()}</label>
                         )}
                          {addCustom ? <div className='none' style={{display:'inline-grid', gridRow: (getOldOptions().length + options.length+3), gridColumn: 1}}>
@@ -125,7 +125,7 @@ const SettingsList = (props) => {
                                     onKeyPress={async(e)=>{ if (e.charCode == 13) {
                                         if(await toggleOption(custom) == 'UPDATE') setCustom('');
                                         if(!selectMultiple) dispatch({type: 'setDropList'});
-                                        if(!selectMultiple) processUpdate();
+                                        if(!selectMultiple) processUpdate([custom]);
                                     }}}/>
                                 <button key='settings-add-button' className='drop-menu-item' style={{gridRow: (1), gridColumn: 2, border: 'none', borderRadius: 0, borderBottom: '1px solid whitesmoke', backgroundColor: 'whitesmoke', color: 'black'}} onClick={async()=>{
                                         if(await toggleOption(custom) == 'UPDATE') setCustom('');

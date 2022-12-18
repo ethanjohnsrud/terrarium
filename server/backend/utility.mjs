@@ -50,7 +50,7 @@ const consoleCurrentSituation = () => {
 /******************************** */
 
 
-const evaluateSensor = (attempts = 5, testingMode = false) => new Promise(async (resolve, reject) => { try{ try{ let reading = {}; 
+const evaluateSensor = (attempts = 5, testingMode = false) => new Promise(async (resolve, reject) => { try{ try{ 
     DATA.LOCAL.statusMessage = testingMode ? 'Testing Sensor' : 'Evaluating Sensor';
     errorLights(testingMode ? 'flash' : 'on');
     if(!DATA.CONTROL_SERVER || DATA.SETTINGS.sensorMode == 'Off') throw 'SENSOR Mode == \'OFF\' -> Unable to Read Sensor';
@@ -124,6 +124,88 @@ const evaluateSensor = (attempts = 5, testingMode = false) => new Promise(async 
 });
 
 
+/******************************** */
+/* ******  FEED FLIES  ***** */
+/******************************** */
+
+const feedOpen = async(duration = 1700) => {
+    //Lid Direction
+    await DATA.FEED_MOTOR_DIRECTION.pin.writeSync(DATA.FEED_MOTOR_DIRECTION.operating = 1);
+
+    //Turn On Pressure Sensor & Start Motor Power
+    await DATA.FEED_POWER.pin.writeSync(DATA.FEED_POWER.operating = 1);
+
+    //Allow Flies to Escape
+    await delayPromise(duration);
+
+    //Turn Off Power
+    await DATA.FEED_POWER.pin.writeSync(DATA.FEED_POWER.operating = 0);
+
+    logMessage("Fly Feeding moved to OPEN position");
+}
+
+const feedClose = async(duration = 1700) => {
+    //Lid Direction
+    await DATA.FEED_MOTOR_DIRECTION.pin.writeSync(DATA.FEED_MOTOR_DIRECTION.operating = 0);
+
+    //Turn On Pressure Sensor & Start Motor Power
+    await DATA.FEED_POWER.pin.writeSync(DATA.FEED_POWER.operating = 1);
+
+    //Allow Flies to Escape
+    await delayPromise(duration);
+
+    //Turn Off Power
+    await DATA.FEED_POWER.pin.writeSync(DATA.FEED_POWER.operating = 0);
+
+    logMessage("Fly Feeding moved to CLOSE position");
+}
+
+const feedStop = async() => {
+    //Turn Off Power
+    await DATA.FEED_POWER.pin.writeSync(DATA.FEED_POWER.operating = 0);
+
+    logMessage("Fly Feeding power STOP immediately at: ", new Date().getTime());
+}
+
+
+const executeFeed = (duration = 17000) => new Promise(async (resolve, reject) => { try{ 
+
+    //Lid Direction
+    await DATA.FEED_MOTOR_DIRECTION.pin.writeSync(DATA.FEED_MOTOR_DIRECTION.operating = 1);
+
+    //Turn On Pressure Sensor & Start Motor Power
+    await DATA.FEED_POWER.pin.writeSync(DATA.FEED_POWER.operating = 1);
+
+    //Allow Flies to Escape
+    await delayPromise(duration);
+
+    //Lower Lid
+
+    const timeStart = new Date().getTime();
+    const maxTime = 7800;
+
+    //Lid Direction
+    await DATA.FEED_MOTOR_DIRECTION.pin.writeSync(DATA.FEED_MOTOR_DIRECTION.operating = 0);
+
+    while(DATA.FEED_SENSOR.pin.readSync() == 0) {
+
+        if((new Date().getTime() - timeStart) > maxTime) {
+            logMessage(true, "Fly Feed | Max Timeout on lid lower.");
+            break;
+        }
+
+        delayPromise(200);
+    }
+
+
+    await DATA.FEED_POWER.pin.writeSync(DATA.FEED_POWER.operating = 0);
+    await DATA.FEED_MOTOR_DIRECTION.pin.writeSync(DATA.FEED_MOTOR_DIRECTION.operating = 1);
+    logMessage(true, "Successfully Feed Flies for:", duration);
+    resolve("Success Feeding");
+
+} catch(er) {logMessage(true, 'Feeding Flies - ERROR:', er); return resolve(true);}
+});
+
 
 export default  {
 
@@ -140,5 +222,9 @@ export default  {
     getCurrentSituation,
     consoleCurrentSituation,    
     evaluateSensor,
-
+    executeFeed,
+    feedClose,
+    feedOpen,
+    feedStop
+        
 }

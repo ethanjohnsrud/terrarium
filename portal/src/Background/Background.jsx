@@ -15,7 +15,7 @@ return(
         zIndex: 0,
         height:'100vh', 
         width: '100vw', 
-        backgroundColor: 'black'
+        backgroundColor: 'rgba(0,0,0,0.9)'
         }}></div>
       <div key='Background Image' style={{position: 'absolute',  }}>
         {/* <div key='background-cover' style={{

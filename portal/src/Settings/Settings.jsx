@@ -130,6 +130,24 @@ const routeHistory = useHistory();
             })}/> 
         <SettingsButton title='Send Update Email' pendingText='SENDING'
             onUpdate={(password)=>put('/send-update-email', {PASSWORD: password}, 'SENT')}/>
+
+        <SettingsButton title='Feed Flies' pendingText='SENDING'
+            verifyLevel={3}
+            onUpdate={(password)=>put('/feed', {ADVANCED_PASSPHRASE: password}, 'SENT')}/>
+
+        <SettingsButton title='Feed Open' pendingText='SENDING'
+            verifyLevel={2}
+            onUpdate={(password)=>put('/feed-open', {PASSWORD: password}, 'SENT')}/>
+
+        <SettingsButton title='Feed Close' pendingText='SENDING'
+            verifyLevel={2}
+            onUpdate={(password)=>put('/feed-close', {PASSWORD: password}, 'SENT')}/>
+
+        <SettingsButton title='Feed STOP' pendingText='SENDING'
+            verifyLevel={2}
+            buttonColor={'red'}
+            onUpdate={(password)=>put('/feed-stop', {PASSWORD: password}, 'SENT')}/>
+
         <SettingsList title='Issue Email Recipients:'
             dropListId='issue-email'
             current={DATA.emailIssueRecipients}

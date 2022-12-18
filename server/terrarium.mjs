@@ -254,6 +254,14 @@ apiServer.put('/send-update-email', (request, response) => validate(request, res
 
 apiServer.put('/evaluate', (request, response) => validate(request, response, 1, ()=> SERVER.evaluateConditions(5), 'Immediate-Evaluation has been Queued'));
 
+apiServer.put('/feed', (request, response) => validate(request, response, 2, ()=> UTILITY.executeFeed(), 'Immediate-Feeding has been Queued'));
+
+apiServer.put('/feed-open', (request, response) => validate(request, response, 1, ()=> UTILITY.feedOpen(), 'Immediate-Feeding OPEN has been Queued'));
+
+apiServer.put('/feed-close', (request, response) => validate(request, response, 1, ()=> UTILITY.feedClose(), 'Immediate-Feeding CLOSED has been Queued'));
+
+apiServer.put('/feed-stop', (request, response) => validate(request, response, 1, ()=> UTILITY.feedStop(), 'Immediate-Feeding STOP has been Queued'));
+
 apiServer.post('/schedule-add', async (request, response) => {
     
 //TODO: DEBUG THIS : 5/10/2022
@@ -433,7 +441,13 @@ apiServer.post('/set-settings', (request, response) => { try { let success = fal
 }
 });
 
-apiServer.post('/execute-error-lights', (request, response) => validate(request, response, 1, ()=> errorLights(request.body.mode, 10), `Executing Error Lights Mode: ${request.body.mode}`));
+apiServer.post('/execute-error-lights', (request, response) => {
+    if(validate(request, response, 1, ()=> errorLights(request.body.mode, 10), `Executing Error Lights Mode: ${request.body.mode}`, false))
+        logMessage(false, `Executing Error Lights Mode: ${request.body.mode}`, 
+                ["MAX_TEMP_CONTROL", DATA.MAX_TEMP_CONTROL.lock ? "Locked" : "Unlocked", `Operating: ${DATA.MAX_TEMP_CONTROL.operating}`, `Setting: ${DATA.MAX_TEMP_CONTROL.setting}`],
+                ["MIN_TEMP_CONTROL", DATA.MIN_TEMP_CONTROL.lock ? "Locked" : "Unlocked", `Operating: ${DATA.MIN_TEMP_CONTROL.operating}`, `Setting: ${DATA.MIN_TEMP_CONTROL.setting}`],
+                ["HUMIDITY_CONTROL", DATA.HUMIDITY_CONTROL.lock ? "Locked" : "Unlocked", `Operating: ${DATA.HUMIDITY_CONTROL.operating}`, `Setting: ${DATA.HUMIDITY_CONTROL.setting}`]);
+});
 
 
 

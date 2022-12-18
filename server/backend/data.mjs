@@ -1,26 +1,26 @@
 /************************************* */
 /*         TESTING IMPORTS             */
 /************************************* */    
-const CONTROL_SERVER = false;    
-const dht22Sensor = undefined;
-const bme280Sensor = undefined;
-const SAVE_TO_LOG = true;
-const SEND_EMAILS = true;
+// const CONTROL_SERVER = false;    
+// const dht22Sensor = undefined;
+// const bme280Sensor = undefined;
+// const SAVE_TO_LOG = true;
+// const SEND_EMAILS = true;
 
 /************************************* */
 /* ******  RASPBERRY PI IMPORTS  ***** */
 /************************************* */
-// const CONTROL_SERVER =  ((process.env.CONTROL_SERVER || 'true') == 'true') || true; 
-// import {Gpio} from 'onoff';
-// import dht22Sensor from 'node-dht-sensor';
-// import BME280 from 'bme280-sensor';
-// const BME280OPTIONS = {
-//         i2cBusNo   : 1, // defaults to 1
-//         i2cAddress : 0x76, // defaults to 0x77
-//       };
-// const bme280Sensor = new BME280(BME280OPTIONS);
-// const SAVE_TO_LOG = true;
-// const SEND_EMAILS = true;
+const CONTROL_SERVER =  ((process.env.CONTROL_SERVER || 'true') == 'true') || true; 
+import {Gpio} from 'onoff';
+import dht22Sensor from 'node-dht-sensor';
+import BME280 from 'bme280-sensor';
+const BME280OPTIONS = {
+        i2cBusNo   : 1, // defaults to 1
+        i2cAddress : 0x76, // defaults to 0x77
+      };
+const bme280Sensor = new BME280(BME280OPTIONS);
+const SAVE_TO_LOG = true;
+const SEND_EMAILS = true;
 
 /************************************* */
 /* ******    Universal Imports   ***** */
@@ -47,7 +47,7 @@ const LOG_FILE =  process.env.LOG_FILE || './log.txt';
 let DATA = {};
 export const INITIALIZE_DATA = async() => {if(fs.existsSync(SETTINGS_FILE) && fs.existsSync(DEFAULT_SETTINGS_FILE)) {
 
-//Constant Settings
+//Constant Settings2
     DATA.CONTROL_SERVER = CONTROL_SERVER;
     DATA.SAVE_TO_LOG = SAVE_TO_LOG;
     DATA.SEND_EMAILS = SEND_EMAILS;
@@ -67,9 +67,18 @@ export const INITIALIZE_DATA = async() => {if(fs.existsSync(SETTINGS_FILE) && fs
     //SAVED settings
     DATA.SETTINGS = JSON.parse(await fs.readFileSync(SETTINGS_FILE));
 
+    //Feed Schedule
+    DATA.FEED_SCHEDULE = DATA.SETTINGS.FEED;
+
     //Declare Pins
     DATA.SENSOR_READ_PIN = parseInt(process.env.SENSOR_READ_PIN || 2) || 2;
     DATA.SENSOR_CONTROL = {pin:  CONTROL_SERVER ? new Gpio(process.env.SENSOR_CONTROL_PIN || '25', 'out') : null, setting: 0, operating: 0};
+
+    DATA.FEED_SENSOR = {pin:  CONTROL_SERVER ? new Gpio(process.env.FEED_READ_PIN || '4', 'in', 'both') : null};
+    DATA.FEED_POWER = {pin:  CONTROL_SERVER ? new Gpio(process.env.FEED_POWER_PIN || '24', 'out') : null, setting: 0, operating: 0};
+    DATA.FEED_MOTOR_DIRECTION = {pin:  CONTROL_SERVER ? new Gpio(process.env.FEED_MOTOR_DIRECTION_PIN || '6', 'out') : null, setting: 0, operating: 0};
+
+
     DATA.MAX_TEMP_CONTROL = {pin: CONTROL_SERVER ? new Gpio(process.env.MAX_TEMP_CONTROL_PIN || '26', 'out') : null, setting: 0, operating: 0, lock: false};
     DATA.MIN_TEMP_CONTROL = {pin: CONTROL_SERVER ? new Gpio(process.env.MIN_TEMP_CONTROL_PIN || '19', 'out') : null, setting: 0, operating: 0, lock: false};
     DATA.HUMIDITY_CONTROL = {pin: CONTROL_SERVER ? new Gpio(process.env.HUMIDITY_CONTROL_PIN || '13', 'out') : null, setting: 0, operating: 0, lock: false};
@@ -82,6 +91,7 @@ export const INITIALIZE_DATA = async() => {if(fs.existsSync(SETTINGS_FILE) && fs
         {id: 4, pin: CONTROL_SERVER ? new Gpio(process.env.CONTROL_4_PIN || '20', 'out') : null, name: DATA.SETTINGS.CONTROLS[4].name, types: DATA.SETTINGS.CONTROLS[4].types, settings: [{reason: 'Initial', set: 1, until: Number.POSITIVE_INFINITY}], operating: 0},
         {id: 5, pin: CONTROL_SERVER ? new Gpio(process.env.CONTROL_5_PIN || '21', 'out') : null, name: DATA.SETTINGS.CONTROLS[5].name, types: DATA.SETTINGS.CONTROLS[5].types, settings: [{reason: 'Initial', set: 1, until: Number.POSITIVE_INFINITY}], operating: 0},
         {id: 6, pin: CONTROL_SERVER ? new Gpio(process.env.CONTROL_6_PIN || '1', 'out') : null, name: DATA.SETTINGS.CONTROLS[6].name, types: DATA.SETTINGS.CONTROLS[6].types, settings: [{reason: 'Initial', set: 1, until: Number.POSITIVE_INFINITY}], operating: 0},
+        // {id: 7, pin: CONTROL_SERVER ? new Gpio(process.env.CONTROL_7_PIN || '6', 'out') : null, name: DATA.SETTINGS.CONTROLS[7].name, types: DATA.SETTINGS.CONTROLS[7].types, settings: [{reason: 'Initial', set: 1, until: Number.POSITIVE_INFINITY}], operating: 0},  //Pin connected to old motor direction
     ];
 
     //Ram Variables

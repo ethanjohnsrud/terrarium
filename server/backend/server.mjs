@@ -236,7 +236,7 @@ const updateStatusUpdate = () => { if(updateSchedule) updateSchedule.cancel();
 updateStatusUpdate();
 
 //Update Notifications :: Daily at 5AMca
-schedule.scheduleJob('0 0 5 * * *', () =>{const message = '';
+schedule.scheduleJob('0 0 5 * * *', () =>{let message = '';
   if(DATA.LOCAL.sensorErrorCode > 1) message += 'Notice: Sensor Not Reading';
   if(DATA.LOCAL.timeNextEvaluation > (new Date().getTime() + DATA.SETTINGS.evaluationFrequency)) message += `Reminder: Condition Evaluating is Holding until: ${dateFormat(DATA.LOCAL.timeNextEvaluation, 'dddd, m-d-yyyy H:MM',)}\n`;
   if(!DATA.SETTINGS.accessDatabase) message += 'Reminder: Database Access is Disabled\n';
@@ -247,6 +247,26 @@ schedule.scheduleJob('0 0 5 * * *', () =>{const message = '';
 schedule.scheduleJob('0 0 4 1 * *', () =>DM.clearOldLogs());
 //Condense Schedule Priority Numbering Daily
 schedule.scheduleJob('0 15 4 * * *', () =>DATABASE.databaseSimplifyPriority());
+
+//Feed Flies
+schedule.scheduleJob('0 0 9 * * *', () => {
+
+  if(DATA.FEED_SCHEDULE != undefined && DATA.FEED_SCHEDULE.length > 0) {
+
+    DATA.FEED_SCHEDULE.forEach(entry => {
+
+      if(entry.day === new Date().getDate()) { //TODO: Based on Day of the Month, update to date with UI
+        UTILITY.executeFeed(entry.duration);
+      }
+
+    });
+
+  } else {
+    logMessage("Feed Schedule Not Identified; executing Feed routine");
+    UTILITY.executeFeed();
+  }   
+  
+});
 
 export default  {
   evaluateConditions,

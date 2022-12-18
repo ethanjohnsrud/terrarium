@@ -9,10 +9,10 @@ let errorLightTimer = undefined;
 let errorLightLockTimer = undefined;
 
 const lockLights = (lock = false) => {
-    // DATA.MAX_TEMP_CONTROL.lock = lock; 
-    // DATA.MIN_TEMP_CONTROL.lock = lock; 
-    // DATA.HUMIDITY_CONTROL.lock = lock;
-    // if(lock) errorLightLockTimer = setTimeout(()=>resetLights(), (24*60*60*1000)); //Backup
+    DATA.MAX_TEMP_CONTROL.lock = lock; 
+    DATA.MIN_TEMP_CONTROL.lock = lock; 
+    DATA.HUMIDITY_CONTROL.lock = lock;
+    if(lock) errorLightLockTimer = setTimeout(()=>resetLights(), (24*60*60*1000)); //Backup
 }
 
 const resetLights = () => { 
@@ -47,50 +47,50 @@ export default (mode='reset', flash = 1) => new Promise((resolve, reject) => {
 
             case 'off': allLights(0); resolve(); break;
 
-            // case 'flash': 
-            //     let loops = 0;
-            //     lockLights(true);
+            case 'flash': 
+                let loops = 0;
+                lockLights(true);
 
-            //     errorLightTimer = setInterval(()=>{ loops++;
-            //         allLights(1);
+                errorLightTimer = setInterval(()=>{ loops++;
+                    allLights(1);
 
-            //             setTimeout( ()=>{ allLights(0);
-            //                 if(loops >= flash) {
-            //                     resolve(); 
-            //                     resetLights(); 
-            //                 }}, 1000);
-            //         }, 2000); 
+                        setTimeout( ()=>{ allLights(0);
+                            if(loops >= flash) {
+                                resolve(); 
+                                resetLights(); 
+                            }}, 1000);
+                    }, 2000); 
 
-            //         const timerFlash = errorLightTimer;
-            //         setTimeout(()=>(timerFlash === errorLightTimer) ? ()=>{resolve(); resetLights();} : null,  (DATA.SETTINGS.timeNextEvaluation - new Date().getTime()) || 5000);
-            //         break;
+                    const timerFlash = errorLightTimer;
+                    setTimeout(()=>(timerFlash === errorLightTimer) ? ()=>{resolve(); resetLights();} : null,  (DATA.SETTINGS.timeNextEvaluation - new Date().getTime()) || 5000);
+                    break;
 
-            // case 'bounce': //Indefinite
-            //     lockLights(true);
+            case 'bounce': //Indefinite
+                lockLights(true);
 
-            //     errorLightTimer = setInterval(()=>{
-            //         DATA.HUMIDITY_CONTROL.pin.write(0);
-            //         DATA.MIN_TEMP_CONTROL.pin.write(1);
+                errorLightTimer = setInterval(()=>{
+                    DATA.HUMIDITY_CONTROL.pin.write(0);
+                    DATA.MIN_TEMP_CONTROL.pin.write(1);
                     
-            //         setTimeout(() => {DATA.MIN_TEMP_CONTROL.pin.write(0);
-            //             DATA.HUMIDITY_CONTROL.pin.write(1);
-            //         }, 750);
+                    setTimeout(() => {DATA.MIN_TEMP_CONTROL.pin.write(0);
+                        DATA.HUMIDITY_CONTROL.pin.write(1);
+                    }, 750);
 
-            //         setTimeout(() => {DATA.HUMIDITY_CONTROL.pin.write(0);
-            //             DATA.MAX_TEMP_CONTROL.pin.write(1);
-            //         }, 1500);
+                    setTimeout(() => {DATA.HUMIDITY_CONTROL.pin.write(0);
+                        DATA.MAX_TEMP_CONTROL.pin.write(1);
+                    }, 1500);
 
-            //         setTimeout(() => {DATA.MAX_TEMP_CONTROL.pin.write(0);
-            //             DATA.HUMIDITY_CONTROL.pin.write(1);
-            //         }, 2250);
-            //     }, 3000);
+                    setTimeout(() => {DATA.MAX_TEMP_CONTROL.pin.write(0);
+                        DATA.HUMIDITY_CONTROL.pin.write(1);
+                    }, 2250);
+                }, 3000);
 
-            //     resolve();
+                resolve();
                 
-            //     const timerBounce = errorLightTimer;
-            //     setTimeout(()=>(timerBounce === errorLightTimer) ? resetLights() 
-            //                 : null, (DATA.SETTINGS.timeNextEvaluation - new Date().getTime()) || 5000);
-            //     break;
+                const timerBounce = errorLightTimer;
+                setTimeout(()=>(timerBounce === errorLightTimer) ? resetLights() 
+                            : null, (DATA.SETTINGS.timeNextEvaluation - new Date().getTime()) || 5000);
+                break;
             default:
                 DATA.MAX_TEMP_CONTROL.setting = DATA.maximumHumidityErrorCode ? 1 : 0;
                 DATA.MIN_TEMP_CONTROL.setting = DATA.minimumTemperatureErrorCode ? 1 : 0;
@@ -108,13 +108,13 @@ export default (mode='reset', flash = 1) => new Promise((resolve, reject) => {
 
     }         
     
-    
-    if(mode != 'reset')
-        logMessage(false, "Error Lights", `Mode: ${mode}`, 
-            ["MAX_TEMP_CONTROL", DATA.MAX_TEMP_CONTROL.lock ? "Locked" : "Unlocked", `Operating: ${DATA.MAX_TEMP_CONTROL.operating}`, `Setting: ${DATA.MAX_TEMP_CONTROL.setting}`],
-            ["MIN_TEMP_CONTROL", DATA.MIN_TEMP_CONTROL.lock ? "Locked" : "Unlocked", `Operating: ${DATA.MIN_TEMP_CONTROL.operating}`, `Setting: ${DATA.MIN_TEMP_CONTROL.setting}`],
-            ["HUMIDITY_CONTROL", DATA.HUMIDITY_CONTROL.lock ? "Locked" : "Unlocked", `Operating: ${DATA.HUMIDITY_CONTROL.operating}`, `Setting: ${DATA.HUMIDITY_CONTROL.setting}`]
-        );
+    //Log Current Settings
+    // if(mode != 'reset')
+    //     logMessage(false, "Error Lights", `Mode: ${mode}`, 
+    //         ["MAX_TEMP_CONTROL", DATA.MAX_TEMP_CONTROL.lock ? "Locked" : "Unlocked", `Operating: ${DATA.MAX_TEMP_CONTROL.operating}`, `Setting: ${DATA.MAX_TEMP_CONTROL.setting}`],
+    //         ["MIN_TEMP_CONTROL", DATA.MIN_TEMP_CONTROL.lock ? "Locked" : "Unlocked", `Operating: ${DATA.MIN_TEMP_CONTROL.operating}`, `Setting: ${DATA.MIN_TEMP_CONTROL.setting}`],
+    //         ["HUMIDITY_CONTROL", DATA.HUMIDITY_CONTROL.lock ? "Locked" : "Unlocked", `Operating: ${DATA.HUMIDITY_CONTROL.operating}`, `Setting: ${DATA.HUMIDITY_CONTROL.setting}`]
+    //     );
 
     resolve();   
 });
