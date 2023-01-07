@@ -131,7 +131,8 @@ export const fetchData = async(testURL)=> {
       localStorage.setItem("server", url);
 
       console.log('Fetching Data Successful: ', url, response);
-      setTimeout(()=>fetchData(), response ? (((response.timeNextEvaluation) - new Date().getTime())+30000) : (60*1000));
+      //TODO Auto-polling needs to be in a hook, better sockets: 1-2023
+      // setTimeout(()=>fetchData(), response ? (((response.timeNextEvaluation) - new Date().getTime())+30000) : (60*1000));
       return true;
     })
     .catch((error) => {

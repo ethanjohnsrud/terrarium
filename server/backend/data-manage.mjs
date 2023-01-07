@@ -87,6 +87,8 @@ const clearOldLogs = async(callFront, conditional = false) => {const now = new D
         await new Promise((resolve, reject)=>fs.unlink(DATA.LOG_FILE,(error) => error ? reject(error) : resolve(error)))
                     .then(()=>logMessage(`>> DELETED ${DATA.LOG_FILE} File => Success`)).catch((error) => logMessage(`>> FAILED to DELETE ${DATA.LOG_FILE} => ${error}`));
     }
+    //TODO TEMP Testing: 1/5/2023
+    logMessage('clearOldLogs(): -finished');
         return true;
 }
 

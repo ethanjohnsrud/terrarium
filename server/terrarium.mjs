@@ -106,7 +106,7 @@ apiServer.get('/data-schedules', async (request, response) => {
 });
 
 apiServer.get('/data-climate', async (request, response) => {
-    const CLIMATE =  await Promise.all(DATA.SETTINGS.CLIMATE.map(async(c,i) => { const average = await DATABASE.databaseGetAverageValues(c.hour); 
+    const CLIMATE =  await Promise.all(DATA.SETTINGS.CLIMATE.map(async(c,i) => { const average = await DATABASE.databaseGetAverageValues(c.hour, 100, 0); 
         return {
             hour: c.hour,
             temperature: c.temperature,

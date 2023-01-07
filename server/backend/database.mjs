@@ -12,6 +12,8 @@ import logMessage from './communicate.mjs';
 //Need Node Version: 14.8+ for main node thread to be async/await https://stackoverflow.com/questions/46515764/how-can-i-use-async-await-at-the-top-level 
 //Query Utilities return true/false | self log Errors
 const queryRun = (query, ...parameters) => {
+    //TODO TEMP Testing: 1/5/2023
+    logMessage('QUERY: ', query, ...parameters);
     if(DATA.SETTINGS.accessDatabase) {
         const database = new sqlite3.Database(DATABASE_FILE);
         
@@ -159,23 +161,32 @@ const databaseGetReadingRange = async (start, end = new Date().getTime(), recent
         } else return [];
     }
 
-const databaseGetAverageValues = async (hour = new Date().getHours(), days = 10) => { //Recent First
-        
-        const rows = await queryAll(`SELECT * FROM readings WHERE hour = ? ORDER BY time ASC LIMIT ?;`, hour, days);
-        
+const databaseGetAverageValues = async (hour = new Date().getHours(), days = 10, hourRange = 0) => { //Recent First
+
+        const startHour = hour - hourRange;
+        const endHour = hour + hourRange;
+        const oldestReading = new Date().setDate(new Date().getDate() - days);
+
+        const rows = await queryAll(`SELECT * FROM readings WHERE hour BETWEEN ? AND ? AND time > ? ORDER BY time ASC;`, startHour, (startHour > endHour) ? 23 : endHour, oldestReading);
+
+        if(startHour > endHour) //If Range crosses Midnight
+            rows.push(...await queryAll(`SELECT * FROM readings WHERE hour BETWEEN ? AND ? AND time > ? ORDER BY time ASC;`, 0, endHour, oldestReading));
+                
         const average = {temperature: 0, humidity: 0}; 
         
         if(rows.length > 0) {
             rows.forEach(row => {average.temperature += row.temperature;  average.humidity += row.humidity;}); 
-                            return {
-                                temperature: Math.floor((average.temperature / rows.length)*100)/100, 
-                                humidity: Math.floor((average.humidity / rows.length)*100)/100, 
-                                statusMessage: `Historic ${rows.length} Average Values`
-                            };                            
+            return {
+                temperature: Math.floor((average.temperature / rows.length)*100)/100, 
+                humidity: Math.floor((average.humidity / rows.length)*100)/100, 
+                statusMessage: `Historic ${rows.length} Average Values`,
+                time: rows[rows.length-1].time, //latest Entry
+            };                            
         } else return {
             temperature: DATA.DEFAULT_TEMPERATURE, 
             humidity: DATA.DEFAULT_HUMIDITY, 
-            statusMessage: `Default Values`
+            statusMessage: `Default Values`,
+            time: 1 //Prevent divide by zero when converting to minutes ago
         };
     }
 

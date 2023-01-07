@@ -49,7 +49,6 @@ const consoleCurrentSituation = () => {
 /* ******  Evaluate SENSOR  ***** */
 /******************************** */
 
-
 const evaluateSensor = (attempts = 5, testingMode = false) => new Promise(async (resolve, reject) => { try{ try{ 
     DATA.LOCAL.statusMessage = testingMode ? 'Testing Sensor' : 'Evaluating Sensor';
     errorLights(testingMode ? 'flash' : 'on');
@@ -123,12 +122,98 @@ const evaluateSensor = (attempts = 5, testingMode = false) => new Promise(async 
 } catch(er) {logMessage(true, 'Extra Sensor Evaluation Catch -> Resolving all Zeros', er); return resolve({time: 0, temperature: 0, humidity: 0, statusMessage: 'Severe Sensor Error -> Zero Values', error: er});}
 });
 
+/********************* */
+/* **  READ SENSOR  ** */
+/* Simplified | 1-2023 */
+/********************* */
+const maxTimeUseOldReadings = 90 * 60 * 1000; //How long use old value before historic database value
+
+
+//Simplified, fails returns null : 1-2023
+const readSensor = (attempts = 5) => new Promise(async (resolve, reject) => { try{ try{ 
+    DATA.LOCAL.statusMessage = 'Evaluating Sensor';
+    if(!DATA.CONTROL_SERVER || DATA.SETTINGS.sensorMode == 'Off') throw 'SENSOR Mode == \'OFF\' -> Unable to Read Sensor';
+
+    //Activate & Initialization :: Ignore Errors
+    if(DATA.SENSOR_CONTROL.operating != 1) { 
+        await DATA.SENSOR_CONTROL.pin.writeSync(DATA.SENSOR_CONTROL.operating = 1);
+        await delayPromise(10000);
+        if(DATA.SETTINGS.sensorType=='DHT22') { await DATA.dht22Sensor.initialize(22, DATA.SENSOR_READ_PIN);
+            await DATA.dht22Sensor.setMaxRetries(10);
+           }     
+        await delayPromise(5000);
+    } 
+
+    // Conducting Sensor Reading
+    if(DATA.SETTINGS.sensorType == 'DHT22') await new Promise((res, rej)=>DATA.dht22Sensor.read(22, DATA.SENSOR_READ_PIN, (err, temperature, humidity) => { //https://www.npmjs.com/package/node-dht-sensor
+            if(!err) {
+                DATA.LOCAL.timeLastReading = new Date().getTime();
+                DATA.LOCAL.operatingTemperature = Math.floor(temperature * 100) / 100;
+                DATA.LOCAL.operatingHumidity = Math.floor(humidity * 100) / 100;
+                res(); 
+            } else {
+                rej(err); 
+            }
+            })).catch((err) => {throw (err);});
+    else if(DATA.SETTINGS.sensorType == 'BME280')   await DATA.bme280Sensor.readSensorData().then((value)=>{
+            DATA.LOCAL.timeLastReading = new Date().getTime();
+            DATA.LOCAL.operatingTemperature = Math.floor(value.temperature_C * 100) / 100;
+            DATA.LOCAL.operatingHumidity = Math.floor(value.humidity * 100) / 100;
+            }).catch((err) => {throw (err);});
+    else throw `Invalid Sensor Type: [${DATA.SETTINGS.sensorType}] -> Unable to execute Sensor Evaluation`;
+
+
+    //Evaluate
+        if(DATA.LOCAL.operatingTemperature > 40 || DATA.LOCAL.operatingTemperature < 0) throw `Detected Invalid Temperature Reading: ${DATA.LOCAL.operatingTemperature}`;
+        if(DATA.LOCAL.operatingHumidity < 10) throw `Detected Invalid Humidity Reading: ${DATA.LOCAL.operatingHumidity}`;
+        if(DATA.LOCAL.sensorErrorCode == 2) logMessage(true, 'Sensor Reconnected', `${DATA.SETTINGS.sensorType} Sensor in ${DATA.SETTINGS.sensorMode} Mode | [Sensor is currently ${DATA.SENSOR_CONTROL.operating ? 'ON' : 'OFF'}]`, `Operating Status: Operating with Current Conditions`);
+        DATA.LOCAL.sensorErrorCode = 0;
+        resolve({time: DATA.LOCAL.timeLastReading, temperature: DATA.LOCAL.operatingTemperature, humidity: DATA.LOCAL.operatingHumidity, statusMessage: 'Operating with Current Conditions', error: undefined});
+
+        logMessage(`Sensor read successfully on attempt: ${attempts} of ${5}`, DATA.LOCAL.operatingTemperature, DATA.LOCAL.operatingHumidity); 
+
+     //Clean-up :: Synchronously        
+        await delayPromise(5000);
+        if((DATA.SETTINGS.sensorMode == 'Proactive' || DATA.SETTINGS.sensorMode == 'Off' )) await DATA.SENSOR_CONTROL.pin.writeSync(DATA.SENSOR_CONTROL.operating = 0);
+} catch(error) { 
+        if(attempts > 1) { 
+
+            await readSensor(attempts - 1).then(r => {resolve(r);});  //Repeat Failed Reading
+
+        } else {
+            let statusMessage = `Operating with old values: ${Math.floor((new Date().getTime() - DATA.LOCAL.timeLastReading)/(60*1000))} minutes ago`;
+            
+            DATA.LOCAL.sensorErrorCode += 1;
+            
+            if((new Date().getTime() - DATA.LOCAL.timeLastReading) > maxTimeUseOldReadings) {
+              const replacement = await DATABASE.databaseGetAverageValues(undefined, 15, 1);
+              DATA.LOCAL.operatingTemperature = replacement.temperature;
+              DATA.LOCAL.operatingHumidity = replacement.humidity;
+              statusMessage = `Operating with historic values: ${Math.floor((new Date().getTime() - replacement.time)/(24*60*60*1000))} days ago`;
+
+              logMessage(`It has been ${Math.floor(DATA.LOCAL.timeLastReading/(60*1000))} minutes since last sensor reading.`, statusMessage, DATA.LOCAL.operatingTemperature, DATA.LOCAL.operatingHumidity); 
+            }
+      
+            if(DATA.LOCAL.sensorErrorCode == 5) //Send Email
+              logMessage(true, 'Sensor Disconnected', `${DATA.SETTINGS.sensorType} Sensor Failed Reading in ${DATA.SETTINGS.sensorMode} Mode | [Sensor is currently ${DATA.SENSOR_CONTROL.operating ? 'ON' : 'OFF'}]`,`Failed with Error: ${error}`, `Operating with ${replacement.statusMessage}`);
+            else 
+              logMessage(`Sensor Failed to Read after ${5} attempts`, `[Sensor is ${DATA.SENSOR_CONTROL.operating ? 'ON' : 'OFF'}] :: ${error}`); 
+
+              resolve({time: DATA.LOCAL.timeLastReading, temperature: DATA.LOCAL.operatingTemperature, humidity: DATA.LOCAL.operatingHumidity, statusMessage: statusMessage, error: undefined});
+
+            //Clean-up :: Synchronously
+                await delayPromise(5000);
+                if(DATA.SETTINGS.sensorMode != 'On') await DATA.SENSOR_CONTROL.pin.writeSync(DATA.SENSOR_CONTROL.operating = 0);
+        }} 
+    return reject(null);
+} catch(er) {logMessage(true, 'Extra Sensor Evaluation Catch -> Resolving all Zeros', er); return resolve({time: 0, temperature: 0, humidity: 0, statusMessage: 'Severe Sensor Error -> Zero Values', error: er});}
+});
 
 /******************************** */
 /* ******  FEED FLIES  ***** */
 /******************************** */
 
-const feedOpen = async(duration = 1700) => {
+const feedOpen = async(duration = 17000) => {
     //Lid Direction
     await DATA.FEED_MOTOR_DIRECTION.pin.writeSync(DATA.FEED_MOTOR_DIRECTION.operating = 1);
 
@@ -144,7 +229,7 @@ const feedOpen = async(duration = 1700) => {
     logMessage("Fly Feeding moved to OPEN position");
 }
 
-const feedClose = async(duration = 1700) => {
+const feedClose = async(duration = 17000) => {
     //Lid Direction
     await DATA.FEED_MOTOR_DIRECTION.pin.writeSync(DATA.FEED_MOTOR_DIRECTION.operating = 0);
 
@@ -168,7 +253,7 @@ const feedStop = async() => {
 }
 
 
-const executeFeed = (duration = 17000) => new Promise(async (resolve, reject) => { try{ 
+const executeFeed = (duration = 25000) => new Promise(async (resolve, reject) => { try{ 
 
     //Lid Direction
     await DATA.FEED_MOTOR_DIRECTION.pin.writeSync(DATA.FEED_MOTOR_DIRECTION.operating = 1);
@@ -190,7 +275,7 @@ const executeFeed = (duration = 17000) => new Promise(async (resolve, reject) =>
     while(DATA.FEED_SENSOR.pin.readSync() == 0) {
 
         if((new Date().getTime() - timeStart) > maxTime) {
-            logMessage(true, "Fly Feed | Max Timeout on lid lower.");
+            logMessage("Fly Feed | Max Timeout on lid lower:", maxTime);
             break;
         }
 
@@ -222,6 +307,7 @@ export default  {
     getCurrentSituation,
     consoleCurrentSituation,    
     evaluateSensor,
+    readSensor,
     executeFeed,
     feedClose,
     feedOpen,

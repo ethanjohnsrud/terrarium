@@ -1,0 +1,46 @@
+[1-6-2023 10:17:24] >> DELETED ./log.txt File => Success
+     > null = 88:31 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[1-6-2023 10:17:24] clearOldLogs(): -finished
+     > Object.clearOldLogs = 91:5 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[1-6-2023 10:17:25] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 503:1 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sent Successfully
+[1-6-2023 22:14:32] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: error is not defined
+
+     > evaluateConditions = 180:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[1-6-2023 22:14:37] RESETTING DATA SETTINGS
+     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[1-6-2023 22:14:37] >> MOVE ./settings.json File to ./Record => Success
+     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[1-6-2023 22:14:37] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success
+     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully
+[1-6-2023 22:29:43] ATTENTION :: EXCEPTION
+Frequency Condition Evaluation Error
+-> Resetting Settings as Possible Fix
+ReferenceError: error is not defined
+
+     > evaluateConditions = 180:23 => file:///home/pi/terrarium/backend/server.mjs
+
+[1-6-2023 22:29:49] RESETTING DATA SETTINGS
+     > Object.resetSettings = 60:61 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[1-6-2023 22:29:49] >> MOVE ./settings.json File to ./Record => Success
+     > null = 63:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+[1-6-2023 22:29:49] >> COPIED ./SETTINGS-DEFAULT.json File to ./settings.json => Success
+     > null = 65:27 => file:///home/pi/terrarium/backend/data-manage.mjs
+
+-> Email Sent Successfully

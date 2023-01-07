@@ -13,11 +13,12 @@ const UNTIL_INDEFINITE = -1;
 
 //FREQUENCY LOOP
 let frequencyInterval;
-const evaluateConditions = async (sensorAttempts = 2) => {try {
+const evaluateConditions = async (sensorAttempts = 5) => {try {
   //Validate Data
 
   //Sensor Evaluation
-    const sensorReading = await UTILITY.evaluateSensor(sensorAttempts);
+    const sensorReading = await UTILITY.readSensor(sensorAttempts);
+
     DATA.LOCAL.statusMessage = sensorReading.statusMessage; //Resets
 
     const now = sensorReading.time || new Date().getTime();
@@ -37,7 +38,9 @@ const evaluateConditions = async (sensorAttempts = 2) => {try {
         logMessage(true, 'Empty Active List Detected', message);
       }
 
-    if((DATA.LOCAL.sensorErrorCode == 0) && ((now - DATA.LOCAL.timeLastReadingSaved) > (minutes*60*1000)) && ((minutes+(DATA.SETTINGS.evaluationFrequency / (60*1000))) > 57)) {
+    // if((DATA.LOCAL.sensorErrorCode == 0) && ((now - DATA.LOCAL.timeLastReadingSaved) > (minutes*60*1000)) && ((minutes+(DATA.SETTINGS.evaluationFrequency / (60*1000))) > 57)) {
+    if((DATA.LOCAL.sensorErrorCode == 0) && ((now - DATA.LOCAL.timeLastReadingSaved) > (minutes*60*1000)) ) {
+
       
       await DATABASE.databaseSaveReading(sensorReading.time, sensorReading.temperature, climate.temperature, sensorReading.humidity, climate.humidity, UTILITY.listActive(true), UTILITY.listActive(false));
 
@@ -90,7 +93,7 @@ const evaluateConditions = async (sensorAttempts = 2) => {try {
  
   //Limit Email Notifications 
   //Maximum Temperature
-  if(DATA.LOCAL.operatingTemperature > DATA.SETTINGS.maximumTemperature) { logMessage((DATA.LOCAL.maximumTemperatureErrorCode == 2 || (DATA.LOCAL.maximumTemperatureErrorCode % 3 == 2)), 'SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED',
+  if(DATA.LOCAL.operatingTemperature > DATA.SETTINGS.maximumTemperature && !DATA.LOCAL.sensorErrorCode) { logMessage((DATA.LOCAL.maximumTemperatureErrorCode == 2 || (DATA.LOCAL.maximumTemperatureErrorCode % 3 == 2)), 'SEVERE HIGH TEMPERATURE -> IMMEDIATE ACTION REQUIRED',
     `${UTILITY.getFahrenheit(DATA.LOCAL.operatingTemperature).toFixed(2)}-F = ${DATA.LOCAL.operatingTemperature.toFixed(2)}-C  > ${DATA.SETTINGS.maximumTemperature.toFixed(2)}-C = ${UTILITY.getFahrenheit(DATA.SETTINGS.maximumTemperature).toFixed(2)}-F`);
     DATA.LOCAL.maximumTemperatureErrorCode += 1; 
     DATA.MAX_TEMP_CONTROL.setting = 1;
@@ -100,13 +103,16 @@ const evaluateConditions = async (sensorAttempts = 2) => {try {
       c.settings.unshift({reason: 'OFF : Severe High Temperature', set: 0, until: now}); 
       if(UTILITY.matchList('Cool', c.types, true)) c.settings.unshift({reason: 'ON : Severe High Temperature', set: 1, until: now}); 
     });
-  } else { if(DATA.LOCAL.maximumTemperatureErrorCode == 1) logMessage(DATA.LOCAL.maximumTemperatureErrorCode > 2, 'Temperature Reestablished from Maximum', `${UTILITY.getFahrenheit(DATA.LOCAL.operatingTemperature).toFixed(2)}-F = ${DATA.LOCAL.operatingTemperature.toFixed(2)}-C `);
+  } else { 
+    if(DATA.LOCAL.maximumTemperatureErrorCode == 1) 
+      logMessage(DATA.LOCAL.maximumTemperatureErrorCode > 2, 'Temperature Reestablished from Maximum', `${UTILITY.getFahrenheit(DATA.LOCAL.operatingTemperature).toFixed(2)}-F = ${DATA.LOCAL.operatingTemperature.toFixed(2)}-C `);
     DATA.LOCAL.maximumTemperatureErrorCode = 0;  
     DATA.MAX_TEMP_CONTROL.setting = 0;  
     errorLights('reset');
   }
   //Minimum Temperature
-  if(DATA.LOCAL.operatingTemperature < DATA.SETTINGS.minimumTemperature) { logMessage((DATA.LOCAL.minimumTemperatureErrorCode == 2 || (DATA.LOCAL.minimumTemperatureErrorCode % 3 == 2)), 'SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED',
+  if(DATA.LOCAL.operatingTemperature < DATA.SETTINGS.minimumTemperature && !DATA.LOCAL.sensorErrorCode) { 
+      logMessage((DATA.LOCAL.minimumTemperatureErrorCode == 2 || (DATA.LOCAL.minimumTemperatureErrorCode % 3 == 2)), 'SEVERE LOW TEMPERATURE -> IMMEDIATE ACTION REQUIRED',
     `${UTILITY.getFahrenheit(DATA.LOCAL.operatingTemperature).toFixed(2)}-F = ${DATA.LOCAL.operatingTemperature.toFixed(2)}-C  < ${DATA.SETTINGS.minimumTemperature.toFixed(2)}-C = ${UTILITY.getFahrenheit(DATA.SETTINGS.minimumTemperature).toFixed(2)}-F`);
     DATA.LOCAL.minimumTemperatureErrorCode += 1; 
     DATA.MIN_TEMP_CONTROL.setting = 1;
@@ -116,13 +122,16 @@ const evaluateConditions = async (sensorAttempts = 2) => {try {
       if(UTILITY.matchList('Heat', c.types, true)) c.settings.unshift({reason: 'ON : Severe Low Temperature', set: 1, until: now}); 
       if(UTILITY.matchList('Cool', c.types, true)) c.settings.unshift({reason: 'OFF : Severe Low Temperature', set: 0, until: now}); 
     }); 
-  } else { if(DATA.LOCAL.minimumTemperatureErrorCode == 1) logMessage(DATA.LOCAL.minimumTemperatureErrorCode > 2, 'Temperature Reestablished from Minimum', `${UTILITY.getFahrenheit(DATA.LOCAL.operatingTemperature).toFixed(2)}-F = ${DATA.LOCAL.operatingTemperature.toFixed(2)}-C `);
+  } else { 
+    if(DATA.LOCAL.minimumTemperatureErrorCode == 1) 
+      logMessage(DATA.LOCAL.minimumTemperatureErrorCode > 2, 'Temperature Reestablished from Minimum', `${UTILITY.getFahrenheit(DATA.LOCAL.operatingTemperature).toFixed(2)}-F = ${DATA.LOCAL.operatingTemperature.toFixed(2)}-C `);
     DATA.LOCAL.minimumTemperatureErrorCode = 0;
     DATA.MIN_TEMP_CONTROL.setting = 0; 
     errorLights('reset');
   }
   //Maximum Humidity
-  if(DATA.LOCAL.operatingHumidity > DATA.SETTINGS.maximumHumidity) { logMessage((DATA.LOCAL.maximumHumidityErrorCode == 2 || (DATA.LOCAL.maximumHumidityErrorCode % 2 == 2)), 'SEVERE HIGH HUMIDITY -> IMMEDIATE ACTION REQUIRED',
+  if(DATA.LOCAL.operatingHumidity > DATA.SETTINGS.maximumHumidity && !DATA.LOCAL.sensorErrorCode) { 
+    logMessage((DATA.LOCAL.maximumHumidityErrorCode == 2 || (DATA.LOCAL.maximumHumidityErrorCode % 2 == 2)), 'SEVERE HIGH HUMIDITY -> IMMEDIATE ACTION REQUIRED',
     `${DATA.LOCAL.operatingHumidity.toFixed(2)}%  > ${DATA.SETTINGS.maximumHumidity.toFixed(2)}%`);
     DATA.LOCAL.maximumHumidityErrorCode += 1;
     DATA.HUMIDITY_CONTROL.setting = 1; 
@@ -132,13 +141,16 @@ const evaluateConditions = async (sensorAttempts = 2) => {try {
       if(UTILITY.matchList('Dehumidify', c.types, true)) c.settings.unshift({reason: 'ON : Severe High Humidity', set: 1, until: now}); 
       if(UTILITY.matchList('Humidify', c.types, true)) c.settings.unshift({reason: 'OFF : Severe High Humidity', set: 0, until: now}); 
     });   
-  } else { if(DATA.LOCAL.maximumHumidityErrorCode) logMessage(DATA.LOCAL.maximumHumidityErrorCode > 2, 'Humidity Reestablished', `${DATA.LOCAL.operatingHumidity.toFixed(2)}% `);
+  } else { 
+    if(DATA.LOCAL.maximumHumidityErrorCode) 
+      logMessage(DATA.LOCAL.maximumHumidityErrorCode > 2, 'Humidity Reestablished', `${DATA.LOCAL.operatingHumidity.toFixed(2)}% `);
     DATA.LOCAL.maximumHumidityErrorCode = 0;
     DATA.HUMIDITY_CONTROL.setting = 0;
     errorLights('reset');
   } 
   //Minimum Humidity
-  if(DATA.LOCAL.operatingHumidity < DATA.SETTINGS.minimumHumidity) { logMessage((DATA.LOCAL.minimumHumidityErrorCode == 2 || (DATA.LOCAL.minimumHumidityErrorCode % 3 == 2)), 'SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED',
+  if(DATA.LOCAL.operatingHumidity < DATA.SETTINGS.minimumHumidity && !DATA.LOCAL.sensorErrorCode) { 
+    logMessage((DATA.LOCAL.minimumHumidityErrorCode == 2 || (DATA.LOCAL.minimumHumidityErrorCode % 3 == 2)), 'SEVERE LOW HUMIDITY -> IMMEDIATE ACTION REQUIRED',
     `${DATA.LOCAL.operatingHumidity.toFixed(2)}%  < ${DATA.SETTINGS.minimumHumidity.toFixed(2)}%`);
     DATA.LOCAL.minimumHumidityErrorCode += 1; 
     DATA.HUMIDITY_CONTROL.setting = 1;
@@ -148,7 +160,9 @@ const evaluateConditions = async (sensorAttempts = 2) => {try {
       if(UTILITY.matchList('Humidify', c.types, true)) c.settings.unshift({reason: 'ON : Severe Low Humidity', set: 1, until: now}); 
       if(UTILITY.matchList('Dehumidify', c.types, true)) c.settings.unshift({reason: 'OFF : Severe Low Humidity', set: 0, until: now}); 
     });  
-  } else { if(DATA.LOCAL.minimumHumidityErrorCode) logMessage(DATA.LOCAL.minimumHumidityErrorCode > 2, 'Humidity Reestablished', `${DATA.LOCAL.operatingHumidity.toFixed(2)}% `);
+  } else { 
+    if(DATA.LOCAL.minimumHumidityErrorCode) 
+      logMessage(DATA.LOCAL.minimumHumidityErrorCode > 2, 'Humidity Reestablished', `${DATA.LOCAL.operatingHumidity.toFixed(2)}% `);
     DATA.LOCAL.minimumHumidityErrorCode = 0;  
     DATA.HUMIDITY_CONTROL.setting = 0;
     errorLights('reset');
@@ -236,12 +250,18 @@ const updateStatusUpdate = () => { if(updateSchedule) updateSchedule.cancel();
 updateStatusUpdate();
 
 //Update Notifications :: Daily at 5AMca
-schedule.scheduleJob('0 0 5 * * *', () =>{let message = '';
-  if(DATA.LOCAL.sensorErrorCode > 1) message += 'Notice: Sensor Not Reading';
-  if(DATA.LOCAL.timeNextEvaluation > (new Date().getTime() + DATA.SETTINGS.evaluationFrequency)) message += `Reminder: Condition Evaluating is Holding until: ${dateFormat(DATA.LOCAL.timeNextEvaluation, 'dddd, m-d-yyyy H:MM',)}\n`;
-  if(!DATA.SETTINGS.accessDatabase) message += 'Reminder: Database Access is Disabled\n';
-  if(message != '') logMessage(true, message, 'DAILY NOTICE');
-  errorLights('reset');
+schedule.scheduleJob('0 0 5 * * *', () =>{
+  let message = '';
+  if(DATA.LOCAL.sensorErrorCode > 1) 
+    message += 'Notice: Sensor Not Reading';
+  if(DATA.LOCAL.timeNextEvaluation > (new Date().getTime() + DATA.SETTINGS.evaluationFrequency)) 
+    message += `Reminder: Condition Evaluating is Holding until: ${dateFormat(DATA.LOCAL.timeNextEvaluation, 'dddd, m-d-yyyy H:MM',)}\n`;
+  if(!DATA.SETTINGS.accessDatabase) 
+    message += 'Reminder: Database Access is Disabled\n';
+
+  if(message.length > 0) 
+    logMessage(true, message, 'DAILY NOTICE');
+  // errorLights('reset');
 });
 //Clear Data logs :: Monthly
 schedule.scheduleJob('0 0 4 1 * *', () =>DM.clearOldLogs());
